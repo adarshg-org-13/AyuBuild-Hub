@@ -1,5 +1,5 @@
 import { CompatibilityStatus } from '../types';
-import { CheckCircle2, AlertTriangle, XCircle } from './Icons';
+import { CheckCircle2, AlertTriangle, XCircle } from '../components/Icons';
 import { cn } from '../utils';
 
 interface CompatibilityBadgeProps {

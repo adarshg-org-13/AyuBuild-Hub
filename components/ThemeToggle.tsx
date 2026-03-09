@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Sun, Moon } from './Icons';
+import { Sun, Moon } from '../components/Icons';
 
 export function ThemeToggle() {
   const [isDark, setIsDark] = useState(true);

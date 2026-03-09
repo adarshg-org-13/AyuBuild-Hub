@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { CheckCircle2, XCircle, Info } from './Icons';
+import { CheckCircle2, XCircle, Info } from '../components/Icons';
 import { cn } from '../utils';
 
 export type ToastType = 'success' | 'error' | 'info';

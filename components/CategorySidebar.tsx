@@ -1,6 +1,6 @@
 import { PartCategory } from '../types';
 import { cn } from '../utils';
-import { Cpu, CircuitBoard, MemoryStick, HardDrive, Zap, Box, Fan, MonitorPlay } from './Icons';
+import { Cpu, CircuitBoard, MemoryStick, HardDrive, Zap, Box, Fan, MonitorPlay } from '../components/Icons';
 
 interface CategorySidebarProps {
   selectedCategory: PartCategory;
