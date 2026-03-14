@@ -1,14 +1,14 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
-import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
-import { Button } from '../../components/Button';
-import { formatCurrency, checkCompatibility } from '../../utils';
-import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
-import { Part, PartCategory, Build } from '../../types';
-import { Toast, ToastType } from '../../components/Toast';
-import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+import { useState,useEffect,Suspense } from "react";
+import { useSearchParams } from "next/navigation";
+import { Cpu,Gamepad2,HardDrive,Box,Zap,Save,RotateCcw,CheckCircle2,AlertCircle,ShoppingCart } from "../../../components/Icons";
+import { Button } from "../../../components/Button";
+import { formatCurrency,checkCompatibility } from "../../../utils";
+import { cpuList,gpuList,motherboardList,ramList,storageList,caseList,psuList } from "../../../data/parts";
+import { Part,PartCategory,Build } from "../../../types";
+import { Toast,ToastType } from "../../../components/Toast";
+import { BuilderCategoryRow } from "../../../components/BuilderCategoryRow";
 
 interface BuildState {
   CPU: Part | null;

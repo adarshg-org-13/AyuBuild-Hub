@@ -1,0 +1,1250 @@
+[00:00:01.497] Server  LOG     ✓ Ready in 1093ms
+[00:00:02.008] Server  ERROR   ⨯ ./src/app/build/page.tsx:11:1
+Module not found: Can't resolve '../../components/BuilderCategoryRow'
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+> 11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface BuildState {
+  14 |   CPU: Part | null;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/build/page.tsx:6:1
+Module not found: Can't resolve '../../components/Button'
+  4 | import { useSearchParams } from 'next/navigation';
+  5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+> 6 | import { Button } from '../../components/Button';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+  9 | import { Part, PartCategory, Build } from '../../types';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/build/page.tsx:5:1
+Module not found: Can't resolve '../../components/Icons'
+  3 | import { useState, useEffect, Suspense } from 'react';
+  4 | import { useSearchParams } from 'next/navigation';
+> 5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Button } from '../../components/Button';
+  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/build/page.tsx:10:1
+Module not found: Can't resolve '../../components/Toast'
+   8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+   9 | import { Part, PartCategory, Build } from '../../types';
+> 10 | import { Toast, ToastType } from '../../components/Toast';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+  12 |
+  13 | interface BuildState {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/build/page.tsx:8:1
+Module not found: Can't resolve '../../data/parts'
+   6 | import { Button } from '../../components/Button';
+   7 | import { formatCurrency, checkCompatibility } from '../../utils';
+>  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+  11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/build/page.tsx:7:1
+Module not found: Can't resolve '../../utils'
+   5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+   6 | import { Button } from '../../components/Button';
+>  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.071] Browser ERROR   uncaughtError: Error: ./src/app/build/page.tsx:11:1
+Module not found: Can't resolve '../../components/BuilderCategoryRow'
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+> 11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface BuildState {
+  14 |   CPU: Part | null;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:11:1
+Module not found: Can't resolve '../../components/BuilderCategoryRow'
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+> 11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface BuildState {
+  14 |   CPU: Part | null;
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:6:1
+Module not found: Can't resolve '../../components/Button'
+  4 | import { useSearchParams } from 'next/navigation';
+  5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+> 6 | import { Button } from '../../components/Button';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+  9 | import { Part, PartCategory, Build } from '../../types';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:5:1
+Module not found: Can't resolve '../../components/Icons'
+  3 | import { useState, useEffect, Suspense } from 'react';
+  4 | import { useSearchParams } from 'next/navigation';
+> 5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Button } from '../../components/Button';
+  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:10:1
+Module not found: Can't resolve '../../components/Toast'
+   8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+   9 | import { Part, PartCategory, Build } from '../../types';
+> 10 | import { Toast, ToastType } from '../../components/Toast';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+  12 |
+  13 | interface BuildState {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:8:1
+Module not found: Can't resolve '../../data/parts'
+   6 | import { Button } from '../../components/Button';
+   7 | import { formatCurrency, checkCompatibility } from '../../utils';
+>  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+  11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:7:1
+Module not found: Can't resolve '../../utils'
+   5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+   6 | import { Button } from '../../components/Button';
+>  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:11:1
+Module not found: Can't resolve '../../components/BuilderCategoryRow'
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+> 11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | interface BuildState {
+  14 |   CPU: Part | null;
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:6:1
+Module not found: Can't resolve '../../components/Button'
+  4 | import { useSearchParams } from 'next/navigation';
+  5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+> 6 | import { Button } from '../../components/Button';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+  9 | import { Part, PartCategory, Build } from '../../types';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:5:1
+Module not found: Can't resolve '../../components/Icons'
+  3 | import { useState, useEffect, Suspense } from 'react';
+  4 | import { useSearchParams } from 'next/navigation';
+> 5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Button } from '../../components/Button';
+  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:10:1
+Module not found: Can't resolve '../../components/Toast'
+   8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+   9 | import { Part, PartCategory, Build } from '../../types';
+> 10 | import { Toast, ToastType } from '../../components/Toast';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+  12 |
+  13 | interface BuildState {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:8:1
+Module not found: Can't resolve '../../data/parts'
+   6 | import { Button } from '../../components/Button';
+   7 | import { formatCurrency, checkCompatibility } from '../../utils';
+>  8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+  11 | import { BuilderCategoryRow } from '../../components/BuilderCategoryRow';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:05.178] Browser ERROR   ./src/app/build/page.tsx:7:1
+Module not found: Can't resolve '../../utils'
+   5 | import { Cpu, Gamepad2, HardDrive, Box, Zap, Save, RotateCcw, CheckCircle2, AlertCircle, ShoppingCart } from '../../components/Icons';
+   6 | import { Button } from '../../components/Button';
+>  7 | import { formatCurrency, checkCompatibility } from '../../utils';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { cpuList, gpuList, motherboardList, ramList, storageList, caseList, psuList } from '../../data/parts';
+   9 | import { Part, PartCategory, Build } from '../../types';
+  10 | import { Toast, ToastType } from '../../components/Toast';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:54.300] Server  LOG     ✓ Compiled in 3s
+[00:02:55.288] Server  ERROR   ⨯ ReferenceError: BuilderCategoryRow is not defined
+[00:02:56.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:58.182] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/build" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:02:58.182] Browser ERROR   uncaughtError: ReferenceError: BuilderCategoryRow is not defined
+[00:03:03.379] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:03.482] Server  LOG     ✓ Compiled in 1408ms
+[00:03:03.719] Server  ERROR   ⨯ ReferenceError: BuilderCategoryRow is not defined
+[00:03:05.475] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:06.191] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/build" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:03:06.191] Browser ERROR   uncaughtError: ReferenceError: BuilderCategoryRow is not defined
+[00:03:36.364] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:37.110] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:43.179] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:58.797] Server  ERROR   ⨯ ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:58.917] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:58.917] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:58.918] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:58.976] Server  ERROR   ⨯ ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:59.536] Browser ERROR   uncaughtError: Error: ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:59.743] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:59.743] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:59.743] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:59.743] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:59.743] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:59.743] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:52.178] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:52.178] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:52.178] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:16.176] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:16.176] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:16.176] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:19.729] Server  ERROR   ⨯ ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:20.351] Browser ERROR   uncaughtError: Error: ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:20.558] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:20.558] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:20.558] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:20.558] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:20.558] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:20.558] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:23.190] Browser ERROR   ./src/app/saved/page.tsx:6:1
+Module not found: Can't resolve '../../components/CompatibilityBadge'
+  4 | import { Build, Part } from '../../types';
+  5 | import { formatCurrency } from '../../utils';
+> 6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+  9 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:23.190] Browser ERROR   ./src/app/saved/page.tsx:7:1
+Module not found: Can't resolve '../../components/Icons'
+   5 | import { formatCurrency } from '../../utils';
+   6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+>  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Link from 'next/link';
+   9 |
+  10 | export default function SavedBuilds() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:23.190] Browser ERROR   ./src/app/saved/page.tsx:5:1
+Module not found: Can't resolve '../../utils'
+  3 | import { useState, useEffect } from 'react';
+  4 | import { Build, Part } from '../../types';
+> 5 | import { formatCurrency } from '../../utils';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { CompatibilityBadge } from '../../components/CompatibilityBadge';
+  7 | import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+  8 | import Link from 'next/link';
+
+Import traces:
+  Client Component Browser:
+    ./src/app/saved/page.tsx [Client Component Browser]
+    ./src/app/saved/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/saved/page.tsx [Client Component SSR]
+    ./src/app/saved/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:31.316] Server  LOG     ✓ Compiled in 170ms
+[00:09:32.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:14.183] Server  LOG     ✓ Compiled in 478ms

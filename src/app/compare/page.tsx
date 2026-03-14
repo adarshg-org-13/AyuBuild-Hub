@@ -2,13 +2,13 @@
 
 {/*COMPARE PAGE*/}
 
-import Image from 'next/image';
-import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
-import { Build } from '../../types';
-import { formatCurrency } from '../../utils';
-import { CompatibilityBadge } from '../../components/CompatibilityBadge';
-import { ChevronDown } from '../../components/Icons';
+import Image from "next/image";
+import { useState,useEffect,Suspense } from "react";
+import { useSearchParams } from "next/navigation";
+import { Build } from "../../../types";
+import { formatCurrency } from "../../../utils";
+import { CompatibilityBadge } from "../../../components/CompatibilityBadge";
+import { ChevronDown } from "../../../components/Icons";
 
 function CompareContent() {
   const searchParams = useSearchParams();

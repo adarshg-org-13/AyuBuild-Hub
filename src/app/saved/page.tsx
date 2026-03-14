@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Build, Part } from '../../types';
-import { formatCurrency } from '../../utils';
-import { CompatibilityBadge } from '../../components/CompatibilityBadge';
-import { Trash2, Copy, BarChart2 } from '../../components/Icons';
+import { Build,Part } from '../../../types';
+import { formatCurrency } from '../../../utils';
+import { CompatibilityBadge } from '../../../components/CompatibilityBadge';
+import { Trash2,Copy,BarChart2 } from '../../../components/Icons';
 import Link from 'next/link';
 
 export default function SavedBuilds() {

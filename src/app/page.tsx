@@ -1,9 +1,9 @@
 'use client';
 
-import { ArrowRight, CheckCircle2, Zap, DollarSign } from '../components/Icons';
-import { FeaturedBuildCard } from '../components/FeaturedBuildCard';
-import { Button } from '../components/Button';
-import { HeroSlideshow } from '../components/HeroSlideshow';
+import { ArrowRight,CheckCircle2,Zap,DollarSign } from "../../components/Icons";
+import { FeaturedBuildCard } from "../../components/FeaturedBuildCard";
+import { Button } from "../../components/Button";
+import { HeroSlideshow } from "../../components/HeroSlideshow";
 
 export default function Home() {
   const featuredBuilds = [
