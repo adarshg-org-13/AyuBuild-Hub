@@ -2438,10 +2438,6 @@
     transition-timing-function: var(--ease-out);
   }
 
-  .\[app-\:\7 6\] {
-    app-:  6;
-  }
-
   .\[key\:O\6 4ng\] {
     key: O 4ng;
   }
@@ -2496,10 +2492,6 @@
 
   .\[name\:5\6 �\] {
     name: 5 �;
-  }
-
-  .\[name\:�\6 �ng\] {
-    name: � �ng;
   }
 
   @media (hover: hover) {
