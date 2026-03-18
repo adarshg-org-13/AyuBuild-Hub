@@ -74,7 +74,7 @@ const cpuList = [
         category: 'CPU',
         price: 99,
         brand: 'Intel',
-        image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop',
+        image: '/i3 12f.jpg',
         amazonLink: 'https://www.amazon.com/Intel-i3-12100F-Desktop-Processor-BX8071512100F/dp/B09NPJX7G3',
         wattage: 58,
         specs: {
@@ -89,7 +89,7 @@ const cpuList = [
         category: 'CPU',
         price: 135,
         brand: 'AMD',
-        image: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=200&auto=format&fit=crop',
+        image: '/r5 5600.webp',
         amazonLink: 'https://www.amazon.com/AMD-5600-12-Thread-Unlocked-Processor/dp/B09VCHR1NO',
         wattage: 65,
         specs: {
@@ -104,7 +104,7 @@ const cpuList = [
         category: 'CPU',
         price: 299,
         brand: 'Intel',
-        image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop',
+        image: '/i5 13K.jpg',
         wattage: 125,
         specs: {
             socket: 'LGA1700',
@@ -118,7 +118,7 @@ const cpuList = [
         category: 'CPU',
         price: 399,
         brand: 'AMD',
-        image: 'https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=200&auto=format&fit=crop',
+        image: '/R7 7800X3D.avif',
         wattage: 120,
         specs: {
             socket: 'AM5',
@@ -132,7 +132,7 @@ const cpuList = [
         category: 'CPU',
         price: 549,
         brand: 'Intel',
-        image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop',
+        image: '/i9 14K.jpg',
         wattage: 253,
         specs: {
             socket: 'LGA1700',

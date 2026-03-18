@@ -1,4 +1,214 @@
-[00:00:04.835] Server  LOG     ✓ Ready in 4.2s
-[00:00:10.292] Server  LOG     ○ Compiling / ...
-[00:00:12.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:37:15.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.572] Server  LOG     ✓ Ready in 1717ms
+[00:00:05.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.939] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:10.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.494] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:01.274] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:01.456] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:21.630] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:48.302] Server  LOG     ✓ Compiled in 180ms
+[00:05:49.262] Server  ERROR   ⨯ ReferenceError: impo is not defined
+[00:05:49.433] Server  LOG     ✓ Compiled in 284ms
+[00:05:49.453] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./data/parts.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:05:49.664] Server  ERROR   ⨯ ./data/parts.ts:13:1
+Parsing ecmascript source code failed
+  11 | // ==============================================================================
+  12 |
+> 13 | export const cpuList: Part[] = [
+     | ^^^^^^
+  14 |   { 
+  15 |     id: 'cpu-1', 
+  16 |     name: 'Intel Core i3-12100F', 
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+
+[00:05:49.673] Server  LOG     ✓ Compiled in 256ms
+[00:05:50.645] Browser ERROR   uncaughtError: Error: ./data/parts.ts:13:1
+Parsing ecmascript source code failed
+  11 | // ==============================================================================
+  12 |
+> 13 | export const cpuList: Part[] = [
+     | ^^^^^^
+  14 |   { 
+  15 |     id: 'cpu-1', 
+  16 |     name: 'Intel Core i3-12100F', 
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+
+
+[00:05:50.780] Browser ERROR   ./data/parts.ts:13:1
+Parsing ecmascript source code failed
+  11 | // ==============================================================================
+  12 |
+> 13 | export const cpuList: Part[] = [
+     | ^^^^^^
+  14 |   { 
+  15 |     id: 'cpu-1', 
+  16 |     name: 'Intel Core i3-12100F', 
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:05:52.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:52.543] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/build" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:05:56.494] Server  LOG     ✓ Compiled in 133ms
+[00:05:57.540] Browser ERROR   ./data/parts.ts:20:12
+Parsing ecmascript source code failed
+  18 |     price: 99, 
+  19 |     brand: 'Intel', 
+> 20 |     image: '\', 
+     |            ^^^^^
+  21 |     amazonLink: 'https://www.amazon.com/Intel-i3-12100F-Desktop-Processor-BX8071512100F/dp/B09NPJX7G3',
+  22 |     wattage: 58, 
+  23 |     specs: { socket: 'LGA1700', cores: 4, threads: 8 } 
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:05:58.551] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:05:58.551] Browser ERROR   Image is missing required "src" property: <img>
+[00:05:59.076] Server  LOG     ✓ Compiled in 110ms
+[00:06:05.904] Server  LOG     ✓ Compiled in 232ms
+[00:06:06.105] Server  LOG     ✓ Compiled in 110ms
+[00:06:06.359] Server  LOG     ✓ Compiled in 97ms
+[00:06:06.639] Server  LOG     ✓ Compiled in 146ms
+[00:06:07.440] Server  LOG     ✓ Compiled in 121ms
+[00:06:10.354] Server  LOG     ✓ Compiled in 252ms
+[00:06:11.519] Server  LOG     ✓ Compiled in 148ms
+[00:06:11.658] Server  LOG     ✓ Compiled in 126ms
+[00:06:12.224] Server  LOG     ✓ Compiled in 119ms
+[00:06:15.021] Browser WARN    Image with src "/vercel.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:33.295] Server  LOG     ✓ Compiled in 353ms
+[00:21:34.245] Server  LOG     ✓ Compiled in 491ms
+[00:21:34.448] Server  LOG     ✓ Compiled in 222ms
+[00:21:34.729] Server  LOG     ✓ Compiled in 164ms
+[00:21:35.393] Server  LOG     ✓ Compiled in 232ms
+[00:21:35.692] Server  LOG     ✓ Compiled in 186ms
+[00:21:36.211] Server  LOG     ✓ Compiled in 143ms
+[00:21:37.106] Server  LOG     ✓ Compiled in 301ms
+[00:21:37.856] Server  LOG     ✓ Compiled in 159ms
+[00:21:38.194] Server  LOG     ✓ Compiled in 152ms
+[00:21:38.807] Server  LOG     ✓ Compiled in 296ms
+[00:21:39.089] Server  LOG     ✓ Compiled in 237ms
+[00:21:39.745] Server  LOG     ✓ Compiled in 141ms
+[00:21:39.911] Server  LOG     ✓ Compiled in 129ms
+[00:21:40.595] Server  LOG     ✓ Compiled in 172ms
+[00:21:40.815] Server  LOG     ✓ Compiled in 154ms
+[00:21:56.649] Server  LOG     ✓ Compiled in 149ms
+[00:21:58.683] Server  LOG     ✓ Compiled in 157ms
+[00:21:58.890] Server  LOG     ✓ Compiled in 189ms
+[00:21:59.353] Server  LOG     ✓ Compiled in 373ms
+[00:21:59.748] Server  LOG     ✓ Compiled in 153ms
+[00:22:00.306] Server  LOG     ✓ Compiled in 133ms
+[00:22:18.310] Server  LOG     ✓ Compiled in 142ms
+[00:22:20.042] Server  LOG     ✓ Compiled in 334ms
+[00:22:20.357] Server  LOG     ✓ Compiled in 167ms
+[00:22:20.691] Server  LOG     ✓ Compiled in 235ms
+[00:22:21.095] Server  LOG     ✓ Compiled in 262ms
+[00:22:21.538] Server  LOG     ✓ Compiled in 143ms
+[00:22:34.430] Server  LOG     ✓ Compiled in 133ms
+[00:22:35.534] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:22:35.534] Browser ERROR   Image is missing required "src" property: <img>
+[00:22:46.880] Server  LOG     ✓ Compiled in 235ms
+[00:22:48.527] Server  LOG     ✓ Compiled in 314ms
+[00:22:49.057] Server  LOG     ✓ Compiled in 404ms
+[00:22:49.348] Server  LOG     ✓ Compiled in 131ms
+[00:22:50.008] Server  LOG     ✓ Compiled in 220ms
+[00:22:57.996] Server  LOG     ✓ Compiled in 321ms
+[00:22:58.547] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:22:58.547] Browser ERROR   Image is missing required "src" property: <img>
+[00:23:10.019] Server  LOG     ✓ Compiled in 119ms
+[00:23:12.251] Server  LOG     ✓ Compiled in 194ms
+[00:23:12.564] Server  LOG     ✓ Compiled in 253ms
+[00:23:12.761] Server  LOG     ✓ Compiled in 140ms
+[00:23:13.060] Server  LOG     ✓ Compiled in 117ms
+[00:23:13.324] Server  LOG     ✓ Compiled in 127ms
+[00:23:13.845] Server  LOG     ✓ Compiled in 124ms
+[00:23:18.048] Server  LOG     ✓ Compiled in 145ms
+[00:23:18.538] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:23:18.538] Browser ERROR   Image is missing required "src" property: <img>
+[00:23:27.565] Server  LOG     ✓ Compiled in 133ms
+[00:23:29.286] Server  LOG     ✓ Compiled in 331ms
+[00:23:29.583] Server  LOG     ✓ Compiled in 187ms
+[00:23:29.940] Server  LOG     ✓ Compiled in 150ms
+[00:23:30.278] Server  LOG     ✓ Compiled in 219ms
+[00:23:30.704] Server  LOG     ✓ Compiled in 126ms

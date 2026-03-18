@@ -1,4 +1,5 @@
 import { Part } from '../types';
+import Image from 'next/image';
 
 // ==============================================================================
 // MOCK PRODUCT DATA
@@ -12,7 +13,7 @@ export const mockParts: Part[] = [
     category: 'CPU',
     brand: 'Intel',
     price: 549.99,
-    image: 'https://picsum.photos/seed/cpu1/200/200',
+    image: '/i5 14600K.jpg',
     amazonLink: 'https://www.amazon.com/s?k=Intel+Core+i9-14900K',
     wattage: 125,
     specs: { socket: 'LGA1700', cores: 24, threads: 32, baseClock: '3.2 GHz', boostClock: '6.0 GHz' },
