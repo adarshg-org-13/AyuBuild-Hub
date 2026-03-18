@@ -803,8 +803,16 @@
     margin-bottom: calc(var(--spacing) * 4);
   }
 
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
+
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
   }
 
   .mb-8 {
@@ -953,6 +961,10 @@
 
   .h-56 {
     height: calc(var(--spacing) * 56);
+  }
+
+  .h-84 {
+    height: calc(var(--spacing) * 84);
   }
 
   .h-\[500px\] {
@@ -1923,6 +1935,26 @@
     padding-block: calc(var(--spacing) * 24);
   }
 
+  .py-32 {
+    padding-block: calc(var(--spacing) * 32);
+  }
+
+  .py-33 {
+    padding-block: calc(var(--spacing) * 33);
+  }
+
+  .py-34 {
+    padding-block: calc(var(--spacing) * 34);
+  }
+
+  .py-35 {
+    padding-block: calc(var(--spacing) * 35);
+  }
+
+  .py-38 {
+    padding-block: calc(var(--spacing) * 38);
+  }
+
   .py-39 {
     padding-block: calc(var(--spacing) * 39);
   }
@@ -2422,6 +2454,11 @@
     transition-duration: .7s;
   }
 
+  .duration-3008 {
+    --tw-duration: 3.008s;
+    transition-duration: 3.008s;
+  }
+
   .duration-\[5000ms\] {
     --tw-duration: 5s;
     transition-duration: 5s;
@@ -2442,20 +2479,12 @@
     transition-timing-function: var(--ease-out);
   }
 
-  .\[key\:\@\,4ng\] {
-    key: @ , 4ng;
+  .\[key\:\6 \+4ng\] {
+    key:  4ng;
   }
 
-  .\[key\:O\6 4ng\] {
-    key: O 4ng;
-  }
-
-  .\[key\:T\@\14 \] {
-    key: T@  ;
-  }
-
-  .\[key\:i5\14 \] {
-    key: i5 ;
+  .\[key\:R\@\14 \] {
+    key: R@  ;
   }
 
   .\[key\:\|\^4ng\] {
@@ -2470,16 +2499,16 @@
     key: � � ng;
   }
 
-  .\[key\:�\b 4ng\] {
-    key: � 4ng;
+  .\[key\:�C4ng\] {
+    key: �C4ng;
   }
 
-  .\[key\:�\+4ng\] {
-    key: �4ng;
+  .\[key\:��\14 \] {
+    key: �� ;
   }
 
-  .\[match\:p�4ng\] {
-    match: p�4ng;
+  .\[match\:�x4ng\] {
+    match: �x4ng;
   }
 
   .\[metatype\:�\5 7\] {
@@ -2498,12 +2527,20 @@
     name:   �;
   }
 
+  .\[name\:\$\1d �ng\] {
+    name: $  �ng;
+  }
+
   .\[name\:5\6 �\] {
     name: 5 �;
   }
 
-  .\[name\:�\1a �\] {
-    name: � �;
+  .\[name\:�\6 �ng\] {
+    name: � �ng;
+  }
+
+  .\[name\:�\1c �\] {
+    name: � �;
   }
 
   @media (hover: hover) {

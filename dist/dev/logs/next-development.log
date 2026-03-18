@@ -1,29 +1,46 @@
-[00:00:02.572] Server  LOG     ✓ Ready in 1717ms
-[00:00:05.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.939] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:10.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.494] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:01.274] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:01.456] Browser WARN    Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:21.630] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:48.302] Server  LOG     ✓ Compiled in 180ms
-[00:05:49.262] Server  ERROR   ⨯ ReferenceError: impo is not defined
-[00:05:49.433] Server  LOG     ✓ Compiled in 284ms
-[00:05:49.453] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./data/parts.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:05:49.664] Server  ERROR   ⨯ ./data/parts.ts:13:1
+[00:00:04.040] Server  LOG     ✓ Ready in 3.2s
+[00:01:40.359] Server  LOG     ○ Compiling / ...
+[00:01:46.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:32.214] Server  LOG     ✓ Compiled in 4s
+[00:02:38.274] Server  LOG     ✓ Compiled in 217ms
+[00:02:59.812] Server  LOG     ✓ Compiled in 299ms
+[00:03:00.401] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-4
+[00:03:04.772] Server  LOG     ✓ Compiled in 348ms
+[00:04:26.182] Server  LOG     ✓ Compiled in 248ms
+[00:04:32.057] Server  LOG     ✓ Compiled in 188ms
+[00:04:33.314] Server  LOG     ✓ Compiled in 174ms
+[00:04:33.535] Server  LOG     ✓ Compiled in 196ms
+[00:04:34.331] Server  LOG     ✓ Compiled in 389ms
+[00:04:34.754] Server  LOG     ✓ Compiled in 260ms
+[00:04:58.570] Server  LOG     ✓ Compiled in 191ms
+[00:05:00.617] Server  LOG     ✓ Compiled in 303ms
+[00:05:01.011] Server  LOG     ✓ Compiled in 333ms
+[00:05:01.282] Server  LOG     ✓ Compiled in 248ms
+[00:05:01.983] Server  LOG     ✓ Compiled in 160ms
+[00:05:25.405] Server  LOG     ✓ Compiled in 170ms
+[00:05:26.279] Server  LOG     ✓ Compiled in 162ms
+[00:10:38.849] Server  LOG     ✓ Compiled in 461ms
+[00:10:39.146] Server  LOG     ✓ Compiled in 238ms
+[00:10:39.631] Server  LOG     ✓ Compiled in 152ms
+[00:10:40.055] Server  LOG     ✓ Compiled in 148ms
+[00:10:40.415] Server  LOG     ✓ Compiled in 261ms
+[00:10:40.887] Server  LOG     ✓ Compiled in 150ms
+[00:10:41.231] Server  LOG     ✓ Compiled in 200ms
+[00:10:41.624] Server  LOG     ✓ Compiled in 233ms
+[00:10:44.008] Server  LOG     ✓ Compiled in 158ms
+[00:10:46.405] Server  LOG     ✓ Compiled in 224ms
+[00:10:49.713] Server  LOG     ✓ Compiled in 308ms
+[00:10:50.396] Browser ERROR   ./data/parts.ts:70:662
 Parsing ecmascript source code failed
-  11 | // ==============================================================================
-  12 |
-> 13 | export const cpuList: Part[] = [
-     | ^^^^^^
-  14 |   { 
-  15 |     id: 'cpu-1', 
-  16 |     name: 'Intel Core i3-12100F', 
+  68 |   { id: 'mb-3', name: 'MSI B760 GAMING PLUS WIFI', category: 'Motherboard', price: 139, brand: 'Gigabyte', image: '/b760 ddr5 wifi.jpg',amazonLink:'https://www.amazon.com/MSI-B760-Motherboard-Supports-Processors/dp/B0C15THTK7/ref=sr_1_2?crid=3GPW7EY5MCPBW&dib=eyJ2IjoiMSJ9.hJv68jN1p3z_wjqQzxF-IJEgh1BeJfAorvKuHBcF7VKFRsPVZfBZQbGmHiJc-YzJ5RlwwNZuWj75OElaxf2vh5SfIFxy6gNloaNsVsmQxr_M4JISgasbQUqqSgr9TlpdwvRVInPMbHI9qjMj2d4pdLMRqlrDSAAmBpdc_-m3UlgpqTtgfkr9uumuDsUIdmtyORWwFvsRQDs3huKRBdVtnDWSTzMSL9LgBxGsQ73o92Y.EMF6ISei_sGKcBoba8vIoAaCpmv3otN8BeydHclxyq4&dib_tag=se&keywords=b760%2Bmotherboard%2Bddr5&qid=1773814447&sprefix=b760%2Bmotherboard%2Bddr%2Caps%2C325&sr=8-2&th=1', wattage: 60, specs: { socket: 'LGA1700', format: 'ATX', memoryType: 'DDR5' } },
+  69 |   { id: 'mb-4', name: 'MSI B550 PRO-VDH WIFI', category: 'Motherboard', price: 99, brand: 'MSI', image: '/b550 pro wifi.jpg',amazonLink:'https://www.amazon.com/MSI-B550M-PRO-VDH-ProSeries-Motherboard/dp/B089D1YG11/ref=sr_1_10?crid=OOWELM5RQCJ6&dib=eyJ2IjoiMSJ9.FQ-iG91W3Cbt9k1P1MP1XViGV61yBMyj-ON4nq688fj1LP8T_lmYHXrJOL5M-lRuMfAQl24d15tTqgtN5yvt0nZUHqS-ofZvW4xWV3KaCp2Dv0xpEuzclI-Tlrg0ZOPu4Odge8zOv3orf1zo2AhshLOJv3gr4FuVfzct8WEGbQrYQGP6KZvafQ8oZaJRblxRs8TmxbT-XbpOXyDUDglEo2yRlF3NghBDT5zZ0A7VcBU.KRu22r_icOxMPghhNKIT2e-zj11np1d-YEFuT_lA3vw&dib_tag=se&keywords=b450m%2Bmotherboard&qid=1773813102&sprefix=b450m%2Bmotherboard%2B%2Caps%2C313&sr=8-10&th=1', wattage: 50, specs: { socket: 'AM4', format: 'mATX', memoryType: 'DDR4' } },
+> 70 |   { id: 'mb-5', name: 'ASUS TUF Gaming Z790-Plus WiFi', category: 'Motherboard', price: 199, brand: 'ASUS', image: '/z790.jpg',amazonLink:'https://www.amazon.com/ASUS-TUF-Intel%C2%AE12th-Motherboard-Thunderbolt/dp/B0BQD58D96/ref=sr_1_1?crid=2WGL86FH1Y4GT&dib=eyJ2IjoiMSJ9.kFexHcGF2xCWcl4lBLZMjCAuKk5bSe5ugW_DBlfVZbuESsgm7LnuSURuW0v4CERAiPeLTWo0YKoXGth5Dgj_d-NQqZxPB46zola2jjqgVZ_sIFqQCQ7-sekd2YDf65G005G3Arv-Rqk2P_uKaRO3zALdZAQLGNR_WrwXx9196QrnqEXQ1YkM9_kZJK1i9mutRLmAZnQhI9Q7WK2fLQqDZG7gS5lOvw67w1oX-1j0bPw.P7M1qVD6H84EspQgPlCgRajQin4UW4nn0U4K_wBVkw0&dib_tag=se&keywords=z790%2Bmotherboard%2Bddr5&qid=1773814640&sprefix=z790%2Caps%2C351&sr=8-1&th=1', wattage: , specs: { socket: 'LGA1700', format: 'ATX', memoryType: 'DDR5' } },
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+  71 | ];
+  72 |
+  73 | export const ramList: Part[] = [
 
-Expected ',', got 'export'
+Expression expected
 
 Import traces:
   Client Component Browser:
@@ -35,20 +52,18 @@ Import traces:
     ./data/parts.ts [Client Component SSR]
     ./src/app/build/page.tsx [Client Component SSR]
     ./src/app/build/page.tsx [Server Component]
-
-
-[00:05:49.673] Server  LOG     ✓ Compiled in 256ms
-[00:05:50.645] Browser ERROR   uncaughtError: Error: ./data/parts.ts:13:1
+[00:12:13.544] Server  LOG     ✓ Compiled in 307ms
+[00:12:15.397] Browser ERROR   ./data/parts.ts:70:662
 Parsing ecmascript source code failed
-  11 | // ==============================================================================
-  12 |
-> 13 | export const cpuList: Part[] = [
-     | ^^^^^^
-  14 |   { 
-  15 |     id: 'cpu-1', 
-  16 |     name: 'Intel Core i3-12100F', 
+  68 |   { id: 'mb-3', name: 'MSI B760 GAMING PLUS WIFI', category: 'Motherboard', price: 139, brand: 'Gigabyte', image: '/b760 ddr5 wifi.jpg',amazonLink:'https://www.amazon.com/MSI-B760-Motherboard-Supports-Processors/dp/B0C15THTK7/ref=sr_1_2?crid=3GPW7EY5MCPBW&dib=eyJ2IjoiMSJ9.hJv68jN1p3z_wjqQzxF-IJEgh1BeJfAorvKuHBcF7VKFRsPVZfBZQbGmHiJc-YzJ5RlwwNZuWj75OElaxf2vh5SfIFxy6gNloaNsVsmQxr_M4JISgasbQUqqSgr9TlpdwvRVInPMbHI9qjMj2d4pdLMRqlrDSAAmBpdc_-m3UlgpqTtgfkr9uumuDsUIdmtyORWwFvsRQDs3huKRBdVtnDWSTzMSL9LgBxGsQ73o92Y.EMF6ISei_sGKcBoba8vIoAaCpmv3otN8BeydHclxyq4&dib_tag=se&keywords=b760%2Bmotherboard%2Bddr5&qid=1773814447&sprefix=b760%2Bmotherboard%2Bddr%2Caps%2C325&sr=8-2&th=1', wattage: 60, specs: { socket: 'LGA1700', format: 'ATX', memoryType: 'DDR5' } },
+  69 |   { id: 'mb-4', name: 'MSI B550 PRO-VDH WIFI', category: 'Motherboard', price: 99, brand: 'MSI', image: '/b550 pro wifi.jpg',amazonLink:'https://www.amazon.com/MSI-B550M-PRO-VDH-ProSeries-Motherboard/dp/B089D1YG11/ref=sr_1_10?crid=OOWELM5RQCJ6&dib=eyJ2IjoiMSJ9.FQ-iG91W3Cbt9k1P1MP1XViGV61yBMyj-ON4nq688fj1LP8T_lmYHXrJOL5M-lRuMfAQl24d15tTqgtN5yvt0nZUHqS-ofZvW4xWV3KaCp2Dv0xpEuzclI-Tlrg0ZOPu4Odge8zOv3orf1zo2AhshLOJv3gr4FuVfzct8WEGbQrYQGP6KZvafQ8oZaJRblxRs8TmxbT-XbpOXyDUDglEo2yRlF3NghBDT5zZ0A7VcBU.KRu22r_icOxMPghhNKIT2e-zj11np1d-YEFuT_lA3vw&dib_tag=se&keywords=b450m%2Bmotherboard&qid=1773813102&sprefix=b450m%2Bmotherboard%2B%2Caps%2C313&sr=8-10&th=1', wattage: 50, specs: { socket: 'AM4', format: 'mATX', memoryType: 'DDR4' } },
+> 70 |   { id: 'mb-5', name: 'ASUS TUF Gaming Z790-Plus WiFi', category: 'Motherboard', price: 199, brand: 'ASUS', image: '/z790.jpg',amazonLink:'https://www.amazon.com/ASUS-TUF-Intel%C2%AE12th-Motherboard-Thunderbolt/dp/B0BQD58D96/ref=sr_1_1?crid=2WGL86FH1Y4GT&dib=eyJ2IjoiMSJ9.kFexHcGF2xCWcl4lBLZMjCAuKk5bSe5ugW_DBlfVZbuESsgm7LnuSURuW0v4CERAiPeLTWo0YKoXGth5Dgj_d-NQqZxPB46zola2jjqgVZ_sIFqQCQ7-sekd2YDf65G005G3Arv-Rqk2P_uKaRO3zALdZAQLGNR_WrwXx9196QrnqEXQ1YkM9_kZJK1i9mutRLmAZnQhI9Q7WK2fLQqDZG7gS5lOvw67w1oX-1j0bPw.P7M1qVD6H84EspQgPlCgRajQin4UW4nn0U4K_wBVkw0&dib_tag=se&keywords=z790%2Bmotherboard%2Bddr5&qid=1773814640&sprefix=z790%2Caps%2C351&sr=8-1&th=1', wattage: , specs: { socket: 'LGA1700', format: 'ATX', memoryType: 'DDR5' } },
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+  71 | ];
+  72 |
+  73 | export const ramList: Part[] = [
 
-Expected ',', got 'export'
+Expression expected
 
 Import traces:
   Client Component Browser:
@@ -60,19 +75,110 @@ Import traces:
     ./data/parts.ts [Client Component SSR]
     ./src/app/build/page.tsx [Client Component SSR]
     ./src/app/build/page.tsx [Server Component]
-
-
-[00:05:50.780] Browser ERROR   ./data/parts.ts:13:1
+[00:12:46.530] Server  LOG     ✓ Compiled in 164ms
+[00:12:47.397] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-5
+[00:12:51.366] Server  LOG     ✓ Compiled in 167ms
+[00:12:51.804] Server  LOG     ✓ Compiled in 165ms
+[00:13:46.370] Server  LOG     ✓ Compiled in 176ms
+[00:14:29.138] Server  LOG     ✓ Compiled in 173ms
+[00:14:29.442] Server  LOG     ✓ Compiled in 259ms
+[00:14:29.754] Server  LOG     ✓ Compiled in 266ms
+[00:14:39.736] Server  LOG     ✓ Compiled in 234ms
+[00:14:41.772] Server  LOG     ✓ Compiled in 149ms
+[00:14:42.869] Server  LOG     ✓ Compiled in 199ms
+[00:14:47.920] Server  LOG     ✓ Compiled in 286ms
+[00:14:54.984] Server  LOG     ✓ Compiled in 277ms
+[00:14:56.669] Server  LOG     ✓ Compiled in 176ms
+[00:14:57.278] Server  LOG     ✓ Compiled in 488ms
+[00:14:57.870] Server  LOG     ✓ Compiled in 355ms
+[00:14:58.462] Server  LOG     ✓ Compiled in 376ms
+[00:15:11.664] Server  LOG     ✓ Compiled in 186ms
+[00:16:21.497] Server  LOG     ✓ Compiled in 252ms
+[00:16:22.407] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-5
+[00:16:27.705] Server  LOG     ✓ Compiled in 468ms
+[00:16:36.539] Server  LOG     ✓ Compiled in 198ms
+[00:16:42.355] Server  LOG     ✓ Compiled in 171ms
+[00:16:42.685] Server  LOG     ✓ Compiled in 261ms
+[00:16:43.237] Server  LOG     ✓ Compiled in 212ms
+[00:17:00.917] Server  LOG     ✓ Compiled in 177ms
+[00:17:03.457] Server  LOG     ✓ Compiled in 193ms
+[00:17:03.768] Server  LOG     ✓ Compiled in 235ms
+[00:17:15.199] Server  LOG     ✓ Compiled in 173ms
+[00:17:21.620] Server  LOG     ✓ Compiled in 187ms
+[00:17:22.127] Server  LOG     ✓ Compiled in 361ms
+[00:17:22.435] Server  LOG     ✓ Compiled in 311ms
+[00:17:22.915] Server  LOG     ✓ Compiled in 290ms
+[00:17:23.274] Server  LOG     ✓ Compiled in 275ms
+[00:17:24.230] Server  LOG     ✓ Compiled in 177ms
+[00:17:27.015] Server  LOG     ✓ Compiled in 158ms
+[00:17:27.353] Server  LOG     ✓ Compiled in 293ms
+[00:17:27.743] Server  LOG     ✓ Compiled in 345ms
+[00:17:28.112] Server  LOG     ✓ Compiled in 363ms
+[00:17:28.682] Server  LOG     ✓ Compiled in 312ms
+[00:17:29.279] Server  LOG     ✓ Compiled in 197ms
+[00:17:49.566] Server  LOG     ✓ Compiled in 170ms
+[00:17:50.396] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:17:53.123] Server  LOG     ✓ Compiled in 202ms
+[00:17:53.552] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:17:53.779] Server  LOG     ✓ Compiled in 276ms
+[00:17:54.211] Server  LOG     ✓ Compiled in 222ms
+[00:17:54.398] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:17:54.398] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:17:54.746] Server  LOG     ✓ Compiled in 237ms
+[00:17:55.403] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:17:55.833] Server  LOG     ✓ Compiled in 303ms
+[00:17:56.394] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:17:56.426] Server  LOG     ✓ Compiled in 340ms
+[00:17:57.404] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. mb-7
+[00:18:03.634] Server  LOG     ✓ Compiled in 190ms
+[00:18:03.994] Server  LOG     ✓ Compiled in 201ms
+[00:18:38.990] Server  LOG     ✓ Compiled in 185ms
+[00:19:32.236] Server  LOG     ✓ Compiled in 205ms
+[00:19:32.536] Server  LOG     ✓ Compiled in 192ms
+[00:19:33.053] Server  LOG     ✓ Compiled in 174ms
+[00:19:33.784] Server  LOG     ✓ Compiled in 285ms
+[00:19:34.786] Server  LOG     ✓ Compiled in 171ms
+[00:19:35.365] Server  LOG     ✓ Compiled in 169ms
+[00:19:35.849] Server  LOG     ✓ Compiled in 327ms
+[00:19:36.616] Server  LOG     ✓ Compiled in 180ms
+[00:19:36.949] Server  LOG     ✓ Compiled in 272ms
+[00:19:37.251] Server  LOG     ✓ Compiled in 248ms
+[00:19:41.815] Server  LOG     ✓ Compiled in 182ms
+[00:19:45.978] Server  LOG     ✓ Compiled in 214ms
+[00:19:46.222] Server  LOG     ✓ Compiled in 225ms
+[00:19:46.530] Server  LOG     ✓ Compiled in 199ms
+[00:19:47.166] Server  LOG     ✓ Compiled in 303ms
+[00:19:47.588] Server  LOG     ✓ Compiled in 235ms
+[00:20:06.595] Server  LOG     ✓ Compiled in 308ms
+[00:23:38.329] Server  LOG     ✓ Compiled in 206ms
+[00:23:45.023] Server  LOG     ✓ Compiled in 231ms
+[00:23:45.602] Server  LOG     ✓ Compiled in 361ms
+[00:23:46.431] Server  LOG     ✓ Compiled in 458ms
+[00:23:46.806] Server  LOG     ✓ Compiled in 215ms
+[00:23:54.277] Server  LOG     ✓ Compiled in 194ms
+[00:23:55.390] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:23:55.390] Browser ERROR   Image is missing required "src" property: <img>
+[00:23:57.960] Server  LOG     ✓ Compiled in 190ms
+[00:23:58.399] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:23:58.399] Browser ERROR   Image is missing required "src" property: <img>
+[00:24:02.537] Server  LOG     ✓ Compiled in 196ms
+[00:24:03.400] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:24:03.400] Browser ERROR   Image is missing required "src" property: <img>
+[00:24:05.516] Server  LOG     ✓ Compiled in 249ms
+[00:24:06.410] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:24:06.411] Browser ERROR   Image is missing required "src" property: <img>
+[00:24:13.652] Server  LOG     ✓ Compiled in 282ms
+[00:24:14.403] Browser ERROR   ./data/parts.ts:62:105
 Parsing ecmascript source code failed
-  11 | // ==============================================================================
-  12 |
-> 13 | export const cpuList: Part[] = [
-     | ^^^^^^
-  14 |   { 
-  15 |     id: 'cpu-1', 
-  16 |     name: 'Intel Core i3-12100F', 
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '', wattage: 200, specs: { vram: '12GB', length: 244 } },
+> 62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',ama wattage: 450, specs: { vram: '24GB', length: 304 } },
+     |                                                                                                         ^^^^^^^
+  63 | ];
+  64 |
+  65 | export const motherboardList: Part[] = [
 
-Expected ',', got 'export'
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
 
 Import traces:
   Client Component Browser:
@@ -84,54 +190,18 @@ Import traces:
     ./data/parts.ts [Client Component SSR]
     ./src/app/build/page.tsx [Client Component SSR]
     ./src/app/build/page.tsx [Server Component]
-[00:05:52.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:52.543] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/build" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         style={{--vsc-domain:"\"localhost\""}}
-                        >
-                  ...
-
-[00:05:56.494] Server  LOG     ✓ Compiled in 133ms
-[00:05:57.540] Browser ERROR   ./data/parts.ts:20:12
+[00:24:15.170] Server  LOG     ✓ Compiled in 316ms
+[00:24:15.418] Browser ERROR   ./data/parts.ts:62:112
 Parsing ecmascript source code failed
-  18 |     price: 99, 
-  19 |     brand: 'Intel', 
-> 20 |     image: '\', 
-     |            ^^^^^
-  21 |     amazonLink: 'https://www.amazon.com/Intel-i3-12100F-Desktop-Processor-BX8071512100F/dp/B09NPJX7G3',
-  22 |     wattage: 58, 
-  23 |     specs: { socket: 'LGA1700', cores: 4, threads: 8 } 
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '', wattage: 200, specs: { vram: '12GB', length: 244 } },
+> 62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink wattage: 450, specs: { vram: '24GB', length: 304 } },
+     |                                                                                                                ^^^^^^^
+  63 | ];
+  64 |
+  65 | export const motherboardList: Part[] = [
 
-Unterminated string constant
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
 
 Import traces:
   Client Component Browser:
@@ -143,72 +213,2054 @@ Import traces:
     ./data/parts.ts [Client Component SSR]
     ./src/app/build/page.tsx [Client Component SSR]
     ./src/app/build/page.tsx [Server Component]
-[00:05:58.551] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:05:58.551] Browser ERROR   Image is missing required "src" property: <img>
-[00:05:59.076] Server  LOG     ✓ Compiled in 110ms
-[00:06:05.904] Server  LOG     ✓ Compiled in 232ms
-[00:06:06.105] Server  LOG     ✓ Compiled in 110ms
-[00:06:06.359] Server  LOG     ✓ Compiled in 97ms
-[00:06:06.639] Server  LOG     ✓ Compiled in 146ms
-[00:06:07.440] Server  LOG     ✓ Compiled in 121ms
-[00:06:10.354] Server  LOG     ✓ Compiled in 252ms
-[00:06:11.519] Server  LOG     ✓ Compiled in 148ms
-[00:06:11.658] Server  LOG     ✓ Compiled in 126ms
-[00:06:12.224] Server  LOG     ✓ Compiled in 119ms
-[00:06:15.021] Browser WARN    Image with src "/vercel.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:24:15.418] Browser ERROR   ./data/parts.ts:62:115
+Parsing ecmascript source code failed
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '', wattage: 200, specs: { vram: '12GB', length: 244 } },
+> 62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'' wattage: 450, specs: { vram: '24GB', length: 304 } },
+     |                                                                                                                   ^^^^^^^
+  63 | ];
+  64 |
+  65 | export const motherboardList: Part[] = [
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:18.727] Server  LOG     ✓ Compiled in 301ms
+[00:24:19.398] Browser ERROR   ./data/parts.ts:61:104
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',ama wattage: 200, specs: { vram: '12GB', length: 244 } },
+     |                                                                                                        ^^^^^^^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:19.398] Browser ERROR   ./data/parts.ts:61:107
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazon wattage: 200, specs: { vram: '12GB', length: 244 } },
+     |                                                                                                           ^^^^^^^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:20.409] Browser ERROR   ./data/parts.ts:61:111
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink wattage: 200, specs: { vram: '12GB', length: 244 } },
+     |                                                                                                               ^^^^^^^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:20.455] Server  LOG     ✓ Compiled in 249ms
+[00:24:20.844] Server  LOG     ✓ Compiled in 275ms
+[00:24:21.402] Browser ERROR   ./data/parts.ts:61:119
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink: wattage: 200, specs: { vram: '12GB', length: 244 } },
+     |                                                                                                                       ^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:21.402] Browser ERROR   ./data/parts.ts:61:114
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '', wattage: 263, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'' wattage: 200, specs: { vram: '12GB', length: 244 } },
+     |                                                                                                                  ^^^^^^^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:26.010] Server  LOG     ✓ Compiled in 371ms
+[00:24:26.400] Browser ERROR   ./data/parts.ts:60:102
+Parsing ecmascript source code failed
+  58 |   },
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+> 60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',ama wattage: 263, specs: { vram: '16GB', length: 267 } },
+     |                                                                                                      ^^^^^^^
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:27.411] Browser ERROR   ./data/parts.ts:60:104
+Parsing ecmascript source code failed
+  58 |   },
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+> 60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazo wattage: 263, specs: { vram: '16GB', length: 267 } },
+     |                                                                                                        ^^^^^^^
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:27.411] Browser ERROR   ./data/parts.ts:60:105
+Parsing ecmascript source code failed
+  58 |   },
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+> 60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazon wattage: 263, specs: { vram: '16GB', length: 267 } },
+     |                                                                                                         ^^^^^^^
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:28.129] Server  LOG     ✓ Compiled in 177ms
+[00:24:28.402] Browser ERROR   ./data/parts.ts:60:109
+Parsing ecmascript source code failed
+  58 |   },
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+> 60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink wattage: 263, specs: { vram: '16GB', length: 267 } },
+     |                                                                                                             ^^^^^^^
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:28.402] Browser ERROR   ./data/parts.ts:60:117
+Parsing ecmascript source code failed
+  58 |   },
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+> 60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink: wattage: 263, specs: { vram: '16GB', length: 267 } },
+     |                                                                                                                     ^
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:28.645] Server  LOG     ✓ Compiled in 354ms
+[00:24:29.399] Browser ERROR   ./data/parts.ts:60:112
+Parsing ecmascript source code failed
+  58 |   },
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA', image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+> 60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'' wattage: 263, specs: { vram: '16GB', length: 267 } },
+     |                                                                                                                ^^^^^^^
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:32.036] Server  LOG     ✓ Compiled in 340ms
+[00:24:32.421] Browser ERROR   ./data/parts.ts:59:102
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',ama image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                      ^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:33.393] Browser ERROR   ./data/parts.ts:59:105
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',amazon image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                         ^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:33.394] Browser ERROR   ./data/parts.ts:59:109
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',amazonLink image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                             ^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:33.834] Server  LOG     ✓ Compiled in 225ms
+[00:24:34.252] Server  LOG     ✓ Compiled in 385ms
+[00:24:34.390] Browser ERROR   ./data/parts.ts:59:115
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',amazonLink: image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                   ^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:34.390] Browser ERROR   ./data/parts.ts:59:112
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',amazonLink:'' image: '', wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                ^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:41.187] Server  LOG     ✓ Compiled in 253ms
+[00:24:45.830] Server  LOG     ✓ Compiled in 261ms
+[00:24:47.412] Browser ERROR   ./data/parts.ts:59:112
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '',ama wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                ^^^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:47.412] Browser ERROR   ./data/parts.ts:59:115
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '',amazon wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                   ^^^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:47.412] Browser ERROR   ./data/parts.ts:59:119
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '',amazonLink wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                       ^^^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:47.432] Server  LOG     ✓ Compiled in 246ms
+[00:24:47.728] Server  LOG     ✓ Compiled in 274ms
+[00:24:48.398] Browser ERROR   ./data/parts.ts:59:127
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '',amazonLink: wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                               ^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:24:48.398] Browser ERROR   ./data/parts.ts:59:122
+Parsing ecmascript source code failed
+  57 |     specs: { vram: '8GB', length: 190 } 
+  58 |   },
+> 59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '',amazonLink:'' wattage: 170, specs: { vram: '12GB', length: 242 } },
+     |                                                                                                                          ^^^^^^^
+  60 |   { id: 'gpu-3', name: 'Radeon RX 7800 XT', category: 'GPU', price: 499, brand: 'AMD', image: '',amazonLink:'', wattage: 263, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GeForce RTX 4070', category: 'GPU', price: 549, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:25:46.431] Server  LOG     ✓ Compiled in 310ms
+[00:25:47.094] Server  LOG     ✓ Compiled in 323ms
+[00:25:50.591] Server  LOG     ✓ Compiled in 462ms
+[00:25:51.425] Server  LOG     ✓ Compiled in 291ms
+[00:26:18.216] Server  LOG     ✓ Compiled in 291ms
+[00:26:20.598] Server  LOG     ✓ Compiled in 385ms
+[00:26:21.770] Server  LOG     ✓ Compiled in 461ms
+[00:26:22.193] Server  LOG     ✓ Compiled in 322ms
+[00:26:22.606] Server  LOG     ✓ Compiled in 231ms
+[00:26:34.087] Server  LOG     ✓ Compiled in 196ms
+[00:27:16.171] Server  LOG     ✓ Compiled in 366ms
+[00:27:17.069] Server  LOG     ✓ Compiled in 204ms
+[00:27:17.849] Server  LOG     ✓ Compiled in 232ms
+[00:27:18.379] Server  LOG     ✓ Compiled in 227ms
+[00:27:18.925] Server  LOG     ✓ Compiled in 272ms
+[00:27:19.535] Server  LOG     ✓ Compiled in 230ms
+[00:27:20.442] Server  LOG     ✓ Compiled in 289ms
+[00:27:20.844] Server  LOG     ✓ Compiled in 250ms
+[00:27:24.365] Server  LOG     ✓ Compiled in 188ms
+[00:27:24.676] Server  LOG     ✓ Compiled in 253ms
+[00:27:25.323] Server  LOG     ✓ Compiled in 261ms
+[00:27:44.507] Server  ERROR   ⨯ ChunkLoadError: Failed to load chunk server/chunks/ssr/_3f63fe1e._.js from module [project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/build/page { GLOBAL_ERROR_MODULE => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/src/app/build/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:27:45.043] Server  ERROR   ChunkLoadError: Failed to load chunk server/chunks/ssr/_3f63fe1e._.js from module [project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/build/page { GLOBAL_ERROR_MODULE => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/src/app/build/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:27:46.422] Server  ERROR   ⨯ "unhandledRejection:" ChunkLoadError: Failed to load chunk server/chunks/ssr/_3f63fe1e._.js from module [project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/build/page { GLOBAL_ERROR_MODULE => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/src/app/build/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:27:47.409] Server  ERROR   ⨯ "unhandledRejection: " ChunkLoadError: Failed to load chunk server/chunks/ssr/_3f63fe1e._.js from module [project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/build/page { GLOBAL_ERROR_MODULE => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/src/app/build/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:27:47.418] Server  LOG     ✓ Compiled in 259ms
+[00:27:49.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:49.368] Server  LOG     ✓ Compiled in 10ms
+[00:27:50.394] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:27:50.394] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:27:50.394] Browser ERROR   Image is missing required "src" property: <img>
+[00:27:50.394] Browser ERROR   Image is missing required "src" property: <img>
+[00:27:55.316] Server  LOG     ✓ Compiled in 301ms
+[00:28:13.447] Server  LOG     ✓ Compiled in 251ms
+[00:28:13.922] Server  LOG     ✓ Compiled in 288ms
+[00:28:14.575] Server  LOG     ✓ Compiled in 375ms
+[00:28:14.958] Server  LOG     ✓ Compiled in 356ms
+[00:28:31.344] Browser WARN    Image with src "/i3 12f.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:21:33.295] Server  LOG     ✓ Compiled in 353ms
-[00:21:34.245] Server  LOG     ✓ Compiled in 491ms
-[00:21:34.448] Server  LOG     ✓ Compiled in 222ms
-[00:21:34.729] Server  LOG     ✓ Compiled in 164ms
-[00:21:35.393] Server  LOG     ✓ Compiled in 232ms
-[00:21:35.692] Server  LOG     ✓ Compiled in 186ms
-[00:21:36.211] Server  LOG     ✓ Compiled in 143ms
-[00:21:37.106] Server  LOG     ✓ Compiled in 301ms
-[00:21:37.856] Server  LOG     ✓ Compiled in 159ms
-[00:21:38.194] Server  LOG     ✓ Compiled in 152ms
-[00:21:38.807] Server  LOG     ✓ Compiled in 296ms
-[00:21:39.089] Server  LOG     ✓ Compiled in 237ms
-[00:21:39.745] Server  LOG     ✓ Compiled in 141ms
-[00:21:39.911] Server  LOG     ✓ Compiled in 129ms
-[00:21:40.595] Server  LOG     ✓ Compiled in 172ms
-[00:21:40.815] Server  LOG     ✓ Compiled in 154ms
-[00:21:56.649] Server  LOG     ✓ Compiled in 149ms
-[00:21:58.683] Server  LOG     ✓ Compiled in 157ms
-[00:21:58.890] Server  LOG     ✓ Compiled in 189ms
-[00:21:59.353] Server  LOG     ✓ Compiled in 373ms
-[00:21:59.748] Server  LOG     ✓ Compiled in 153ms
-[00:22:00.306] Server  LOG     ✓ Compiled in 133ms
-[00:22:18.310] Server  LOG     ✓ Compiled in 142ms
-[00:22:20.042] Server  LOG     ✓ Compiled in 334ms
-[00:22:20.357] Server  LOG     ✓ Compiled in 167ms
-[00:22:20.691] Server  LOG     ✓ Compiled in 235ms
-[00:22:21.095] Server  LOG     ✓ Compiled in 262ms
-[00:22:21.538] Server  LOG     ✓ Compiled in 143ms
-[00:22:34.430] Server  LOG     ✓ Compiled in 133ms
-[00:22:35.534] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:22:35.534] Browser ERROR   Image is missing required "src" property: <img>
-[00:22:46.880] Server  LOG     ✓ Compiled in 235ms
-[00:22:48.527] Server  LOG     ✓ Compiled in 314ms
-[00:22:49.057] Server  LOG     ✓ Compiled in 404ms
-[00:22:49.348] Server  LOG     ✓ Compiled in 131ms
-[00:22:50.008] Server  LOG     ✓ Compiled in 220ms
-[00:22:57.996] Server  LOG     ✓ Compiled in 321ms
-[00:22:58.547] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:22:58.547] Browser ERROR   Image is missing required "src" property: <img>
-[00:23:10.019] Server  LOG     ✓ Compiled in 119ms
-[00:23:12.251] Server  LOG     ✓ Compiled in 194ms
-[00:23:12.564] Server  LOG     ✓ Compiled in 253ms
-[00:23:12.761] Server  LOG     ✓ Compiled in 140ms
-[00:23:13.060] Server  LOG     ✓ Compiled in 117ms
-[00:23:13.324] Server  LOG     ✓ Compiled in 127ms
-[00:23:13.845] Server  LOG     ✓ Compiled in 124ms
-[00:23:18.048] Server  LOG     ✓ Compiled in 145ms
-[00:23:18.538] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:23:18.538] Browser ERROR   Image is missing required "src" property: <img>
-[00:23:27.565] Server  LOG     ✓ Compiled in 133ms
-[00:23:29.286] Server  LOG     ✓ Compiled in 331ms
-[00:23:29.583] Server  LOG     ✓ Compiled in 187ms
-[00:23:29.940] Server  LOG     ✓ Compiled in 150ms
-[00:23:30.278] Server  LOG     ✓ Compiled in 219ms
-[00:23:30.704] Server  LOG     ✓ Compiled in 126ms
+[00:29:40.476] Server  LOG     ✓ Compiled in 293ms
+[00:29:45.307] Server  LOG     ✓ Compiled in 260ms
+[00:29:46.030] Server  LOG     ✓ Compiled in 286ms
+[00:29:46.902] Server  LOG     ✓ Compiled in 335ms
+[00:29:47.394] Browser ERROR   ./data/parts.ts:61:77
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '/rtx5060.jpg',amazonLink:'https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5060WF2OC-8GD/dp/B0F8LDHQ7Y/ref=sr_1_1?crid=2QXBBFEQ69ZX7&dib=eyJ2IjoiMSJ9.SzVtIqLqKRbKt2a-BCxezQsCsU-ZaFLFWXYyb_M7PyvOX1FeOpgQbD6SOwlpJTTLmgOhEXhLMTw-MvZoxZOY_Y6HSO0bfeaT7hXRmz2zPFWafkf6zeMNt-6ZaqFtS0INZmDHjFAdVQzhNiS9YjKLklGdvNG0UQGOjEMf1C9aHJ89npHJ2oCNEtblGPVQZLqHqjSyRoO74Hymwxg6v9w64yCuejaK5aPzXeAoN8AcDMw.3UACvzh7Khg83Q0NrBk4cHvrjm1gU3ThktqM06DHGH8&dib_tag=se&keywords=rtx%2B5060&qid=1773815829&sprefix=rtx%2B506%2Caps%2C382&sr=8-1&th=1', wattage: 150, specs: { vram: '8GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Sapphire RX 9060XT', category: 'GPU', price: 449, brand: 'AMD', image: '/9060Xt.jpg',amazonLink:'https://www.amazon.com/Sapphire-11350-03-20G-RadeonTM-Gaming-Graphics/dp/B0F9LN5VZ6/ref=sr_1_4?crid=MWIMVKB2CGER&dib=eyJ2IjoiMSJ9.c81y9QHPLiXBnt1qYef-B9b7sJcHcVQYMmj8DL4i4mO01VynH_I7T_CxLuxDVOEqhX8-j1EjlvHsmdXNa_ULUEqbYSYZUpcFOyL_BEXmHLBqyJ3P3lyeAORV5KkcmqcMzAnGRUtNFRmefkZTdfchr1eNJ_8IN4cFvohT8du-Z1MgwmyKSiIU3FeA1kPbVNygFufTLTCw7emd6IGat35C5ff5zp2-4pAO-Ux-CPNzPHQ.Zu0tQ6r63pS3dbDob3H8GYfTQB1RiUe6EvTdYhZLb0I&dib_tag=se&keywords=rx+7700xt&qid=1773816049&sprefix=rx+7700x%2Caps%2C316&sr=8-4', wattage: 200, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GIGABYTE GeForce RTX 5080', category: 'GPU', price: , brand: 'NVIDIA', image: '',amazonLink:'', wattage: 200, specs: { vram: '12GB', length: 244 } },
+     |                                                                             ^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:30:08.959] Server  LOG     ✓ Compiled in 349ms
+[00:30:11.775] Server  LOG     ✓ Compiled in 441ms
+[00:30:18.365] Server  LOG     ✓ Compiled in 206ms
+[00:30:32.134] Server  LOG     ✓ Compiled in 215ms
+[00:30:32.477] Server  LOG     ✓ Compiled in 357ms
+[00:30:32.997] Server  LOG     ✓ Compiled in 336ms
+[00:30:33.400] Browser ERROR   ./data/parts.ts:61:647
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '/rtx5060.jpg',amazonLink:'https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5060WF2OC-8GD/dp/B0F8LDHQ7Y/ref=sr_1_1?crid=2QXBBFEQ69ZX7&dib=eyJ2IjoiMSJ9.SzVtIqLqKRbKt2a-BCxezQsCsU-ZaFLFWXYyb_M7PyvOX1FeOpgQbD6SOwlpJTTLmgOhEXhLMTw-MvZoxZOY_Y6HSO0bfeaT7hXRmz2zPFWafkf6zeMNt-6ZaqFtS0INZmDHjFAdVQzhNiS9YjKLklGdvNG0UQGOjEMf1C9aHJ89npHJ2oCNEtblGPVQZLqHqjSyRoO74Hymwxg6v9w64yCuejaK5aPzXeAoN8AcDMw.3UACvzh7Khg83Q0NrBk4cHvrjm1gU3ThktqM06DHGH8&dib_tag=se&keywords=rtx%2B5060&qid=1773815829&sprefix=rtx%2B506%2Caps%2C382&sr=8-1&th=1', wattage: 150, specs: { vram: '8GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Sapphire RX 9060XT', category: 'GPU', price: 449, brand: 'AMD', image: '/9060Xt.jpg',amazonLink:'https://www.amazon.com/Sapphire-11350-03-20G-RadeonTM-Gaming-Graphics/dp/B0F9LN5VZ6/ref=sr_1_4?crid=MWIMVKB2CGER&dib=eyJ2IjoiMSJ9.c81y9QHPLiXBnt1qYef-B9b7sJcHcVQYMmj8DL4i4mO01VynH_I7T_CxLuxDVOEqhX8-j1EjlvHsmdXNa_ULUEqbYSYZUpcFOyL_BEXmHLBqyJ3P3lyeAORV5KkcmqcMzAnGRUtNFRmefkZTdfchr1eNJ_8IN4cFvohT8du-Z1MgwmyKSiIU3FeA1kPbVNygFufTLTCw7emd6IGat35C5ff5zp2-4pAO-Ux-CPNzPHQ.Zu0tQ6r63pS3dbDob3H8GYfTQB1RiUe6EvTdYhZLb0I&dib_tag=se&keywords=rx+7700xt&qid=1773816049&sprefix=rx+7700x%2Caps%2C316&sr=8-4', wattage: 200, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GIGABYTE GeForce RTX 5080', category: 'GPU', price: 1500, brand: 'NVIDIA', image: '/rtx5080.jpg',amazonLink:'https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5080GAMING-OC-16GD/dp/B0DS2R6948/ref=sr_1_3?crid=PCTQYU3DJGLU&dib=eyJ2IjoiMSJ9.bgbVzXN4GKnBqkmywdez6jd0nC5bwmHzM_e575onieMQYNYJGkpbcV6diy1PZ65gsmViiWmE_pe8BSaPRZBRd3Eupr2F3zjgN-iYWU2CQ7b-2H5F2o-vHCvdN6_tiWbo0q8R3acIfx4s8qWU4LeSNpuFfB-X_L4XSfkeoxWDZpdElexZDnbe423wQfmdyatEjbIWln7wY1W7ryJdSjakp-1X101Nx9ta-hbK9MQoI-0.9BGOCFwN_H7Bvpfg_lmhsP5-thD9qZQWcZ4VoFHQnlQ&dib_tag=se&keywords=rtx%2B4090&qid=1773816198&sprefix=rtx%2B409%2Caps%2C315&sr=8-3&th=1', wattage: , specs: { vram: '12GB', length: 244 } },
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:30:35.524] Server  LOG     ✓ Compiled in 842ms
+[00:30:42.031] Server  LOG     ✓ Compiled in 345ms
+[00:30:45.009] Server  LOG     ✓ Compiled in 227ms
+[00:30:45.737] Server  LOG     ✓ Compiled in 285ms
+[00:30:46.390] Browser ERROR   ./data/parts.ts:61:684
+Parsing ecmascript source code failed
+  59 |   { id: 'gpu-2', name: 'GIGABYTE GeForce RTX 5060', category: 'GPU', price: 349, brand: 'NVIDIA',image: '/rtx5060.jpg',amazonLink:'https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5060WF2OC-8GD/dp/B0F8LDHQ7Y/ref=sr_1_1?crid=2QXBBFEQ69ZX7&dib=eyJ2IjoiMSJ9.SzVtIqLqKRbKt2a-BCxezQsCsU-ZaFLFWXYyb_M7PyvOX1FeOpgQbD6SOwlpJTTLmgOhEXhLMTw-MvZoxZOY_Y6HSO0bfeaT7hXRmz2zPFWafkf6zeMNt-6ZaqFtS0INZmDHjFAdVQzhNiS9YjKLklGdvNG0UQGOjEMf1C9aHJ89npHJ2oCNEtblGPVQZLqHqjSyRoO74Hymwxg6v9w64yCuejaK5aPzXeAoN8AcDMw.3UACvzh7Khg83Q0NrBk4cHvrjm1gU3ThktqM06DHGH8&dib_tag=se&keywords=rtx%2B5060&qid=1773815829&sprefix=rtx%2B506%2Caps%2C382&sr=8-1&th=1', wattage: 150, specs: { vram: '8GB', length: 242 } },
+  60 |   { id: 'gpu-3', name: 'Sapphire RX 9060XT', category: 'GPU', price: 449, brand: 'AMD', image: '/9060Xt.jpg',amazonLink:'https://www.amazon.com/Sapphire-11350-03-20G-RadeonTM-Gaming-Graphics/dp/B0F9LN5VZ6/ref=sr_1_4?crid=MWIMVKB2CGER&dib=eyJ2IjoiMSJ9.c81y9QHPLiXBnt1qYef-B9b7sJcHcVQYMmj8DL4i4mO01VynH_I7T_CxLuxDVOEqhX8-j1EjlvHsmdXNa_ULUEqbYSYZUpcFOyL_BEXmHLBqyJ3P3lyeAORV5KkcmqcMzAnGRUtNFRmefkZTdfchr1eNJ_8IN4cFvohT8du-Z1MgwmyKSiIU3FeA1kPbVNygFufTLTCw7emd6IGat35C5ff5zp2-4pAO-Ux-CPNzPHQ.Zu0tQ6r63pS3dbDob3H8GYfTQB1RiUe6EvTdYhZLb0I&dib_tag=se&keywords=rx+7700xt&qid=1773816049&sprefix=rx+7700x%2Caps%2C316&sr=8-4', wattage: 200, specs: { vram: '16GB', length: 267 } },
+> 61 |   { id: 'gpu-4', name: 'GIGABYTE GeForce RTX 5080', category: 'GPU', price: 1500, brand: 'NVIDIA', image: '/rtx5080.jpg',amazonLink:'https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5080GAMING-OC-16GD/dp/B0DS2R6948/ref=sr_1_3?crid=PCTQYU3DJGLU&dib=eyJ2IjoiMSJ9.bgbVzXN4GKnBqkmywdez6jd0nC5bwmHzM_e575onieMQYNYJGkpbcV6diy1PZ65gsmViiWmE_pe8BSaPRZBRd3Eupr2F3zjgN-iYWU2CQ7b-2H5F2o-vHCvdN6_tiWbo0q8R3acIfx4s8qWU4LeSNpuFfB-X_L4XSfkeoxWDZpdElexZDnbe423wQfmdyatEjbIWln7wY1W7ryJdSjakp-1X101Nx9ta-hbK9MQoI-0.9BGOCFwN_H7Bvpfg_lmhsP5-thD9qZQWcZ4VoFHQnlQ&dib_tag=se&keywords=rtx%2B4090&qid=1773816198&sprefix=rtx%2B409%2Caps%2C315&sr=8-3&th=1', wattage: 400, specs: { vram: '16GB', length:  } },
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+  62 |   { id: 'gpu-5', name: 'GeForce RTX 4090', category: 'GPU', price: 1599, brand: 'NVIDIA', image: '',amazonLink:'', wattage: 450, specs: { vram: '24GB', length: 304 } },
+  63 | ];
+  64 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:31:55.172] Server  LOG     ✓ Compiled in 221ms
+[00:32:00.839] Server  LOG     ✓ Compiled in 244ms
+[00:32:01.466] Server  LOG     ✓ Compiled in 283ms
+[00:32:05.750] Server  LOG     ✓ Compiled in 238ms
+[00:32:06.057] Server  LOG     ✓ Compiled in 251ms
+[00:32:06.556] Server  LOG     ✓ Compiled in 442ms
+[00:32:07.187] Server  LOG     ✓ Compiled in 363ms
+[00:32:08.355] Server  LOG     ✓ Compiled in 499ms
+[00:32:28.215] Server  LOG     ✓ Compiled in 360ms
+[00:32:30.783] Server  LOG     ✓ Compiled in 309ms
+[00:32:36.297] Server  LOG     ✓ Compiled in 222ms
+[00:32:49.073] Server  LOG     ✓ Compiled in 283ms
+[00:32:49.552] Server  LOG     ✓ Compiled in 332ms
+[00:32:50.409] Browser ERROR   ./data/parts.ts:62:645
+Parsing ecmascript source code failed
+  60 |   { id: 'gpu-3', name: 'Sapphire RX 9060XT', category: 'GPU', price: 449, brand: 'AMD', image: '/9060Xt.jpg',amazonLink:'https://www.amazon.com/Sapphire-11350-03-20G-RadeonTM-Gaming-Graphics/dp/B0F9LN5VZ6/ref=sr_1_4?crid=MWIMVKB2CGER&dib=eyJ2IjoiMSJ9.c81y9QHPLiXBnt1qYef-B9b7sJcHcVQYMmj8DL4i4mO01VynH_I7T_CxLuxDVOEqhX8-j1EjlvHsmdXNa_ULUEqbYSYZUpcFOyL_BEXmHLBqyJ3P3lyeAORV5KkcmqcMzAnGRUtNFRmefkZTdfchr1eNJ_8IN4cFvohT8du-Z1MgwmyKSiIU3FeA1kPbVNygFufTLTCw7emd6IGat35C5ff5zp2-4pAO-Ux-CPNzPHQ.Zu0tQ6r63pS3dbDob3H8GYfTQB1RiUe6EvTdYhZLb0I&dib_tag=se&keywords=rx+7700xt&qid=1773816049&sprefix=rx+7700x%2Caps%2C316&sr=8-4', wattage: 200, specs: { vram: '16GB', length: 267 } },
+  61 |   { id: 'gpu-4', name: 'GIGABYTE GeForce RTX 5080', category: 'GPU', price: 1500, brand: 'NVIDIA', image: '/rtx5080.jpg',amazonLink:'https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5080GAMING-OC-16GD/dp/B0DS2R6948/ref=sr_1_3?crid=PCTQYU3DJGLU&dib=eyJ2IjoiMSJ9.bgbVzXN4GKnBqkmywdez6jd0nC5bwmHzM_e575onieMQYNYJGkpbcV6diy1PZ65gsmViiWmE_pe8BSaPRZBRd3Eupr2F3zjgN-iYWU2CQ7b-2H5F2o-vHCvdN6_tiWbo0q8R3acIfx4s8qWU4LeSNpuFfB-X_L4XSfkeoxWDZpdElexZDnbe423wQfmdyatEjbIWln7wY1W7ryJdSjakp-1X101Nx9ta-hbK9MQoI-0.9BGOCFwN_H7Bvpfg_lmhsP5-thD9qZQWcZ4VoFHQnlQ&dib_tag=se&keywords=rtx%2B4090&qid=1773816198&sprefix=rtx%2B409%2Caps%2C315&sr=8-3&th=1', wattage: 400, specs: { vram: '16GB', length: 280 } },
+> 62 |   { id: 'gpu-5', name: 'XFX Speedster SWFT210 Radeon RX 7600', category: 'GPU', price: 321, brand: 'AMD', image: '/rx7600.jpg',amazonLink:'https://www.amazon.com/XFX-Speedster-SWFT210-Graphics-RX-76PSWFTFA/dp/B0DR25XD68/ref=sr_1_1?crid=3T12QSWPHPRYE&dib=eyJ2IjoiMSJ9.8876buw3BknEU9Ul8HlbmxZaor1cWqdcXUP0-cmmAt594O-EvkJOmXWiBGSVKAAWOkWU0-JUHjvdnJHga1mLxNyjyb8oUbnjBM27cz8VD0NNaxWo5ILmIB3vi0MpdK7wgbPD0ZS-vOoKLo4yEB0qG88IWeSVdCRVogFvBW_tXYAQ4N2izjEC4TDeBPqL3QbYp6os4m5kIfehrZ8730AvRzbEZXhAu_SDWoHaYYzHKZI.RyTYDHB-P7kD0N9BJ4F3C7Ao9KaUq8w_75H-muN0ujg&dib_tag=se&keywords=rx%2B7600&qid=1773816337&sprefix=rx%2B760%2Caps%2C331&sr=8-1&th=1', wattage: , specs: { vram: '24GB', length: 304 } },
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+  63 | ];
+  64 |
+  65 | export const motherboardList: Part[] = [
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:32:54.456] Server  LOG     ✓ Compiled in 234ms
+[00:32:55.598] Server  LOG     ✓ Compiled in 304ms
+[00:32:58.852] Server  LOG     ✓ Compiled in 224ms
+[00:32:59.427] Server  LOG     ✓ Compiled in 282ms
+[00:32:59.843] Server  LOG     ✓ Compiled in 321ms
+[00:33:00.768] Server  LOG     ✓ Compiled in 266ms
+[00:34:15.966] Server  LOG     ✓ Compiled in 341ms
+[00:34:18.881] Server  LOG     ✓ Compiled in 603ms
+[00:34:19.745] Server  LOG     ✓ Compiled in 618ms
+[00:34:24.247] Server  LOG     ✓ Compiled in 366ms
+[00:34:24.780] Server  LOG     ✓ Compiled in 421ms
+[00:34:25.236] Server  LOG     ✓ Compiled in 267ms
+[00:34:27.623] Server  LOG     ✓ Compiled in 218ms
+[00:34:28.218] Server  LOG     ✓ Compiled in 261ms
+[00:34:28.830] Server  LOG     ✓ Compiled in 208ms
+[00:34:29.362] Server  LOG     ✓ Compiled in 481ms
+[00:34:29.761] Server  LOG     ✓ Compiled in 309ms
+[00:34:30.106] Server  LOG     ✓ Compiled in 353ms
+[00:34:50.790] Server  LOG     ✓ Compiled in 287ms
+[00:34:56.032] Server  LOG     ✓ Compiled in 271ms
+[00:34:56.361] Server  LOG     ✓ Compiled in 272ms
+[00:34:56.900] Server  LOG     ✓ Compiled in 251ms
+[00:35:02.621] Server  LOG     ✓ Compiled in 234ms
+[00:35:21.784] Server  LOG     ✓ Compiled in 543ms
+[00:37:59.401] Server  LOG     ✓ Compiled in 398ms
+[00:38:03.568] Server  LOG     ✓ Compiled in 274ms
+[00:38:03.996] Server  LOG     ✓ Compiled in 404ms
+[00:38:04.400] Browser ERROR   ./data/parts.ts:77:90
+Parsing ecmascript source code failed
+  75 |
+  76 | export const ramList: Part[] = [
+> 77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: , brand: 'Corsair', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+     |                                                                                          ^
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:06.205] Server  LOG     ✓ Compiled in 491ms
+[00:38:15.182] Server  LOG     ✓ Compiled in 246ms
+[00:38:15.401] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:38:15.401] Browser ERROR   Image is missing required "src" property: <img>
+[00:38:18.012] Server  LOG     ✓ Compiled in 249ms
+[00:38:18.403] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:38:18.403] Browser ERROR   Image is missing required "src" property: <img>
+[00:38:21.246] Server  LOG     ✓ Compiled in 222ms
+[00:38:21.402] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:38:21.402] Browser ERROR   Image is missing required "src" property: <img>
+[00:38:25.030] Server  LOG     ✓ Compiled in 242ms
+[00:38:25.392] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:38:25.392] Browser ERROR   Image is missing required "src" property: <img>
+[00:38:29.757] Server  LOG     ✓ Compiled in 279ms
+[00:38:30.389] Browser ERROR   ./data/parts.ts:77:127
+Parsing ecmascript source code failed
+  75 |
+  76 | export const ramList: Part[] = [
+> 77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',ama wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+     |                                                                                                                               ^^^^^^^
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:30.389] Browser ERROR   ./data/parts.ts:77:134
+Parsing ecmascript source code failed
+  75 |
+  76 | export const ramList: Part[] = [
+> 77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+     |                                                                                                                                      ^^^^^^^
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:30.899] Server  LOG     ✓ Compiled in 306ms
+[00:38:31.394] Browser ERROR   ./data/parts.ts:77:137
+Parsing ecmascript source code failed
+  75 |
+  76 | export const ramList: Part[] = [
+> 77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'' wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+     |                                                                                                                                         ^^^^^^^
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:31.394] Browser ERROR   ./data/parts.ts:77:137
+Parsing ecmascript source code failed
+  75 |
+  76 | export const ramList: Part[] = [
+> 77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'' wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+     |                                                                                                                                         ^^^^^^^
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:35.652] Server  LOG     ✓ Compiled in 328ms
+[00:38:36.401] Browser ERROR   ./data/parts.ts:78:110
+Parsing ecmascript source code failed
+  76 | export const ramList: Part[] = [
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+> 78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',ama wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+     |                                                                                                              ^^^^^^^
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:36.401] Browser ERROR   ./data/parts.ts:78:117
+Parsing ecmascript source code failed
+  76 | export const ramList: Part[] = [
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+> 78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+     |                                                                                                                     ^^^^^^^
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:36.949] Server  LOG     ✓ Compiled in 412ms
+[00:38:37.402] Browser ERROR   ./data/parts.ts:78:120
+Parsing ecmascript source code failed
+  76 | export const ramList: Part[] = [
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+> 78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'' wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+     |                                                                                                                        ^^^^^^^
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:40.729] Server  LOG     ✓ Compiled in 344ms
+[00:38:41.409] Browser ERROR   ./data/parts.ts:79:111
+Parsing ecmascript source code failed
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+> 79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',ama wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+     |                                                                                                               ^^^^^^^
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+  82 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:41.409] Browser ERROR   ./data/parts.ts:79:114
+Parsing ecmascript source code failed
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+> 79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazon wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+     |                                                                                                                  ^^^^^^^
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+  82 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:42.369] Server  LOG     ✓ Compiled in 418ms
+[00:38:43.403] Browser ERROR   ./data/parts.ts:79:118
+Parsing ecmascript source code failed
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+> 79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+     |                                                                                                                      ^^^^^^^
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+  82 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:43.403] Browser ERROR   ./data/parts.ts:79:121
+Parsing ecmascript source code failed
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '',amazonLink:'', wattage: 10, specs: { memoryType: 'DDR4', speed: '3200MHz', capacity: '16GB' } },
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+> 79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'' wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+     |                                                                                                                         ^^^^^^^
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+  82 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:45.685] Server  LOG     ✓ Compiled in 348ms
+[00:38:46.404] Browser ERROR   ./data/parts.ts:80:116
+Parsing ecmascript source code failed
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+> 80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',ama wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+     |                                                                                                                    ^^^^^^^
+  81 | ];
+  82 |
+  83 | export const storageList: Part[] = [
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:46.404] Browser ERROR   ./data/parts.ts:80:119
+Parsing ecmascript source code failed
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+> 80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',amazon wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+     |                                                                                                                       ^^^^^^^
+  81 | ];
+  82 |
+  83 | export const storageList: Part[] = [
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:47.158] Server  LOG     ✓ Compiled in 297ms
+[00:38:47.409] Browser ERROR   ./data/parts.ts:80:123
+Parsing ecmascript source code failed
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+> 80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',amazonLink wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+     |                                                                                                                           ^^^^^^^
+  81 | ];
+  82 |
+  83 | export const storageList: Part[] = [
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:47.410] Browser ERROR   ./data/parts.ts:80:131
+Parsing ecmascript source code failed
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+> 80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',amazonLink: wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+     |                                                                                                                                   ^
+  81 | ];
+  82 |
+  83 | export const storageList: Part[] = [
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:38:47.511] Server  LOG     ✓ Compiled in 418ms
+[00:38:48.458] Browser ERROR   ./data/parts.ts:80:126
+Parsing ecmascript source code failed
+  78 |   { id: 'ram-2', name: 'G.Skill Ripjaws V 32GB', category: 'RAM', price: 79, brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+> 80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',amazonLink:'' wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+     |                                                                                                                              ^^^^^^^
+  81 | ];
+  82 |
+  83 | export const storageList: Part[] = [
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:39:14.483] Server  LOG     ✓ Compiled in 264ms
+[00:39:17.192] Server  LOG     ✓ Compiled in 241ms
+[00:39:17.535] Server  LOG     ✓ Compiled in 292ms
+[00:39:23.382] Server  LOG     ✓ Compiled in 232ms
+[00:39:28.150] Server  LOG     ✓ Compiled in 243ms
+[00:39:28.526] Server  LOG     ✓ Compiled in 275ms
+[00:39:31.714] Server  LOG     ✓ Compiled in 227ms
+[00:39:32.121] Server  LOG     ✓ Compiled in 233ms
+[00:39:32.597] Server  LOG     ✓ Compiled in 356ms
+[00:39:33.407] Server  LOG     ✓ Compiled in 368ms
+[00:39:33.888] Server  LOG     ✓ Compiled in 228ms
+[00:39:34.283] Server  LOG     ✓ Compiled in 306ms
+[00:39:37.129] Server  LOG     ✓ Compiled in 315ms
+[00:39:37.410] Server  LOG     ✓ Compiled in 286ms
+[00:40:16.009] Server  LOG     ✓ Compiled in 300ms
+[00:40:20.335] Server  LOG     ✓ Compiled in 240ms
+[00:40:20.651] Server  LOG     ✓ Compiled in 304ms
+[00:40:21.397] Browser ERROR   ./data/parts.ts:78:98
+Parsing ecmascript source code failed
+  76 | export const ramList: Part[] = [
+  77 |   { id: 'ram-1', name: 'Crucial Pro DDR5 RAM 32GB Kit (2x16GB)', category: 'RAM', price: 369, brand: 'Corsair', image: '/micron 32gb ddr5.jpg',amazonLink:'https://www.amazon.com/Crucial-6400MHz-Overclocking-Desktop-Compatible/dp/B0FQMLKVLS/ref=sr_1_1?crid=10FPDCZR9MO96&dib=eyJ2IjoiMSJ9.90w441BiB-J0H7bxP-yn63ovOXyK71htuQcC8jCGyzqI_3Rw_rg_Usd2xMaHUeDZ4KRuYZYyqylSDvkK9D99S2TzcazS4zo-48c8yFCWOT5b-PKXd-obXFiqV-rL5zy3T8dWvrUkNsPujB-g5kymRl__44kEQfU3OvDCZBPY_vRuzzxpSKL39YD3E6e2k14IEbSKX6aURBCOsMZK42uQhJkjEh79WSl7rVlZXl51g2k.K7vAAoHwJrQ-IgRDct-l9sRZnC_qBI6Fl1nkTU7Js6E&dib_tag=se&keywords=32gb%2Bddr5%2Bram%2Bkit&qid=1773816686&sprefix=32gb%2Bddr5%2Bram%2Bki%2Caps%2C356&sr=8-1&th=1', wattage: 10, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '32GB' } },
+> 78 |   { id: 'ram-2', name: 'Crucial Pro DDR5 RAM 64GB Kit (2x32GB) 6000MHz', category: 'RAM', price: , brand: 'G.Skill', image: '',amazonLink:'', wattage: 12, specs: { memoryType: 'DDR4', speed: '3600MHz', capacity: '32GB' } },
+     |                                                                                                  ^
+  79 |   { id: 'ram-3', name: 'Corsair Vengeance 32GB', category: 'RAM', price: 119, brand: 'Corsair', image: '',amazonLink:'', wattage: 15, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '32GB' } },
+  80 |   { id: 'ram-4', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',amazonLink:'', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  81 | ];
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:40:22.060] Server  LOG     ✓ Compiled in 478ms
+[00:40:25.348] Server  LOG     ✓ Compiled in 350ms
+[00:40:26.036] Server  LOG     ✓ Compiled in 523ms
+[00:40:26.415] Server  LOG     ✓ Compiled in 270ms
+[00:40:26.845] Server  LOG     ✓ Compiled in 276ms
+[00:40:27.383] Server  LOG     ✓ Compiled in 285ms
+[00:40:27.843] Server  LOG     ✓ Compiled in 370ms
+[00:40:28.379] Server  LOG     ✓ Compiled in 483ms
+[00:40:30.156] Server  LOG     ✓ Compiled in 227ms
+[00:40:30.503] Server  LOG     ✓ Compiled in 238ms
+[00:40:30.831] Server  LOG     ✓ Compiled in 224ms
+[00:40:31.672] Server  LOG     ✓ Compiled in 431ms
+[00:40:32.031] Server  LOG     ✓ Compiled in 237ms
+[00:40:53.086] Server  LOG     ✓ Compiled in 469ms
+[00:40:54.912] Server  LOG     ✓ Compiled in 225ms
+[00:40:55.601] Server  LOG     ✓ Compiled in 251ms
+[00:40:56.081] Server  LOG     ✓ Compiled in 397ms
+[00:41:03.118] Server  LOG     ✓ Compiled in 298ms
+[00:41:07.446] Server  LOG     ✓ Compiled in 398ms
+[00:41:10.851] Server  LOG     ✓ Compiled in 238ms
+[00:41:15.237] Server  LOG     ✓ Compiled in 286ms
+[00:41:16.112] Server  LOG     ✓ Compiled in 243ms
+[00:41:16.531] Server  LOG     ✓ Compiled in 316ms
+[00:41:16.984] Server  LOG     ✓ Compiled in 312ms
+[00:41:19.725] Server  LOG     ✓ Compiled in 473ms
+[00:41:20.561] Server  LOG     ✓ Compiled in 426ms
+[00:41:21.315] Server  LOG     ✓ Compiled in 251ms
+[00:41:24.052] Server  LOG     ✓ Compiled in 433ms
+[00:41:24.909] Server  LOG     ✓ Compiled in 289ms
+[00:41:25.259] Server  LOG     ✓ Compiled in 311ms
+[00:41:59.969] Server  LOG     ✓ Compiled in 277ms
+[00:42:05.991] Server  LOG     ✓ Compiled in 239ms
+[00:42:06.367] Server  LOG     ✓ Compiled in 287ms
+[00:42:29.257] Server  LOG     ✓ Compiled in 238ms
+[00:42:32.397] Server  LOG     ✓ Compiled in 406ms
+[00:42:33.131] Server  LOG     ✓ Compiled in 372ms
+[00:42:39.766] Server  LOG     ✓ Compiled in 319ms
+[00:42:46.462] Server  LOG     ✓ Compiled in 251ms
+[00:42:47.033] Server  LOG     ✓ Compiled in 234ms
+[00:42:47.539] Server  LOG     ✓ Compiled in 289ms
+[00:42:48.132] Server  LOG     ✓ Compiled in 563ms
+[00:42:50.335] Server  LOG     ✓ Compiled in 221ms
+[00:42:50.703] Server  LOG     ✓ Compiled in 291ms
+[00:42:51.090] Server  LOG     ✓ Compiled in 304ms
+[00:42:51.412] Server  LOG     ✓ Compiled in 327ms
+[00:43:03.326] Server  LOG     ✓ Compiled in 283ms
+[00:43:04.390] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. ram-4
+[00:43:04.390] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:43:04.390] Browser ERROR   Image is missing required "src" property: <img>
+[00:43:04.390] Browser ERROR   Image is missing required "src" property: <img>
+[00:43:07.172] Server  LOG     ✓ Compiled in 506ms
+[00:43:07.405] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:43:07.405] Browser ERROR   Image is missing required "src" property: <img>
+[00:43:07.405] Browser ERROR   Image is missing required "src" property: <img>
+[00:43:55.558] Server  LOG     ✓ Compiled in 269ms
+[00:44:01.475] Server  LOG     ✓ Compiled in 253ms
+[00:44:01.892] Server  LOG     ✓ Compiled in 343ms
+[00:44:02.174] Server  LOG     ✓ Compiled in 254ms
+[00:44:02.933] Server  LOG     ✓ Compiled in 543ms
+[00:44:03.572] Server  LOG     ✓ Compiled in 504ms
+[00:44:03.990] Server  LOG     ✓ Compiled in 353ms
+[00:44:07.845] Server  LOG     ✓ Compiled in 478ms
+[00:44:24.755] Server  LOG     ✓ Compiled in 464ms
+[00:44:25.394] Browser ERROR   ./data/parts.ts:80:133
+Parsing ecmascript source code failed
+  78 |   { id: 'ram-2', name: 'Crucial Pro DDR5 RAM 64GB Kit (2x32GB) 6000MHz', category: 'RAM', price: 735, brand: 'Crucial', image: '/micron 64gb ddr5.jpg',amazonLink:'https://www.amazon.com/Crucial-6000MHz-Overclocking-Desktop-Compatible/dp/B0DSQTD4TN/ref=sr_1_4?crid=FZM1U84EDQDL&dib=eyJ2IjoiMSJ9.R_IO-BMWpYexuWRqUtUFmPyLt9cm6KkxtE56gJ8GFCXYAhPJbJCJx2aigntY9jYAkj2-JS6WzsR8coaSOlmWF7Q5fi8bkBlT1MOwfvXq-db9_iWzCXnbntVzpppe0Bw6XpblAI9i92qB4ERFnnWEY5cyNsVfdbb0KEcUV_nsrBA28uKjFbwYEQZsqAwwiJ1OAeKFdVCB3-TCWU6NYa5KT6Djkpf7F92g56X9E21AfRc.fz5F2233aTsrOagod0KqqsuPrmAy00o3qoArlZ6r1f0&dib_tag=se&keywords=64gb%2Bddr5%2Bram%2Bkit&qid=1773816831&sprefix=6gb%2Bddr5%2Bram%2Bkit%2Caps%2C298&sr=8-4&th=1', wattage: 12, specs: { memoryType: 'DDR5', speed: '6000MHz', capacity: '64GB' } },
+  79 |   { id: 'ram-3', name: 'CORSAIR Vengeance RGB DDR5 RAM 16GB (2x8GB)', category: 'RAM', price: 249, brand: 'Corsair', image: '/corsair 16gbddr5.webp',amazonLink:'https://www.amazon.com/CORSAIR-Vengeance-5200MHz-Compatible-Computer/dp/B0D9PRVBRZ/ref=sr_1_2?crid=2UKF4FXMJMNCC&dib=eyJ2IjoiMSJ9.WmNwdSSNWOIjYU--PLIhd4s4_Y3R_IrRKEIunHHTf_63OjRX7Ncd_QPMTRM1i74qMEcODP_IrFpzaVQvpiMOiI2h4XMOAEq6hYscl5BKSFfE3lXljuKxkAGv792AMgW2PjVuyWa-NJ5sLT0xlSzY29QqIwpO_Kj-MUHRY_4YMgJVTZUizh838XIUtDUPDpUjkzHZMQZ7ybVscFN4exoO-8LEQONBpJg9sxlXq-ldzXo.KSgYMjbzaWUnATgS6bwaLtmxAbXA-95hcXBsM6tzpqQ&dib_tag=se&keywords=16gb%2Bddr5%2Bram%2Bkit&qid=1773816938&sprefix=1gb%2Bddr5%2Bram%2Bkit%2Caps%2C307&sr=8-2&th=1', wattage: 15, specs: { memoryType: 'DDR5', speed: '5200MHz', capacity: '16GB' } },
+> 80 |   { id: 'ram-4', name: 'CORSAIR Vengeance LPX DDR4 RAM 32GB (2x16GB)', category: 'RAM', price: 219, brand: 'Corsair', image: 'public\32gb ddr4.jpg',amazonLink:'', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+     |                                                                                                                                     ^^
+  81 |   { id: 'ram-5', name: 'G.Skill Trident Z5 RGB 64GB', category: 'RAM', price: 229, brand: 'G.Skill', image: '',amazonLink:'', wattage: 18, specs: { memoryType: 'DDR5', speed: '6400MHz', capacity: '64GB' } },
+  82 | ];
+  83 |
+
+Legacy octal escape is not permitted in strict mode
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:44:26.638] Server  LOG     ✓ Compiled in 423ms
+[00:44:27.107] Server  LOG     ✓ Compiled in 279ms
+[00:44:27.849] Server  LOG     ✓ Compiled in 367ms
+[00:44:34.864] Server  LOG     ✓ Compiled in 299ms
+[00:44:38.349] Server  LOG     ✓ Compiled in 323ms
+[00:44:41.378] Server  LOG     ✓ Compiled in 252ms
+[00:44:41.851] Server  LOG     ✓ Compiled in 391ms
+[00:44:42.182] Server  LOG     ✓ Compiled in 328ms
+[00:44:42.713] Server  LOG     ✓ Compiled in 395ms
+[00:44:44.638] Server  LOG     ✓ Compiled in 233ms
+[00:44:45.141] Server  LOG     ✓ Compiled in 396ms
+[00:44:49.535] Server  LOG     ✓ Compiled in 261ms
+[00:45:43.397] Server  LOG     ✓ Compiled in 327ms
+[00:46:35.082] Server  LOG     ✓ Compiled in 275ms
+[00:46:44.217] Server  LOG     ✓ Compiled in 272ms
+[00:46:44.509] Server  LOG     ✓ Compiled in 281ms
+[00:46:44.838] Server  LOG     ✓ Compiled in 241ms
+[00:46:45.515] Server  LOG     ✓ Compiled in 427ms
+[00:46:45.983] Server  LOG     ✓ Compiled in 334ms
+[00:46:46.607] Server  LOG     ✓ Compiled in 303ms
+[00:46:50.658] Server  LOG     ✓ Compiled in 269ms
+[00:46:51.391] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:46:51.391] Browser ERROR   Image is missing required "src" property: <img>
+[00:46:52.974] Server  LOG     ✓ Compiled in 295ms
+[00:46:53.528] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:46:53.528] Browser ERROR   Image is missing required "src" property: <img>
+[00:46:55.243] Server  LOG     ✓ Compiled in 263ms
+[00:46:56.410] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:46:56.411] Browser ERROR   Image is missing required "src" property: <img>
+[00:46:58.407] Server  LOG     ✓ Compiled in 484ms
+[00:46:59.404] Browser ERROR   ./data/parts.ts:84:128
+Parsing ecmascript source code failed
+  82 |
+  83 | export const storageList: Part[] = [
+> 84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',ama wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                                ^^^^^^^
+  85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:46:59.404] Browser ERROR   ./data/parts.ts:84:135
+Parsing ecmascript source code failed
+  82 |
+  83 | export const storageList: Part[] = [
+> 84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                                       ^^^^^^^
+  85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:46:59.440] Server  LOG     ✓ Compiled in 368ms
+[00:47:00.397] Browser ERROR   ./data/parts.ts:84:138
+Parsing ecmascript source code failed
+  82 |
+  83 | export const storageList: Part[] = [
+> 84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'' wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                                          ^^^^^^^
+  85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:04.202] Server  LOG     ✓ Compiled in 453ms
+[00:47:05.398] Browser ERROR   ./data/parts.ts:85:115
+Parsing ecmascript source code failed
+  83 | export const storageList: Part[] = [
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+> 85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',ama wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                   ^^^^^^^
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+  88 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:05.398] Browser ERROR   ./data/parts.ts:85:122
+Parsing ecmascript source code failed
+  83 | export const storageList: Part[] = [
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+> 85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                          ^^^^^^^
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+  88 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:05.589] Server  LOG     ✓ Compiled in 365ms
+[00:47:06.404] Browser ERROR   ./data/parts.ts:85:125
+Parsing ecmascript source code failed
+  83 | export const storageList: Part[] = [
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+> 85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink:'' wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                             ^^^^^^^
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+  88 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:07.821] Server  LOG     ✓ Compiled in 461ms
+[00:47:08.405] Browser ERROR   ./data/parts.ts:85:127
+Parsing ecmascript source code failed
+  83 | export const storageList: Part[] = [
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+> 85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink:'',s wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                                                               ^^^^^^^
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+  88 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:12.173] Server  LOG     ✓ Compiled in 663ms
+[00:47:12.391] Browser ERROR   ./data/parts.ts:86:114
+Parsing ecmascript source code failed
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+  85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink:'', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+> 86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '',amazon wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+     |                                                                                                                  ^^^^^^^
+  87 | ];
+  88 |
+  89 | export const caseList: Part[] = [
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:13.328] Server  LOG     ✓ Compiled in 342ms
+[00:47:14.398] Browser ERROR   ./data/parts.ts:86:118
+Parsing ecmascript source code failed
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+  85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink:'', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+> 86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '',amazonLink wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+     |                                                                                                                      ^^^^^^^
+  87 | ];
+  88 |
+  89 | export const caseList: Part[] = [
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:47:14.398] Browser ERROR   ./data/parts.ts:86:121
+Parsing ecmascript source code failed
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 57, brand: 'WD', image: '',amazonLink:'', wattage: 5, specs: { type: 'NVMe', capacity: '1TB' } },
+  85 |   { id: 'ssd-2', name: 'Samsung 980 Pro 1TB M.2', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink:'', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+> 86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '',amazonLink:'' wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+     |                                                                                                                         ^^^^^^^
+  87 | ];
+  88 |
+  89 | export const caseList: Part[] = [
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:52:41.818] Server  LOG     ✓ Compiled in 619ms
+[00:52:42.909] Server  LOG     ✓ Compiled in 726ms
+[00:52:43.757] Server  LOG     ✓ Compiled in 391ms
+[00:54:44.127] Server  LOG     ✓ Compiled in 463ms
+[00:54:45.716] Server  LOG     ✓ Compiled in 334ms
+[00:54:46.206] Server  LOG     ✓ Compiled in 383ms
+[00:54:46.634] Server  LOG     ✓ Compiled in 429ms
+[00:54:47.592] Server  LOG     ✓ Compiled in 451ms
+[00:54:53.579] Server  LOG     ✓ Compiled in 639ms
+[00:55:18.791] Server  LOG     ✓ Compiled in 407ms
+[00:55:24.650] Server  LOG     ✓ Compiled in 326ms
+[00:55:25.161] Server  LOG     ✓ Compiled in 386ms
+[00:55:25.471] Browser ERROR   ./data/parts.ts:84:97
+Parsing ecmascript source code failed
+  82 |
+  83 | export const storageList: Part[] = [
+> 84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: , brand: 'WD', image: '/wd 500gb.jpg',amazonLink:'https://www.amazon.com/Western-Digital-500GB-SN5000-Internal/dp/B0D7MKQKXZ/ref=sr_1_10?crid=1234YGLK76SX2&dib=eyJ2IjoiMSJ9.f3UGDpk5WUkjBhSrPezcMhNBmUKvZaf686BKToL49VLCRmPe8w4GWdv6bmzG8paGpe6SsLsjT0dI1FhmUFNlHcyuv0wxiEnpIjBvfozPjG866CytFoiHKDEkxOYfLnXwyKA3_CQn5pPC-qlqVONy7fcurnQLZ_XcMI1A4IjOEgj1ygNyXBKl1Zu48oA9x4Nqm3q5VxuLZasw44YtD_jjxCr64eEPMoR1f7pqy0ODvOM.uaju0SwIT1HNkLIcbHy1wbEkCkMV09swAa4WabfWAaE&dib_tag=se&keywords=500gb%2Bnvme%2Bgen4&qid=1773817214&sprefix=500gb%2Bnvme%2Bgen%2Caps%2C318&sr=8-10&th=1', wattage: 5, specs: { type: 'NVMe', capacity: '500GB' } },
+     |                                                                                                 ^
+  85 |   { id: 'ssd-2', name: 'Samsung 990 EVO Plus SSD 1TB', category: 'Storage', price: 89, brand: 'Samsung', image: '',amazonLink:'', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '',amazonLink:'', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:55:31.948] Server  LOG     ✓ Compiled in 327ms
+[00:55:32.410] Browser ERROR   ./data/parts.ts:85:84
+Parsing ecmascript source code failed
+  83 | export const storageList: Part[] = [
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 89, brand: 'WD', image: '/wd 500gb.jpg',amazonLink:'https://www.amazon.com/Western-Digital-500GB-SN5000-Internal/dp/B0D7MKQKXZ/ref=sr_1_10?crid=1234YGLK76SX2&dib=eyJ2IjoiMSJ9.f3UGDpk5WUkjBhSrPezcMhNBmUKvZaf686BKToL49VLCRmPe8w4GWdv6bmzG8paGpe6SsLsjT0dI1FhmUFNlHcyuv0wxiEnpIjBvfozPjG866CytFoiHKDEkxOYfLnXwyKA3_CQn5pPC-qlqVONy7fcurnQLZ_XcMI1A4IjOEgj1ygNyXBKl1Zu48oA9x4Nqm3q5VxuLZasw44YtD_jjxCr64eEPMoR1f7pqy0ODvOM.uaju0SwIT1HNkLIcbHy1wbEkCkMV09swAa4WabfWAaE&dib_tag=se&keywords=500gb%2Bnvme%2Bgen4&qid=1773817214&sprefix=500gb%2Bnvme%2Bgen%2Caps%2C318&sr=8-10&th=1', wattage: 5, specs: { type: 'NVMe', capacity: '500GB' } },
+> 85 |   { id: 'ssd-2', name: 'Samsung 990 EVO Plus SSD 1TB', category: 'Storage', price: , brand: 'Samsung', image: '',amazonLink:'', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+     |                                                                                    ^
+  86 |   { id: 'ssd-3', name: 'WD Black SN850X 2TB M.2', category: 'Storage', price: 149, brand: 'WD', image: '',amazonLink:'', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+  87 | ];
+  88 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[00:55:57.858] Server  LOG     ✓ Compiled in 482ms
+[00:55:59.434] Server  LOG     ✓ Compiled in 458ms
+[00:55:59.792] Server  LOG     ✓ Compiled in 339ms
+[00:56:00.292] Server  LOG     ✓ Compiled in 399ms
+[00:56:01.040] Server  LOG     ✓ Compiled in 435ms
+[00:56:22.311] Server  LOG     ✓ Compiled in 406ms
+[01:00:05.294] Server  LOG     ✓ Compiled in 348ms
+[01:00:12.515] Server  LOG     ✓ Compiled in 524ms
+[01:00:13.012] Server  LOG     ✓ Compiled in 440ms
+[01:00:13.445] Browser ERROR   ./data/parts.ts:86:91
+Parsing ecmascript source code failed
+  84 |   { id: 'ssd-1', name: 'Western Digital 500GB WD Blue SN5000 NVMe', category: 'Storage', price: 89, brand: 'WD', image: '/wd 500gb.jpg',amazonLink:'https://www.amazon.com/Western-Digital-500GB-SN5000-Internal/dp/B0D7MKQKXZ/ref=sr_1_10?crid=1234YGLK76SX2&dib=eyJ2IjoiMSJ9.f3UGDpk5WUkjBhSrPezcMhNBmUKvZaf686BKToL49VLCRmPe8w4GWdv6bmzG8paGpe6SsLsjT0dI1FhmUFNlHcyuv0wxiEnpIjBvfozPjG866CytFoiHKDEkxOYfLnXwyKA3_CQn5pPC-qlqVONy7fcurnQLZ_XcMI1A4IjOEgj1ygNyXBKl1Zu48oA9x4Nqm3q5VxuLZasw44YtD_jjxCr64eEPMoR1f7pqy0ODvOM.uaju0SwIT1HNkLIcbHy1wbEkCkMV09swAa4WabfWAaE&dib_tag=se&keywords=500gb%2Bnvme%2Bgen4&qid=1773817214&sprefix=500gb%2Bnvme%2Bgen%2Caps%2C318&sr=8-10&th=1', wattage: 5, specs: { type: 'NVMe', capacity: '500GB' } },
+  85 |   { id: 'ssd-2', name: 'Samsung 990 EVO Plus SSD 1TB', category: 'Storage', price: 164, brand: 'Samsung', image: '/smasung 990.jpg',amazonLink:'https://www.amazon.com/SAMSUNG-Technology-Intelligent-Turbowrite-MZ-V9S1T0B/dp/B0DHLFWBQ1/ref=sr_1_3?crid=3BBTUXA1O72HJ&dib=eyJ2IjoiMSJ9.H39GvN73WU3e9olWq8mPvfMDDHaaIOVuEF4HBp4suoa8gZAs6Le7tK--NB_F-5mqZrLX2x2Bs7a3H3AukeKwccQYKMhALu_Po-Zn4Rc0gbK6maUWdCiLa612oWluPZI95wfp07-7GAznDq_Znl7p_eVs7zDHk9XVUTRi4mSkwjvkZDBbUnkAAmAsY6aKp1Ebw8yOkkXyuGsc0swm61IxAfDBu6KPmXp9MW6CeZ4UOCQ.GdNi78QupQzFVIrf99viSmZ3gIc9URuirG4shxN7e9U&dib_tag=se&keywords=1tb%2Bnvme%2Bgen4&qid=1773817681&sprefix=1t%2Bnvme%2Bgen4%2Caps%2C338&sr=8-3&th=1', wattage: 7, specs: { type: 'NVMe', capacity: '1TB' } },
+> 86 |   { id: 'ssd-3', name: 'Crucial P510 PCIe Gen5 NVMe 2TB SSD', category: 'Storage', price: , brand: 'WD', image: '',amazonLink:'', wattage: 8, specs: { type: 'NVMe', capacity: '2TB' } },
+     |                                                                                           ^
+  87 | ];
+  88 |
+  89 | export const caseList: Part[] = [
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:00:16.425] Server  LOG     ✓ Compiled in 1189ms
+[01:00:19.828] Server  LOG     ✓ Compiled in 503ms
+[01:00:20.567] Server  LOG     ✓ Compiled in 678ms
+[01:00:21.445] Server  LOG     ✓ Compiled in 729ms
+[01:00:49.808] Server  LOG     ✓ Compiled in 556ms
+[01:00:51.230] Server  LOG     ✓ Compiled in 316ms
+[01:00:51.651] Server  LOG     ✓ Compiled in 277ms
+[01:00:52.934] Server  LOG     ✓ Compiled in 1048ms
+[01:01:00.837] Server  LOG     ✓ Compiled in 314ms
+[01:06:47.022] Server  LOG     ✓ Compiled in 628ms
+[01:06:52.293] Server  LOG     ✓ Compiled in 619ms
+[01:06:53.262] Server  LOG     ✓ Compiled in 718ms
+[01:06:56.559] Server  LOG     ✓ Compiled in 717ms
+[01:06:58.279] Server  LOG     ✓ Compiled in 1494ms
+[01:06:59.067] Server  LOG     ✓ Compiled in 663ms
+[01:06:59.740] Server  LOG     ✓ Compiled in 557ms
+[01:07:00.829] Browser ERROR   ./data/parts.ts:90:101
+Parsing ecmascript source code failed
+  88 |
+  89 | export const caseList: Part[] = [
+> 90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: , brand: 'NZXT', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 20, specs: { format: 'ATX', maxGpuLength: 365 } },
+     |                                                                                                     ^
+  91 |   { id: 'case-2', name: 'Corsair 4000D Airflow', category: 'Case', price: 104, brand: 'Corsair', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 25, specs: { format: 'ATX', maxGpuLength: 360 } },
+  92 |   { id: 'case-3', name: 'Lian Li O11 Dynamic Evo', category: 'Case', price: 159, brand: 'Lian Li', image: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=200&auto=format&fit=crop', wattage: 30, specs: { format: 'ATX', maxGpuLength: 422 } },
+  93 | ];
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:07:05.633] Server  LOG     ✓ Compiled in 480ms
+[01:07:06.575] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:07:06.575] Browser ERROR   Image is missing required "src" property: <img>
+[01:07:08.624] Server  LOG     ✓ Compiled in 618ms
+[01:07:09.399] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:07:09.399] Browser ERROR   Image is missing required "src" property: <img>
+[01:07:11.921] Server  LOG     ✓ Compiled in 817ms
+[01:07:13.413] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:07:13.413] Browser ERROR   Image is missing required "src" property: <img>
+[01:07:15.908] Server  LOG     ✓ Compiled in 867ms
+[01:07:17.126] Server  LOG     ✓ Compiled in 858ms
+[01:07:17.497] Browser ERROR   ./data/parts.ts:90:150
+Parsing ecmascript source code failed
+  88 |
+  89 | export const caseList: Part[] = [
+> 90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: 39, brand: 'Cooler Master', image: '',amazonLink wattage: 20, specs: { format: 'ATX', maxGpuLength: 365 } },
+     |                                                                                                                                                      ^^^^^^^
+  91 |   { id: 'case-2', name: 'Corsair 4000D Airflow', category: 'Case', price: 104, brand: 'Corsair', image: '', wattage: 25, specs: { format: 'ATX', maxGpuLength: 360 } },
+  92 |   { id: 'case-3', name: 'Lian Li O11 Dynamic Evo', category: 'Case', price: 159, brand: 'Lian Li', image: '', wattage: 30, specs: { format: 'ATX', maxGpuLength: 422 } },
+  93 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:07:17.497] Browser ERROR   ./data/parts.ts:90:153
+Parsing ecmascript source code failed
+  88 |
+  89 | export const caseList: Part[] = [
+> 90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: 39, brand: 'Cooler Master', image: '',amazonLink:'' wattage: 20, specs: { format: 'ATX', maxGpuLength: 365 } },
+     |                                                                                                                                                         ^^^^^^^
+  91 |   { id: 'case-2', name: 'Corsair 4000D Airflow', category: 'Case', price: 104, brand: 'Corsair', image: '', wattage: 25, specs: { format: 'ATX', maxGpuLength: 360 } },
+  92 |   { id: 'case-3', name: 'Lian Li O11 Dynamic Evo', category: 'Case', price: 159, brand: 'Lian Li', image: '', wattage: 30, specs: { format: 'ATX', maxGpuLength: 422 } },
+  93 | ];
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:07:18.611] Server  LOG     ✓ Compiled in 931ms
+[01:07:23.577] Server  LOG     ✓ Compiled in 1704ms
+[01:07:24.626] Browser ERROR   ./data/parts.ts:91:127
+Parsing ecmascript source code failed
+  89 | export const caseList: Part[] = [
+  90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: 39, brand: 'Cooler Master', image: '',amazonLink:'', wattage: 20, specs: { format: 'ATX', maxGpuLength: 365 } },
+> 91 |   { id: 'case-2', name: 'Corsair 4000D Airflow', category: 'Case', price: 104, brand: 'Corsair', image: '',amazonLink: wattage: 25, specs: { format: 'ATX', maxGpuLength: 360 } },
+     |                                                                                                                               ^
+  92 |   { id: 'case-3', name: 'Lian Li O11 Dynamic Evo', category: 'Case', price: 159, brand: 'Lian Li', image: '', wattage: 30, specs: { format: 'ATX', maxGpuLength: 422 } },
+  93 | ];
+  94 |
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:07:25.180] Server  LOG     ✓ Compiled in 783ms
+[01:07:27.995] Server  LOG     ✓ Compiled in 1075ms
+[01:07:28.505] Browser ERROR   ./data/parts.ts:92:121
+Parsing ecmascript source code failed
+  90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: 39, brand: 'Cooler Master', image: '',amazonLink:'', wattage: 20, specs: { format: 'ATX', maxGpuLength: 365 } },
+  91 |   { id: 'case-2', name: 'Corsair 4000D Airflow', category: 'Case', price: 104, brand: 'Corsair', image: '',amazonLink:'', wattage: 25, specs: { format: 'ATX', maxGpuLength: 360 } },
+> 92 |   { id: 'case-3', name: 'Lian Li O11 Dynamic Evo', category: 'Case', price: 159, brand: 'Lian Li', image: '',amazonLink wattage: 30, specs: { format: 'ATX', maxGpuLength: 422 } },
+     |                                                                                                                         ^^^^^^^
+  93 | ];
+  94 |
+  95 | export const psuList: Part[] = [
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:07:29.165] Server  LOG     ✓ Compiled in 847ms
+[01:07:29.412] Browser ERROR   ./data/parts.ts:92:124
+Parsing ecmascript source code failed
+  90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: 39, brand: 'Cooler Master', image: '',amazonLink:'', wattage: 20, specs: { format: 'ATX', maxGpuLength: 365 } },
+  91 |   { id: 'case-2', name: 'Corsair 4000D Airflow', category: 'Case', price: 104, brand: 'Corsair', image: '',amazonLink:'', wattage: 25, specs: { format: 'ATX', maxGpuLength: 360 } },
+> 92 |   { id: 'case-3', name: 'Lian Li O11 Dynamic Evo', category: 'Case', price: 159, brand: 'Lian Li', image: '',amazonLink:'' wattage: 30, specs: { format: 'ATX', maxGpuLength: 422 } },
+     |                                                                                                                            ^^^^^^^
+  93 | ];
+  94 |
+  95 | export const psuList: Part[] = [
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:07:53.958] Server  LOG     ✓ Compiled in 515ms
+[01:07:55.474] Server  LOG     ✓ Compiled in 675ms
+[01:07:56.527] Server  LOG     ✓ Compiled in 717ms
+[01:08:01.287] Server  LOG     ✓ Compiled in 395ms
+[01:08:08.905] Server  LOG     ✓ Compiled in 405ms
+[01:08:13.159] Server  LOG     ✓ Compiled in 418ms
+[01:08:14.060] Server  LOG     ✓ Compiled in 586ms
+[01:10:25.044] Server  LOG     ✓ Compiled in 655ms
+[01:10:35.191] Server  LOG     ✓ Compiled in 1008ms
+[01:10:39.789] Server  LOG     ✓ Compiled in 752ms
+[01:10:40.502] Server  LOG     ✓ Compiled in 456ms
+[01:10:41.432] Server  LOG     ✓ Compiled in 532ms
+[01:10:42.263] Server  LOG     ✓ Compiled in 662ms
+[01:10:42.802] Server  LOG     ✓ Compiled in 489ms
+[01:10:44.108] Server  LOG     ✓ Compiled in 782ms
+[01:10:45.513] Server  LOG     ✓ Compiled in 744ms
+[01:11:04.376] Server  LOG     ✓ Compiled in 550ms
+[01:11:06.326] Server  LOG     ✓ Compiled in 485ms
+[01:11:07.116] Server  LOG     ✓ Compiled in 819ms
+[01:11:07.868] Server  LOG     ✓ Compiled in 498ms
+[01:13:46.524] Server  LOG     ✓ Compiled in 496ms
+[01:13:55.075] Server  LOG     ✓ Compiled in 544ms
+[01:14:25.731] Server  LOG     ✓ Compiled in 612ms
+[01:14:30.947] Server  LOG     ✓ Compiled in 515ms
+[01:14:31.499] Server  LOG     ✓ Compiled in 535ms
+[01:14:58.717] Server  LOG     ✓ Compiled in 626ms
+[01:15:00.537] Server  LOG     ✓ Compiled in 617ms
+[01:15:01.103] Server  LOG     ✓ Compiled in 558ms
+[01:15:01.651] Server  LOG     ✓ Compiled in 517ms
+[01:15:08.151] Server  LOG     ✓ Compiled in 646ms
+[01:15:15.889] Server  LOG     ✓ Compiled in 1226ms
+[01:15:18.445] Server  LOG     ✓ Compiled in 602ms
+[01:15:19.403] Browser ERROR   ./data/parts.ts:92:702
+Parsing ecmascript source code failed
+  90 |   { id: 'case-1', name: 'Cooler Master MasterBox Q300L Micro-ATX PC Case', category: 'Case', price: 39, brand: 'Cooler Master', image: '/cooler master.jpg',amazonLink:'https://www.amazon.com/Cooler-Master-Transparent-Adjustable-Ventilated/dp/B0785GRMPG/ref=sr_1_5?crid=1WCTJ79FZ8VL6&dib=eyJ2IjoiMSJ9.RnzCj3c2a_HnJjJD7WMAoZ6Ho7Iu6_-RwvDCphKDqpvUY5fQmTpRJfuAhbZ7V75qd8DGZN3wkQHUYP65MmuTLwhhqoamThtLyaHynLtXpGJPVTEtYCi2sBmBwNm16Cu4yOO2yNR0q0kX1bPKUQKxht7x3V_qmn9wyJZTSoZj57AKOKXODsRRAx89dMpnQuGMep9Ga4wpmuKGrMY9ozQMeE5VkScUoDC_qgKObJGQhVs.83kkeOMAABU2GVaWbCFhM2hvsxKaRoQPI5mfih1JT80&dib_tag=se&keywords=pc%2Bcase&qid=1773818413&sprefix=pc%2Bca%2Caps%2C396&sr=8-5&th=1', wattage: 20, specs: { format: 'mATX', maxGpuLength: 300 } },
+  91 |   { id: 'case-2', name: 'NZXT H9 Flow (2025) – Large Dual-Chamber ATX', category: 'Case', price: 119, brand: 'NZXT', image: '/nzxt flow.jpg',amazonLink:'https://www.amazon.com/NZXT-Flow-Dual-Chamber-Mid-Tower-Back-Connect/dp/B0DQPPKNSS/ref=sr_1_13?crid=301HQABYPP084&dib=eyJ2IjoiMSJ9.RnzCj3c2a_HnJjJD7WMAoZ6Ho7Iu6_-RwvDCphKDqpvUY5fQmTpRJfuAhbZ7V75qd8DGZN3wkQHUYP65MmuTLwhhqoamThtLyaHynLtXpGJPVTEtYCi2sBmBwNm16Cu4yOO2yNR0q0kX1bPKUQKxht7x3V_qmn9wyJZTSoZj57AKOKXODsRRAx89dMpnQuGMep9Ga4wpmuKGrMY9ozQMeE5VkScUoDC_qgKObJGQhVs.83kkeOMAABU2GVaWbCFhM2hvsxKaRoQPI5mfih1JT80&dib_tag=se&keywords=pc%2Bcase&qid=1773818618&sprefix=pc%2Bcase%2Caps%2C353&sr=8-13&th=1', wattage: 20, specs: { format: 'ATX', maxGpuLength: 360 } },
+> 92 |   { id: 'case-3', name: 'Lian Li LANCOOL 217 Genuine Walnut Wood', category: 'Case', price: 119, brand: 'Lian Li', image: '/lian li.jpg',amazonLink:'https://www.amazon.com/Lian-Li-Mid-Tower-Pre-Installed-Installation/dp/B0DWF95QP7/ref=sr_1_14?crid=301HQABYPP084&dib=eyJ2IjoiMSJ9.RnzCj3c2a_HnJjJD7WMAoZ6Ho7Iu6_-RwvDCphKDqpvUY5fQmTpRJfuAhbZ7V75qd8DGZN3wkQHUYP65MmuTLwhhqoamThtLyaHynLtXpGJPVTEtYCi2sBmBwNm16Cu4yOO2yNR0q0kX1bPKUQKxhr8ra1awX5Uz9pYwoAJ8mZNVZ1wpeE_bVSoBdUF7X9Biep9Ga4wpmuKGrMY9ozQMeE5VkScUoDC_qgKObJGQhVs.SWkz26E7F2cOiR2V_YR-2WF6aS2w1QNVuR7iMnWVeXE&dib_tag=se&keywords=pc%2Bcase&qid=1773818881&sprefix=pc%2Bcase%2Caps%2C353&sr=8-14&th=1', wattage: 20, specs: { format: 'ATX', maxGpuLength:  } },
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+  93 | ];
+  94 |
+  95 | export const psuList: Part[] = [
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:15:19.660] Server  LOG     ✓ Compiled in 784ms
+[01:15:29.449] Server  LOG     ✓ Compiled in 508ms
+[01:16:46.610] Server  LOG     ✓ Compiled in 783ms
+[01:16:47.791] Server  LOG     ✓ Compiled in 658ms
+[01:16:48.621] Server  LOG     ✓ Compiled in 888ms
+[01:16:49.875] Server  LOG     ✓ Compiled in 910ms
+[01:16:50.720] Server  LOG     ✓ Compiled in 655ms
+[01:16:52.222] Server  LOG     ✓ Compiled in 1424ms
+[01:16:57.610] Server  LOG     ✓ Compiled in 603ms
+[01:17:02.737] Server  LOG     ✓ Compiled in 1331ms
+[01:17:04.784] Server  LOG     ✓ Compiled in 760ms
+[01:17:05.424] Server  LOG     ✓ Compiled in 646ms
+[01:17:08.594] Server  LOG     ✓ Compiled in 773ms
+[01:17:18.337] Server  LOG     ✓ Compiled in 597ms
+[01:17:19.407] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:17:19.407] Browser ERROR   Image is missing required "src" property: <img>
+[01:17:21.065] Server  LOG     ✓ Compiled in 522ms
+[01:17:21.412] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:17:21.412] Browser ERROR   Image is missing required "src" property: <img>
+[01:17:23.710] Server  LOG     ✓ Compiled in 558ms
+[01:17:24.399] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:17:24.399] Browser ERROR   Image is missing required "src" property: <img>
+[01:17:27.090] Server  LOG     ✓ Compiled in 781ms
+[01:17:27.398] Browser ERROR   ./data/parts.ts:96:131
+Parsing ecmascript source code failed
+  94 |
+  95 | export const psuList: Part[] = [
+> 96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazon wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+     |                                                                                                                                   ^^^^^^^
+  97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0, specs: { wattage: 850, rating: '80+ Gold' } },
+  98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+  99 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:28.615] Browser ERROR   ./data/parts.ts:96:135
+Parsing ecmascript source code failed
+  94 |
+  95 | export const psuList: Part[] = [
+> 96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+     |                                                                                                                                       ^^^^^^^
+  97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0, specs: { wattage: 850, rating: '80+ Gold' } },
+  98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+  99 | ];
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:28.981] Server  LOG     ✓ Compiled in 812ms
+[01:17:29.406] Browser ERROR   ./data/parts.ts:96:138
+Parsing ecmascript source code failed
+  94 |
+  95 | export const psuList: Part[] = [
+> 96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'' wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+     |                                                                                                                                          ^^^^^^^
+  97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0, specs: { wattage: 850, rating: '80+ Gold' } },
+  98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+  99 | ];
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:30.160] Server  LOG     ✓ Compiled in 635ms
+[01:17:33.328] Server  LOG     ✓ Compiled in 1027ms
+[01:17:34.398] Browser ERROR   ./data/parts.ts:97:122
+Parsing ecmascript source code failed
+   95 | export const psuList: Part[] = [
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+>  97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0,amazonLink specs: { wattage: 850, rating: '80+ Gold' } },
+      |                                                                                                                          ^^^^^
+   98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+   99 | ];
+  100 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:34.678] Server  LOG     ✓ Compiled in 858ms
+[01:17:35.404] Browser ERROR   ./data/parts.ts:97:125
+Parsing ecmascript source code failed
+   95 | export const psuList: Part[] = [
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+>  97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0,amazonLink:'' specs: { wattage: 850, rating: '80+ Gold' } },
+      |                                                                                                                             ^^^^^
+   98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+   99 | ];
+  100 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:38.030] Server  LOG     ✓ Compiled in 673ms
+[01:17:38.391] Browser ERROR   ./data/parts.ts:98:116
+Parsing ecmascript source code failed
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+   97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0,amazonLink:'', specs: { wattage: 850, rating: '80+ Gold' } },
+>  98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '',amazon wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+      |                                                                                                                    ^^^^^^^
+   99 | ];
+  100 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:40.024] Server  LOG     ✓ Compiled in 832ms
+[01:17:40.390] Browser ERROR   ./data/parts.ts:98:120
+Parsing ecmascript source code failed
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+   97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0,amazonLink:'', specs: { wattage: 850, rating: '80+ Gold' } },
+>  98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '',amazonLink wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+      |                                                                                                                        ^^^^^^^
+   99 | ];
+  100 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:17:40.390] Browser ERROR   ./data/parts.ts:98:123
+Parsing ecmascript source code failed
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+   97 |   { id: 'psu-2', name: 'MSI MPG A850G 850W', category: 'PSU', price: 129, brand: 'MSI', image: '', wattage: 0,amazonLink:'', specs: { wattage: 850, rating: '80+ Gold' } },
+>  98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '',amazonLink:'' wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+      |                                                                                                                           ^^^^^^^
+   99 | ];
+  100 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:18:24.093] Server  LOG     ✓ Compiled in 708ms
+[01:18:26.333] Server  LOG     ✓ Compiled in 561ms
+[01:18:30.776] Server  LOG     ✓ Compiled in 538ms
+[01:18:32.405] Server  LOG     ✓ Compiled in 628ms
+[01:19:00.037] Server  LOG     ✓ Compiled in 609ms
+[01:19:01.904] Server  LOG     ✓ Compiled in 635ms
+[01:19:02.829] Server  LOG     ✓ Compiled in 538ms
+[01:19:03.606] Server  LOG     ✓ Compiled in 687ms
+[01:19:19.758] Server  LOG     ✓ Compiled in 617ms
+[01:19:22.949] Server  LOG     ✓ Compiled in 901ms
+[01:19:23.403] Browser ERROR   ./data/parts.ts:97:115
+Parsing ecmascript source code failed
+   95 | export const psuList: Part[] = [
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+>  97 |   { id: 'psu-2', name: 'MSI MAG A750GL PCIE5', category: 'PSU', price: 95, brand: 'MSI', image: '/msi.jpg',amazon wattage: 0, specs: { wattage: 850, rating: '80+ Gold' } },
+      |                                                                                                                   ^^^^^^^
+   98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '',amazonLink:'', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+   99 | ];
+  100 |
+
+Unexpected token `ident`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:19:24.322] Server  LOG     ✓ Compiled in 1269ms
+[01:19:25.536] Browser ERROR   ./data/parts.ts:97:122
+Parsing ecmascript source code failed
+   95 | export const psuList: Part[] = [
+   96 |   { id: 'psu-1', name: 'Thermaltake SMART 600W 80plus bronze', category: 'PSU', price: 42, brand: 'Thermaltake', image: '',amazonLink:'', wattage: 0, specs: { wattage: 750, rating: '80+ Gold' } },
+>  97 |   { id: 'psu-2', name: 'MSI MAG A750GL PCIE5', category: 'PSU', price: 95, brand: 'MSI', image: '/msi.jpg',amazonLink:'' wattage: 0, specs: { wattage: 850, rating: '80+ Gold' } },
+      |                                                                                                                          ^^^^^^^
+   98 |   { id: 'psu-3', name: 'Seasonic Vertex GX-1000', category: 'PSU', price: 199, brand: 'Seasonic', image: '',amazonLink:'', wattage: 0, specs: { wattage: 1000, rating: '80+ Gold' } },
+   99 | ];
+  100 |
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./data/parts.ts [Client Component Browser]
+    ./src/app/build/page.tsx [Client Component Browser]
+    ./src/app/build/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./data/parts.ts [Client Component SSR]
+    ./src/app/build/page.tsx [Client Component SSR]
+    ./src/app/build/page.tsx [Server Component]
+[01:19:25.751] Server  LOG     ✓ Compiled in 665ms
+[01:19:30.994] Server  LOG     ✓ Compiled in 601ms
+[01:20:02.867] Server  LOG     ✓ Compiled in 657ms
+[01:20:04.384] Server  LOG     ✓ Compiled in 842ms
+[01:20:06.710] Server  LOG     ✓ Compiled in 636ms
+[01:20:07.724] Server  LOG     ✓ Compiled in 860ms
+[01:20:12.928] Server  LOG     ✓ Compiled in 593ms
+[01:20:13.889] Server  LOG     ✓ Compiled in 669ms
+[01:20:16.076] Server  LOG     ✓ Compiled in 569ms
+[01:20:16.582] Server  LOG     ✓ Compiled in 525ms
+[01:20:17.153] Server  LOG     ✓ Compiled in 515ms
+[01:20:18.294] Server  LOG     ✓ Compiled in 762ms
+[01:20:23.887] Server  LOG     ✓ Compiled in 833ms
+[01:20:35.839] Server  LOG     ✓ Compiled in 574ms
+[01:20:36.975] Server  LOG     ✓ Compiled in 894ms
+[01:20:39.947] Server  LOG     ✓ Compiled in 781ms
+[01:20:40.576] Server  LOG     ✓ Compiled in 596ms
+[01:20:41.441] Server  LOG     ✓ Compiled in 784ms
+[01:20:59.625] Server  LOG     ✓ Compiled in 628ms
+[01:21:01.480] Server  LOG     ✓ Compiled in 537ms
+[01:21:02.448] Server  LOG     ✓ Compiled in 884ms
+[01:21:03.248] Server  LOG     ✓ Compiled in 752ms
+[01:21:10.843] Server  LOG     ✓ Compiled in 541ms
+[01:21:32.519] Server  LOG     ✓ Compiled in 601ms
+[01:21:33.775] Server  LOG     ✓ Compiled in 727ms
+[01:21:39.236] Server  LOG     ✓ Compiled in 547ms
+[01:21:40.001] Server  LOG     ✓ Compiled in 628ms
+[01:21:41.101] Server  LOG     ✓ Compiled in 1030ms
+[01:21:41.999] Server  LOG     ✓ Compiled in 592ms
+[01:21:50.931] Server  LOG     ✓ Compiled in 515ms
+[01:22:59.469] Server  LOG     ✓ Compiled in 756ms
+[01:23:00.899] Server  LOG     ✓ Compiled in 644ms
+[01:23:01.789] Server  LOG     ✓ Compiled in 842ms
+[01:23:07.628] Server  LOG     ✓ Compiled in 548ms
