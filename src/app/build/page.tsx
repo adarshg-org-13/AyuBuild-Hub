@@ -2,7 +2,7 @@
 
 import { useState,useEffect,Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import { Cpu,Gamepad2,HardDrive,Box,Zap,Save,RotateCcw,CheckCircle2,AlertCircle,ShoppingCart } from "../../../components/Icons";
+import { Cpu,Gamepad2,HardDrive,Box,Zap,Save,RotateCcw,CheckCircle2,AlertCircle,ShoppingCart,ExternalLink } from "../../../components/Icons";
 import { Button } from "../../../components/Button";
 import { formatCurrency,checkCompatibility } from "../../../utils";
 import { cpuList,gpuList,motherboardList,ramList,storageList,caseList,psuList } from "../../../data/parts";
@@ -21,13 +21,13 @@ interface BuildState {
 }
 
 const categories: { id: PartCategory; icon: any; label: string }[] = [
-  { id: 'CPU', icon: Cpu, label: 'Processor' },
+  { id: 'CPU', icon: Cpu, label: 'CPU' },
   { id: 'GPU', icon: Gamepad2, label: 'Graphics Card' },
   { id: 'Motherboard', icon: Box, label: 'Motherboard' },
   { id: 'RAM', icon: HardDrive, label: 'Memory' },
   { id: 'Storage', icon: HardDrive, label: 'Storage' },
-  { id: 'Case', icon: Box, label: 'Case' },
-  { id: 'PSU', icon: Zap, label: 'Power Supply' },
+  { id: 'Case', icon: Box, label: 'PC Case' },
+  { id: 'PSU', icon: Zap, label: 'PSU' },
 ];
 
 function BuilderContent() {
@@ -165,15 +165,15 @@ function BuilderContent() {
   const { messages: compatibilityIssues } = checkCompatibility(build);
 
   return (
-    <div className="min-h-screen pb-20">
-      <div className="mb-8">
+    <div className="min-h-screen pb-5">
+      <div className="mb-4">
         <h1 className="text-4xl font-bold text-zinc-900 dark:text-white mb-2">PC Builder</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">Select your components to build your dream machine.</p>
+        <p className="text-zinc-600 dark:text-zinc-400">Select your components to build your PC.</p>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-12 gap-8">
+      <div className="grid grid-cols-1 xl:grid-cols-12 gap-10">
         {/* Left Column: Build List */}
-        <div className="xl:col-span-9 space-y-6">
+        <div className="xl:col-span-9 space-y-3">
           {categories.map((category) => (
             <BuilderCategoryRow
               key={category.id}
@@ -229,13 +229,13 @@ function BuilderContent() {
                 </div>
               )}
 
-              <div className="space-y-3">
+              <div className="space-y-5">
                 <Button 
                   className="w-full justify-center" 
                   disabled={compatibilityIssues.length > 0 || totalPrice === 0}
                   onClick={handleCheckout}
                 >
-                  Checkout on Amazon
+                  Checkout on Amazon<ExternalLink className="w-3 h-3 ml-0" />
                 </Button>
                 <Button 
                   variant="secondary" 
@@ -251,13 +251,15 @@ function BuilderContent() {
                     CPU: null, GPU: null, Motherboard: null, RAM: null, Storage: null, Case: null, PSU: null
                   })}
                 >
-                  <RotateCcw className="w-4 h-4 mr-2" /> Reset Builder
+                  <RotateCcw className="w-4 h-4 mr-2" /> Reset Build
                 </Button>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <p className="text-1xl font-bold text-zinc-900 dark:text-white mb-2"><span className="block">--------------------------------------------------------------------------------------</span><span className='block'> Disclaimer!: </span> Make sure to check the Wattage of the parts on your own
+        to avoid clashes in the pc build<br/></p><span className="block"><p className="text-1xl font-bold text-zinc-900 dark:text-white mb-2">--------------------------------------------------------------------------------------</p></span>
       
       <Toast 
         message={toast.message}

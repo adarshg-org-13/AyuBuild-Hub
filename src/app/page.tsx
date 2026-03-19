@@ -8,73 +8,73 @@ import { HeroSlideshow } from "../../components/HeroSlideshow";
 export default function Home() {
   const featuredBuilds = [
     {
-      name: "The Budget Intel Starter",
-      price: 485,
-      cpu: "Intel Core i3-12100F",
-      gpu: "Intel Arc A580",
+      name: "The Best Intel Budget Build",
+      price: 550,
+      cpu: "Intel Core i5-12400F",
+      gpu: "Radeon RX 6600 8GB",
       cpuBrand: "Intel" as const,
-      gpuBrand: "Intel" as const, // Using Intel GPU for pure budget
-      fps: { valorant: 240, cs2: 180, re7: 95 },
+      gpuBrand: "AMD" as const, // Using Intel GPU for pure budget
+      fps: { valorant: 300, cs2: 130, re7: 90 },
       image: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop",
     },
     {
-      name: "Best Budget Build",
-      price: 495,
+      name: "Best AMD Budget Build",
+      price: 600,
       cpu: "AMD Ryzen 5 5600",
-      gpu: "Radeon RX 6600",
+      gpu: "Intel Arc B550 12GB",
       cpuBrand: "AMD" as const,
-      gpuBrand: "AMD" as const,
-      fps: { valorant: 260, cs2: 200, re7: 110 },
+      gpuBrand: "Intel" as const,
+      fps: { valorant: 280, cs2: 150, re7: 110 },
       image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
     },
     {
-      name: "1080p Pure Performance",
-      price: 740,
-      cpu: "AMD Ryzen 5 7600",
-      gpu: "Radeon RX 7600 XT",
-      cpuBrand: "AMD" as const,
-      gpuBrand: "AMD" as const,
-      fps: { valorant: 350, cs2: 280, re7: 145 },
+      name: "Best 1080p Build",
+      price: 750,
+      cpu: "Intel Core i5-14400F",
+      gpu: "GeForce RTX 4060 Ti 8GB",
+      cpuBrand: "Intel" as const,
+      gpuBrand: "NVIDIA" as const,
+      fps: { valorant: 350, cs2: 180, re7: 130 },
       image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop",
     },
     {
-      name: "The Best Value for Money Build",
-      price: 745,
-      cpu: "AMD Ryzen 5 7600",
-      gpu: "GeForce RTX 4060",
+      name: "Best Value for Money Build for 1440p",
+      price: 750,
+      cpu: "AMD Ryzen 5 7600X",
+      gpu: "Radeon RX 7600 XT 12GB",
       cpuBrand: "AMD" as const,
-      gpuBrand: "NVIDIA" as const,
-      fps: { valorant: 340, cs2: 270, re7: 140 },
+      gpuBrand: "AMD" as const,
+      fps: { valorant: 350, cs2: 200, re7: 140 },
       image: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=800&auto=format&fit=crop",
     },
     {
       name: "1440p AMD Crusher",
-      price: 980,
-      cpu: "AMD Ryzen 7 7700",
-      gpu: "Radeon RX 7700 XT",
+      price: 1000,
+      cpu: "AMD Ryzen 5 9600X",
+      gpu: "Radeon RX 7700 XT 16GB",
       cpuBrand: "AMD" as const,
       gpuBrand: "AMD" as const,
-      fps: { valorant: 450, cs2: 350, re7: 180 },
+      fps: { valorant: 400, cs2: 250, re7: 175 },
       image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     },
     {
       name: "The Streamer's Choice",
-      price: 995,
-      cpu: "AMD Ryzen 5 7600X",
-      gpu: "GeForce RTX 4070",
-      cpuBrand: "AMD" as const,
+      price: 1200,
+      cpu: "Intel Core i5-14600K",
+      gpu: "GeForce RTX 4070 12GB",
+      cpuBrand: "Intel" as const,
       gpuBrand: "NVIDIA" as const,
-      fps: { valorant: 440, cs2: 340, re7: 175 },
+      fps: { valorant: 400, cs2: 230, re7: 175 },
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop",
     },
     {
-      name: "High-End Domination",
-      price: 1480,
-      cpu: "AMD Ryzen 7 7800X3D",
-      gpu: "GeForce RTX 4070 Ti Super",
+      name:"Best Gaming Build",
+      price: 2500,
+      cpu: "AMD Ryzen 7 9800X3D",
+      gpu: "GeForce RTX 5080 16GB",
       cpuBrand: "AMD" as const,
       gpuBrand: "NVIDIA" as const,
-      fps: { valorant: 600, cs2: 500, re7: 240 },
+      fps: { valorant: 600, cs2: 400, re7: 240 },
       image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
     }
   ];
@@ -82,7 +82,7 @@ export default function Home() {
   return (
     <div className="space-y-32 pb-24">
       {/* Hero Section */}
-      <section className="relative pt-12 pb-20">
+      <section className="relative pt-12 pb-0">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 text-center lg:text-left z-10">
@@ -90,13 +90,13 @@ export default function Home() {
                 className="animate-fade-in-up"
               >
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-zinc-900 dark:text-white mb-6 leading-[1.1]">
-                  Build Your Dream PC. <br />
+                  Configure Your Pc with RigZen<br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-cyan-600 to-emerald-600 dark:from-emerald-400 dark:via-cyan-400 dark:to-emerald-400 animate-pulse text-glow">
-                    No PhD Required.
+                    (Pc Build Expert)
                   </span>
                 </h1>
                 <p className="text-xl text-zinc-600 dark:text-zinc-300 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed font-normal">
-                  Stop guessing parts. We check <span className="text-emerald-600 dark:text-emerald-400 font-medium">compatibility, power, and prices</span> instantly, so you can focus on the games.
+                  Stop guessing pc parts. We check <span className="text-emerald-600 dark:text-emerald-400 font-medium">compatibility, power, and prices</span> so that you can focus on your build.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-6">
                   <Button href="/build" size="lg" className="min-w-[200px] rounded-2xl shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/30 transition-all">
@@ -132,9 +132,9 @@ export default function Home() {
           <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-transparent via-zinc-300 dark:via-zinc-700 to-transparent z-0" />
 
           {[
-            { step: "01", title: "Pick Your Parts", desc: "Select from our curated list of top-rated components." },
-            { step: "02", title: "Check Compatibility", desc: "Our engine automatically validates your build for any issues." },
-            { step: "03", title: "Build & Play", desc: "Get the best prices and start assembling your masterpiece." }
+            { step: "01", title: "Pick Your Parts", desc: "Select the parts from the list." },
+            { step: "02", title: "Check Compatibility", desc: "Auto checks for the compatible parts." },
+            { step: "03", title: "Price Calculations", desc: "Only the best deals are provided." }
           ].map((item, idx) => (
             <div 
               key={idx}
@@ -152,23 +152,23 @@ export default function Home() {
       </section>
 
       {/* Features Grid */}
-      <section className="container mx-auto px-4 py-20">
+      <section className="container mx-auto px-4 py-10">
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
               icon: CheckCircle2,
-              title: "It Fits, Guaranteed",
-              desc: "We check every dimension, socket, and clearance so you don't have to worry about returns."
+              title: "Compatibility",
+              desc: "Auto checking for the compatible parts and sockets."
             },
             {
               icon: Zap,
-              title: "Smart Power",
-              desc: "We calculate exactly how much power your rig needs and suggest the perfect supply."
+              title: "Power",
+              desc: "Auto Wattage calculations of the parts and rough estimate of it."
             },
             {
               icon: DollarSign,
-              title: "Best Price Finder",
-              desc: "We track prices across major retailers to ensure you're not overpaying for your parts."
+              title: "Price",
+              desc: "All the deals are found out from trusted part providers."
             }
           ].map((feature, idx) => {
             const Icon = feature.icon;
@@ -190,15 +190,14 @@ export default function Home() {
       </section>
 
       {/* Featured Builds */}
-      <section className="container mx-auto px-4 pb-20">
+      <section className="container mx-auto px-4 pb-3">
         <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 dark:text-white mb-4 tracking-tight">
-              Community Favorites
+              Recommended Builds
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-lg max-w-2xl">
-              Hand-picked configurations that offer the best bang for your buck. 
-              Tested and approved by our team.
+              Best configurations approved by various people and used by the people
             </p>
           </div>
           <Button href="/saved" variant="ghost" className="group text-lg">

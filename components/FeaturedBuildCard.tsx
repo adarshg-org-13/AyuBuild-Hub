@@ -53,7 +53,7 @@ export function FeaturedBuildCard({ build, index }: { build: FeaturedBuildProps;
       </div>
 
       {/* Content */}
-      <div className="p-6 flex-grow flex flex-col">
+      <div className="p-5 flex-grow flex flex-col">
         {/* Specs */}
         <div className="space-y-3 mb-6">
           <div className="flex items-center justify-between text-sm border-b border-zinc-200 dark:border-zinc-600/50 pb-2">
@@ -83,7 +83,7 @@ export function FeaturedBuildCard({ build, index }: { build: FeaturedBuildProps;
         </div>
 
         {/* Footer */}
-        <div className="mt-auto flex items-center justify-between pt-4 gap-3">
+        <div className="mt-auto flex items-center justify-between pt-1 gap-1">
           <div className="flex flex-col">
             <span className="text-xs text-zinc-500">Total Price</span>
             <span className="text-2xl font-bold text-zinc-900 dark:text-white">{formatCurrency(build.price)}</span>
@@ -95,7 +95,7 @@ export function FeaturedBuildCard({ build, index }: { build: FeaturedBuildProps;
             className="flex-shrink-0"
           >
             <Button size="sm" className="rounded-xl shadow-lg shadow-emerald-900/20">
-              Buy on Amazon <ExternalLink className="w-3 h-3 ml-1" />
+              Buy on Amazon<ExternalLink className="w-3 h-3 ml-0" />
             </Button>
           </a>
         </div>

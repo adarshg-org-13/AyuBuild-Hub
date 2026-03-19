@@ -1017,7 +1017,7 @@ const categories = [
     {
         id: 'CPU',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Cpu"],
-        label: 'Processor'
+        label: 'CPU'
     },
     {
         id: 'GPU',
@@ -1042,12 +1042,12 @@ const categories = [
     {
         id: 'Case',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Box"],
-        label: 'Case'
+        label: 'PC Case'
     },
     {
         id: 'PSU',
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Zap"],
-        label: 'Power Supply'
+        label: 'PSU'
     }
 ];
 function BuilderContent() {
@@ -1194,10 +1194,10 @@ function BuilderContent() {
     };
     const { messages: compatibilityIssues } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["checkCompatibility"])(build);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen pb-20",
+        className: "min-h-screen pb-5",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-8",
+                className: "mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-4xl font-bold text-zinc-900 dark:text-white mb-2",
@@ -1209,7 +1209,7 @@ function BuilderContent() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-zinc-600 dark:text-zinc-400",
-                        children: "Select your components to build your dream machine."
+                        children: "Select your components to build your PC."
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
                         lineNumber: 171,
@@ -1222,10 +1222,10 @@ function BuilderContent() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-1 xl:grid-cols-12 gap-8",
+                className: "grid grid-cols-1 xl:grid-cols-12 gap-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "xl:col-span-9 space-y-6",
+                        className: "xl:col-span-9 space-y-3",
                         children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BuilderCategoryRow$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BuilderCategoryRow"], {
                                 category: category,
                                 part: build[category.id],
@@ -1422,14 +1422,23 @@ function BuilderContent() {
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-3",
+                                        className: "space-y-5",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                 className: "w-full justify-center",
                                                 disabled: compatibilityIssues.length > 0 || totalPrice === 0,
                                                 onClick: handleCheckout,
-                                                children: "Checkout on Amazon"
-                                            }, void 0, false, {
+                                                children: [
+                                                    "Checkout on Amazon",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ExternalLink"], {
+                                                        className: "w-3 h-3 ml-0"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/build/page.tsx",
+                                                        lineNumber: 238,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
                                                 lineNumber: 233,
                                                 columnNumber: 17
@@ -1473,7 +1482,7 @@ function BuilderContent() {
                                                         lineNumber: 254,
                                                         columnNumber: 19
                                                     }, this),
-                                                    " Reset Builder"
+                                                    " Reset Build"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
@@ -1508,6 +1517,52 @@ function BuilderContent() {
                 lineNumber: 174,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-1xl font-bold text-zinc-900 dark:text-white mb-2",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "block",
+                        children: "--------------------------------------------------------------------------------------"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/build/page.tsx",
+                        lineNumber: 261,
+                        columnNumber: 76
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "block",
+                        children: " Disclaimer!: "
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/build/page.tsx",
+                        lineNumber: 261,
+                        columnNumber: 193
+                    }, this),
+                    " Make sure to check the Wattage of the parts on your own to avoid clashes in the pc build",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/src/app/build/page.tsx",
+                        lineNumber: 262,
+                        columnNumber: 41
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/build/page.tsx",
+                lineNumber: 261,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "block",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-1xl font-bold text-zinc-900 dark:text-white mb-2",
+                    children: "--------------------------------------------------------------------------------------"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/build/page.tsx",
+                    lineNumber: 262,
+                    columnNumber: 74
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/build/page.tsx",
+                lineNumber: 262,
+                columnNumber: 50
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Toast$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Toast"], {
                 message: toast.message,
                 type: toast.type,
@@ -1515,7 +1570,7 @@ function BuilderContent() {
                 onClose: hideToast
             }, void 0, false, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 262,
+                lineNumber: 264,
                 columnNumber: 7
             }, this)
         ]
@@ -1532,17 +1587,17 @@ function BuilderPage() {
             children: "Loading builder..."
         }, void 0, false, {
             fileName: "[project]/src/app/build/page.tsx",
-            lineNumber: 274,
+            lineNumber: 276,
             columnNumber: 25
         }, void 0),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BuilderContent, {}, void 0, false, {
             fileName: "[project]/src/app/build/page.tsx",
-            lineNumber: 275,
+            lineNumber: 277,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/build/page.tsx",
-        lineNumber: 274,
+        lineNumber: 276,
         columnNumber: 5
     }, this);
 }

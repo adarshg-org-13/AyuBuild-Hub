@@ -8,7 +8,7 @@ const slides = [
     id: 1,
     image: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
     title: "Ultimate Gaming Performance",
-    subtitle: "Experience 4K gaming with the latest RTX 40-series cards."
+    subtitle: "Experience 4K gaming with the latest RTX 50-series cards."
   },
   {
     id: 2,
@@ -19,8 +19,8 @@ const slides = [
   {
     id: 3,
     image: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1200&auto=format&fit=crop",
-    title: "Custom Water Cooling",
-    subtitle: "Push your hardware to the limit with advanced thermal solutions."
+    title: "Best Budget Options",
+    subtitle: "Best hardware with best and affordable price."
   }
 ];
 

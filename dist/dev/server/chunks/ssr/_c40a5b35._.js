@@ -211,7 +211,7 @@ function FeaturedBuildCard({ build, index }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "p-6 flex-grow flex flex-col",
+                className: "p-5 flex-grow flex flex-col",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-3 mb-6",
@@ -374,7 +374,7 @@ function FeaturedBuildCard({ build, index }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-auto flex items-center justify-between pt-4 gap-3",
+                        className: "mt-auto flex items-center justify-between pt-1 gap-1",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col",
@@ -410,13 +410,13 @@ function FeaturedBuildCard({ build, index }) {
                                     size: "sm",
                                     className: "rounded-xl shadow-lg shadow-emerald-900/20",
                                     children: [
-                                        "Buy on Amazon ",
+                                        "Buy on Amazon",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ExternalLink"], {
-                                            className: "w-3 h-3 ml-1"
+                                            className: "w-3 h-3 ml-0"
                                         }, void 0, false, {
                                             fileName: "[project]/components/FeaturedBuildCard.tsx",
                                             lineNumber: 98,
-                                            columnNumber: 29
+                                            columnNumber: 28
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -469,7 +469,7 @@ const slides = [
         id: 1,
         image: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop",
         title: "Ultimate Gaming Performance",
-        subtitle: "Experience 4K gaming with the latest RTX 40-series cards."
+        subtitle: "Experience 4K gaming with the latest RTX 50-series cards."
     },
     {
         id: 2,
@@ -480,8 +480,8 @@ const slides = [
     {
         id: 3,
         image: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1200&auto=format&fit=crop",
-        title: "Custom Water Cooling",
-        subtitle: "Push your hardware to the limit with advanced thermal solutions."
+        title: "Best Budget Options",
+        subtitle: "Best hardware with best and affordable price."
     }
 ];
 function HeroSlideshow() {
@@ -634,99 +634,99 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$HeroSlideshow$
 function Home() {
     const featuredBuilds = [
         {
-            name: "The Budget Intel Starter",
-            price: 485,
-            cpu: "Intel Core i3-12100F",
-            gpu: "Intel Arc A580",
+            name: "The Best Intel Budget Build",
+            price: 550,
+            cpu: "Intel Core i5-12400F",
+            gpu: "Radeon RX 6600 8GB",
             cpuBrand: "Intel",
-            gpuBrand: "Intel",
+            gpuBrand: "AMD",
             fps: {
-                valorant: 240,
-                cs2: 180,
-                re7: 95
+                valorant: 300,
+                cs2: 130,
+                re7: 90
             },
             image: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "Best Budget Build",
-            price: 495,
+            name: "Best AMD Budget Build",
+            price: 600,
             cpu: "AMD Ryzen 5 5600",
-            gpu: "Radeon RX 6600",
+            gpu: "Intel Arc B550 12GB",
             cpuBrand: "AMD",
-            gpuBrand: "AMD",
+            gpuBrand: "Intel",
             fps: {
-                valorant: 260,
-                cs2: 200,
+                valorant: 280,
+                cs2: 150,
                 re7: 110
             },
             image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "1080p Pure Performance",
-            price: 740,
-            cpu: "AMD Ryzen 5 7600",
-            gpu: "Radeon RX 7600 XT",
-            cpuBrand: "AMD",
-            gpuBrand: "AMD",
+            name: "Best 1080p Build",
+            price: 750,
+            cpu: "Intel Core i5-14400F",
+            gpu: "GeForce RTX 4060 Ti 8GB",
+            cpuBrand: "Intel",
+            gpuBrand: "NVIDIA",
             fps: {
                 valorant: 350,
-                cs2: 280,
-                re7: 145
+                cs2: 180,
+                re7: 130
             },
             image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "The Best Value for Money Build",
-            price: 745,
-            cpu: "AMD Ryzen 5 7600",
-            gpu: "GeForce RTX 4060",
+            name: "Best Value for Money Build for 1440p",
+            price: 750,
+            cpu: "AMD Ryzen 5 7600X",
+            gpu: "Radeon RX 7600 XT 12GB",
             cpuBrand: "AMD",
-            gpuBrand: "NVIDIA",
+            gpuBrand: "AMD",
             fps: {
-                valorant: 340,
-                cs2: 270,
+                valorant: 350,
+                cs2: 200,
                 re7: 140
             },
             image: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=800&auto=format&fit=crop"
         },
         {
             name: "1440p AMD Crusher",
-            price: 980,
-            cpu: "AMD Ryzen 7 7700",
-            gpu: "Radeon RX 7700 XT",
+            price: 1000,
+            cpu: "AMD Ryzen 5 9600X",
+            gpu: "Radeon RX 7700 XT 16GB",
             cpuBrand: "AMD",
             gpuBrand: "AMD",
             fps: {
-                valorant: 450,
-                cs2: 350,
-                re7: 180
+                valorant: 400,
+                cs2: 250,
+                re7: 175
             },
             image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop"
         },
         {
             name: "The Streamer's Choice",
-            price: 995,
-            cpu: "AMD Ryzen 5 7600X",
-            gpu: "GeForce RTX 4070",
-            cpuBrand: "AMD",
+            price: 1200,
+            cpu: "Intel Core i5-14600K",
+            gpu: "GeForce RTX 4070 12GB",
+            cpuBrand: "Intel",
             gpuBrand: "NVIDIA",
             fps: {
-                valorant: 440,
-                cs2: 340,
+                valorant: 400,
+                cs2: 230,
                 re7: 175
             },
             image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "High-End Domination",
-            price: 1480,
-            cpu: "AMD Ryzen 7 7800X3D",
-            gpu: "GeForce RTX 4070 Ti Super",
+            name: "Best Gaming Build",
+            price: 2500,
+            cpu: "AMD Ryzen 7 9800X3D",
+            gpu: "GeForce RTX 5080 16GB",
             cpuBrand: "AMD",
             gpuBrand: "NVIDIA",
             fps: {
                 valorant: 600,
-                cs2: 500,
+                cs2: 400,
                 re7: 240
             },
             image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop"
@@ -736,7 +736,7 @@ function Home() {
         className: "space-y-32 pb-24",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative pt-12 pb-20",
+                className: "relative pt-12 pb-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -750,15 +750,15 @@ function Home() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             className: "text-5xl md:text-7xl font-bold tracking-tight text-zinc-900 dark:text-white mb-6 leading-[1.1]",
                                             children: [
-                                                "Build Your Dream PC. ",
+                                                "Configure Your Pc with RigZen",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
                                                     lineNumber: 93,
-                                                    columnNumber: 40
+                                                    columnNumber: 48
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-cyan-600 to-emerald-600 dark:from-emerald-400 dark:via-cyan-400 dark:to-emerald-400 animate-pulse text-glow",
-                                                    children: "No PhD Required."
+                                                    children: "(Pc Build Expert)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
                                                     lineNumber: 94,
@@ -773,16 +773,16 @@ function Home() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl text-zinc-600 dark:text-zinc-300 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed font-normal",
                                             children: [
-                                                "Stop guessing parts. We check ",
+                                                "Stop guessing pc parts. We check ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-emerald-600 dark:text-emerald-400 font-medium",
                                                     children: "compatibility, power, and prices"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/page.tsx",
                                                     lineNumber: 99,
-                                                    columnNumber: 49
+                                                    columnNumber: 52
                                                 }, this),
-                                                " instantly, so you can focus on the games."
+                                                " so that you can focus on your build."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -916,17 +916,17 @@ function Home() {
                                 {
                                     step: "01",
                                     title: "Pick Your Parts",
-                                    desc: "Select from our curated list of top-rated components."
+                                    desc: "Select the parts from the list."
                                 },
                                 {
                                     step: "02",
                                     title: "Check Compatibility",
-                                    desc: "Our engine automatically validates your build for any issues."
+                                    desc: "Auto checks for the compatible parts."
                                 },
                                 {
                                     step: "03",
-                                    title: "Build & Play",
-                                    desc: "Get the best prices and start assembling your masterpiece."
+                                    title: "Price Calculations",
+                                    desc: "Only the best deals are provided."
                                 }
                             ].map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative z-10 flex flex-col items-center text-center animate-fade-in-up",
@@ -977,24 +977,24 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "container mx-auto px-4 py-20",
+                className: "container mx-auto px-4 py-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid md:grid-cols-3 gap-8",
                     children: [
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CheckCircle2"],
-                            title: "It Fits, Guaranteed",
-                            desc: "We check every dimension, socket, and clearance so you don't have to worry about returns."
+                            title: "Compatibility",
+                            desc: "Auto checking for the compatible parts and sockets."
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Zap"],
-                            title: "Smart Power",
-                            desc: "We calculate exactly how much power your rig needs and suggest the perfect supply."
+                            title: "Power",
+                            desc: "Auto Wattage calculations of the parts and rough estimate of it."
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DollarSign"],
-                            title: "Best Price Finder",
-                            desc: "We track prices across major retailers to ensure you're not overpaying for your parts."
+                            title: "Price",
+                            desc: "All the deals are found out from trusted part providers."
                         }
                     ].map((feature, idx)=>{
                         const Icon = feature.icon;
@@ -1052,7 +1052,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "container mx-auto px-4 pb-20",
+                className: "container mx-auto px-4 pb-3",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col md:flex-row items-end justify-between mb-12 gap-6",
@@ -1061,7 +1061,7 @@ function Home() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-4xl md:text-5xl font-bold text-zinc-900 dark:text-white mb-4 tracking-tight",
-                                        children: "Community Favorites"
+                                        children: "Recommended Builds"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 196,
@@ -1069,7 +1069,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-zinc-600 dark:text-zinc-400 text-lg max-w-2xl",
-                                        children: "Hand-picked configurations that offer the best bang for your buck. Tested and approved by our team."
+                                        children: "Best configurations approved by various people and used by the people"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 199,
@@ -1091,13 +1091,13 @@ function Home() {
                                         className: "w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 205,
+                                        lineNumber: 204,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 204,
+                                lineNumber: 203,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1113,12 +1113,12 @@ function Home() {
                                 index: idx
                             }, idx, false, {
                                 fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 211,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 209,
+                        lineNumber: 208,
                         columnNumber: 9
                     }, this)
                 ]
