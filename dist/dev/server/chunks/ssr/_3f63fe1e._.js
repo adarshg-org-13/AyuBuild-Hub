@@ -46,7 +46,7 @@ function Button({ className, variant = 'primary', size = 'md', children, href, .
         lineNumber: 41,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 }),
 "[project]/data/parts.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -175,12 +175,12 @@ const cpuList = [
     },
     {
         id: 'cpu-8',
-        name: 'AMD Ryzen 5 7500F',
+        name: 'AMD Ryzen 5 8400F',
         category: 'CPU',
         price: 150,
         brand: 'AMD',
-        image: '/r5 7500f.jpg',
-        amazonLink: '',
+        image: '/r5 8400f.jpg',
+        amazonLink: 'https://www.microcenter.com/product/680439/amd-ryzen-5-8400f-phoenix-am5-420ghz-6-core-boxed-processor-wraith-stealth-cooler-included',
         wattage: 65,
         specs: {
             socket: 'AM5',
@@ -207,10 +207,10 @@ const cpuList = [
         id: 'cpu-10',
         name: 'Intel Core Ultra 5 225',
         category: 'CPU',
-        price: 150,
+        price: 180,
         brand: 'Intel',
         image: '/core ultra 5 225.webp',
-        amazonLink: '',
+        amazonLink: 'https://www.amazon.com/Intel%C2%AE-CoreTM-Desktop-Processor-P-cores/dp/B0DT7DXXJT/ref=sr_1_1?crid=8DDS4MJVTNT6&dib=eyJ2IjoiMSJ9.tqSj7vufhd6wcjeJuxAXOo5k9hKADzMkNiFSR91Gs5VnhPYLqvV1X8Lv6_VbGMAo3mBLkW-kbLlL69imz1munrCIjjyfRy3ZLF0bu2ZAD6AXupJokk3T9nai7KTqQJMaGV8uZIsu-HYBQH4SRboB1Q.DFEXPW387Iv8u7SpguHJlc9-S0yfE51Q8i4gsUgLqLk&dib_tag=se&keywords=core+ultra+225&qid=1773993784&sprefix=core+ultra+22%2Caps%2C322&sr=8-1',
         wattage: 65,
         specs: {
             socket: 'LGA1851',
@@ -225,12 +225,27 @@ const cpuList = [
         price: 500,
         brand: 'AMD',
         image: '/r7 9850X3D.webp',
-        amazonLink: '',
+        amazonLink: 'https://www.amazon.com/AMD-RyzenTM-9850X3D-Desktop-Processor/dp/B0G8JMLXNQ/ref=sr_1_1?crid=1WP52NK5ANWVN&dib=eyJ2IjoiMSJ9.ngsyLkTYNnkWxBbYjAC01A.9zFrczD4IHejMRmOeDfGyqP6r-LPgKrR_HAqb6i6hgc&dib_tag=se&keywords=r7+9850x3d&qid=1773994130&sprefix=r+7+9850%2Caps%2C350&sr=8-1',
         wattage: 120,
         specs: {
             socket: 'AM5',
             cores: 8,
             threads: 16
+        }
+    },
+    {
+        id: 'cpu-12',
+        name: 'Intel Core Ultra 7 Desktop Processor 265K',
+        category: 'CPU',
+        price: 269,
+        brand: 'Intel',
+        image: '/core ultra 7 265K.jpg',
+        amazonLink: 'https://www.amazon.com/Intel-Core-Ultra-Processor-265K/dp/B0DFK2MH2D/ref=sr_1_10?crid=275RKGMX9VU81&dib=eyJ2IjoiMSJ9.lNGh0mbKVGf5HKuHUD5M_GzCYbusfRaPfC0ZTStbyQetVFdjB-dXnAN6b1fy2wU0Yp09pQ0cGW35ToSaw8SQycq_7AGSkZKn-9Hmi-H5NvfO6E7Uy4RjWywVDKShzt43-F6XyLb69wpRo4HgYJzF5Wnbrn7YrIPZf-vwLl-z8ctvsmImnEEOP6cAg20A0ZzP2um0P7pCn17tCvsHQq4k2nueLmth2eX8SoodOgWfc0I.nPmXhBz3d7_9b7qZWu-J54I7fNj8d1yzgfoOGxqrbsg&dib_tag=se&keywords=processors&qid=1773993361&sprefix=processo%2Caps%2C319&sr=8-10&th=1',
+        wattage: 175,
+        specs: {
+            socket: 'LGA1851',
+            cores: 20,
+            threads: 20
         }
     }
 ];
@@ -288,7 +303,7 @@ const gpuList = [
         wattage: 400,
         specs: {
             vram: '16GB',
-            length: 280
+            length: 300
         }
     },
     {
@@ -303,6 +318,62 @@ const gpuList = [
         specs: {
             vram: '8GB',
             length: 242
+        }
+    },
+    {
+        id: 'gpu-6',
+        name: 'ASRock Intel Arc B580 Challenger 12GB',
+        category: 'GPU',
+        price: 299,
+        brand: 'Intel',
+        image: '/b580 intel.jpg',
+        amazonLink: 'https://www.amazon.com/ASRock-Intel-B580-Challenger-Graphics/dp/B0DNV4NWF7/ref=sr_1_1?crid=2F4B5785K9UC3&dib=eyJ2IjoiMSJ9.p6nSpY9JZZHq3xUCoVbBmSClm4H3yUWRkIJvvqM1JSKRZwaNKaZ-wkIlApeVu5i1yT0o5sStewtdIFkqobxzAoT26ErcmWk1APN7x54qQO8yn7U3I6SlbaefZCVdVcGvAQE3ojI9TbWMq08ijK5rxhbWP57fe-KiE_2TWWLucZqkcxqtRPsPlbXWv2YW0eUQIcbSblnFd-ity6ZsrAG7EwwCKdaMYx6C491zgcKE4Gg.QfLb3Bce_3PFLr9AsawtBFIQpOcHGtAmocUOc8UIQPM&dib_tag=se&keywords=intel%2Barc%2Bb550&qid=1773992704&sprefix=intel%2Barc%2Bb55%2Caps%2C463&sr=8-1&th=1',
+        wattage: 200,
+        specs: {
+            vram: '12GB',
+            length: 242
+        }
+    },
+    {
+        id: 'gpu-7',
+        name: 'MSI RTX 5070 12G Gaming Trio OC',
+        category: 'GPU',
+        price: 679,
+        brand: 'NVIDIA',
+        image: '/rtx 5070.jpg',
+        amazonLink: 'https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYFXGDJF/ref=sr_1_1?crid=182II0I83FSKT&dib=eyJ2IjoiMSJ9.d2dkHhGRIeu6fPDs8q0ot9yINUj_SJeFeoqwDAkIo01IiNxABIIxvzFsR0m93nDEqoAJnyeuJUfj27YK7ZPOd_nVB6ze4VwlCPuvxJRerUFwx9y6TVbDOLvaMHX9XYS4UOU_e57ghhqHMPkVcBRo_sxB1OEuSdGarr2Ya5e8azo2GaKln2mXISSLAAymYle9GHcrAmV1kpdeWvZxq3fjGdtDP3L6zD274LtoWUVSmHo.orzZVWDmlhBkMJQ_K_x48VdJ-24AouhFwyykLO28T_c&dib_tag=se&keywords=gpus&qid=1773994551&sprefix=gp%2Caps%2C355&sr=8-1',
+        wattage: 250,
+        specs: {
+            vram: '12GB',
+            length: 280
+        }
+    },
+    {
+        id: 'gpu-8',
+        name: 'GIGABYTE GeForce RTX 5060 Ti Gaming OC 16GB',
+        category: 'GPU',
+        price: 549,
+        brand: 'NVIDIA',
+        image: '/rtx 5060 ti.jpg',
+        amazonLink: 'https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N506TGAMING-OC-16GD/dp/B0F5BD1X83/ref=sr_1_10?crid=182II0I83FSKT&dib=eyJ2IjoiMSJ9.d2dkHhGRIeu6fPDs8q0ot9yINUj_SJeFeoqwDAkIo01IiNxABIIxvzFsR0m93nDEqoAJnyeuJUfj27YK7ZPOd_nVB6ze4VwlCPuvxJRerUFwx9y6TVbDOLvaMHX9XYS4UOU_e57ghhqHMPkVcBRo_sxB1OEuSdGarr2Ya5e8azo2GaKln2mXISSLAAymYle9GHcrAmV1kpdeWvZxq3fjGdtDP3L6zD274LtoWUVSmHo.orzZVWDmlhBkMJQ_K_x48VdJ-24AouhFwyykLO28T_c&dib_tag=se&keywords=gpus&qid=1773994551&sprefix=gp%2Caps%2C355&sr=8-10&th=1',
+        wattage: 180,
+        specs: {
+            vram: '16GB',
+            length: 280
+        }
+    },
+    {
+        id: 'gpu-9',
+        name: 'ASUS Prime Radeon™ RX 9070 XT OC Edition',
+        category: 'GPU',
+        price: 799,
+        brand: 'AMD',
+        image: '/9070XT.jpg',
+        amazonLink: 'https://www.amazon.com/ASUS-RadeonTM-Graphics-2-5-Slot-axial-tech/dp/B0DRRMZDH6/ref=sr_1_14?crid=182II0I83FSKT&dib=eyJ2IjoiMSJ9.d2dkHhGRIeu6fPDs8q0ot9yINUj_SJeFeoqwDAkIo01IiNxABIIxvzFsR0m93nDEqoAJnyeuJUfj27YK7ZPOd_nVB6ze4VwlCPuvxJRerUFwx9y6TVbDOLvaMHX9XYS4UOU_e57ghhqHMPkVcBRo_sxB1OEuSdGarr2Ya5e8azo2GaKln2mXISSLAAymYle9GHcrAmV1kpdeWvZxq3fjGdtDP3L6zD274LtoWUVSmHo.orzZVWDmlhBkMJQ_K_x48VdJ-24AouhFwyykLO28T_c&dib_tag=se&keywords=gpus&qid=1773994551&sprefix=gp%2Caps%2C355&sr=8-14&th=1',
+        wattage: 310,
+        specs: {
+            vram: '16GB',
+            length: 280
         }
     }
 ];
@@ -488,6 +559,21 @@ const ramList = [
             speed: '3200MHz',
             capacity: '32GB'
         }
+    },
+    {
+        id: 'ram-5',
+        name: 'Patriot Memory Viper Elite II DDR4 RAM 16GB',
+        category: 'RAM',
+        price: 149,
+        brand: 'Patriot Memory',
+        image: '/16gb kit.jpg',
+        amazonLink: 'https://www.amazon.com/Patriot-Viper-Elite-DDR4-3600MHz/dp/B0957W6F38/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_3/146-9865451-5813434?pd_rd_w=v2mDJ&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=910PHTMB1CXD4AR80HJY&pd_rd_wg=8U23G&pd_rd_r=912f2e99-4ea9-41ed-9c79-98dec35bc1bf&pd_rd_i=B0957W6F38&th=1',
+        wattage: 12,
+        specs: {
+            memoryType: 'DDR4',
+            speed: '3200MHz',
+            capacity: '16GB'
+        }
     }
 ];
 const storageList = [
@@ -546,7 +632,7 @@ const caseList = [
         wattage: 20,
         specs: {
             format: 'mATX',
-            maxGpuLength: 300
+            maxGpuLength: 360
         }
     },
     {
@@ -574,7 +660,21 @@ const caseList = [
         wattage: 20,
         specs: {
             format: 'mATX',
-            maxGpuLength: 300
+            maxGpuLength: 360
+        }
+    },
+    {
+        id: 'case-4',
+        name: 'Lian Li V100 ATX Mid-Tower PC Case',
+        category: 'Case',
+        price: 74,
+        brand: 'Lian Li',
+        image: '/lian li 2.jpg',
+        amazonLink: 'https://www.amazon.com/Lian-Li-Mid-Tower-Pre-Installed-Optimized/dp/B0F2T66QC9/ref=sr_1_3?crid=3H5GWYL7JNMT1&dib=eyJ2IjoiMSJ9.VpuFQG06fboA5qNbe3xVkPQfErMOixr5BQB1EBFfycxxXZ6rjuo7_3bal-D8eqRp1V80QOv7exPNL10F7FTuAinyEumLD0jKvu4J-6dswa96ADR5DnceR8WQEK27TauDF6jw-rJI6AA5irRk2n6L-8K8abwLeweeRok1hkOHWA1j0JwxxMhixOX8AM4jCOTcc2R_sWl1s9UnQSsZI7seop_qUiseFpnC2cbnY1475FU.J7dHFp42btRAMptD8SlBsR7sQJtqJm4Pu6WezMgelSA&dib_tag=se&keywords=pc%2Bcase&qid=1773994420&sprefix=pc%2Bc%2Caps%2C368&sr=8-3&th=1',
+        wattage: 20,
+        specs: {
+            format: 'ATX',
+            maxGpuLength: 420
         }
     }
 ];
@@ -609,7 +709,7 @@ const psuList = [
     },
     {
         id: 'psu-3',
-        name: 'MSi MAG A1000GL PCIE5 80+ Gold',
+        name: 'MSI MAG A1000GL PCIE5 80+ Gold',
         category: 'PSU',
         price: 134,
         brand: 'MSI',
@@ -620,8 +720,22 @@ const psuList = [
             wattage: 1000,
             rating: '80+ Gold'
         }
+    },
+    {
+        id: 'psu-4',
+        name: 'Thermaltake Smart 500W 80+ White',
+        category: 'PSU',
+        price: 39,
+        brand: 'MSI',
+        image: '/500w thermaltake.jpg',
+        amazonLink: 'https://www.amazon.com/Thermaltake-Certified-Continuous-cooling-PS-SPD-0500NPCWUS-W/dp/B014W3EM2W/ref=sr_1_11?crid=8KSC2EKT75AU&dib=eyJ2IjoiMSJ9.PwOCtdXND2hJ04vA42JkSZ5frga1YDuALCgY6e2vpO_qDZAAIVY4F-lfoxWcQtk25aD2N_PP4WhPWzV7mZw5oU5q_biro78nlUlRyl-H861FqTbj0t2YQHCBUIFDZkzzqYLBoJjnNCEpAEoqQgYx0Zw_xns5TCiZOGXJHM9LccNNh_GSa6HuyjcTP-9RyZ0qI69suimmNEgLA3G74nmQSa1FGTGASa5m7I603FMvs90.VEaoZv36tUCUHpFzgLFs7uVCyCHdjcL7vmRab1r9MhU&dib_tag=se&keywords=psu&qid=1773994158&sprefix=psu%2Caps%2C322&sr=8-11&th=1',
+        wattage: 0,
+        specs: {
+            wattage: 500,
+            rating: '80+ White'
+        }
     }
-];
+]; //Made by Adarsh Gusain
 }),
 "[project]/components/Toast.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -697,7 +811,7 @@ function Toast({ message, type = 'success', isVisible, onClose }) {
             columnNumber: 9
         }, this)
     }, void 0, false);
-}
+} //Made by Adarsh Gusain
 }),
 "[project]/components/BuilderCategoryRow.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -985,7 +1099,7 @@ function BuilderCategoryRow({ category, part, isActive, onToggle, onSelect, onRe
         lineNumber: 30,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 }),
 "[project]/src/app/build/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1600,7 +1714,7 @@ function BuilderPage() {
         lineNumber: 276,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 }),
 ];
 

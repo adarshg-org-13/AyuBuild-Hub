@@ -63,7 +63,7 @@ function BrandLogo({ brand, className }) {
         }, this);
     }
     return null;
-}
+} //Made by Adarsh Gusain
 _c = BrandLogo;
 var _c;
 __turbopack_context__.k.register(_c, "BrandLogo");
@@ -118,7 +118,7 @@ function Button({ className, variant = 'primary', size = 'md', children, href, .
         lineNumber: 41,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 _c = Button;
 var _c;
 __turbopack_context__.k.register(_c, "Button");
@@ -459,7 +459,7 @@ function FeaturedBuildCard({ build, index }) {
         lineNumber: 33,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 _c = FeaturedBuildCard;
 var _c;
 __turbopack_context__.k.register(_c, "FeaturedBuildCard");
@@ -639,7 +639,7 @@ function HeroSlideshow() {
         lineNumber: 41,
         columnNumber: 5
     }, this);
-}
+} // Made by Adarsh Gusain
 _s(HeroSlideshow, "Ce5S7Zpl2S4YgGoPn+G4m52qKq8=");
 _c = HeroSlideshow;
 var _c;
@@ -686,7 +686,7 @@ function Home() {
             name: "Best AMD Budget Build",
             price: 600,
             cpu: "AMD Ryzen 5 5600",
-            gpu: "Intel Arc B550 12GB",
+            gpu: "Intel Arc B580 12GB",
             cpuBrand: "AMD",
             gpuBrand: "Intel",
             fps: {
@@ -1168,7 +1168,7 @@ function Home() {
         lineNumber: 83,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");

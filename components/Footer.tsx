@@ -34,9 +34,13 @@ export function Footer() {
           <p>&copy; {new Date().getFullYear()} RigZen</p>
           <p className="flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500 animate-pulse" /> by Gamers for Gamers
+            ("Made By Adarsh Gusain")
           </p>
         </div>
       </div>
     </footer>
   );
 }
+
+
+//Made by Adarsh Gusain

@@ -78,3 +78,6 @@ export function PartCard({ part, isSelected, onSelect }: PartCardProps) {
     </div>
   );
 }
+
+
+//Made by Adarsh Gusain

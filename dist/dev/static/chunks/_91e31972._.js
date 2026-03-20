@@ -1623,7 +1623,7 @@ const AlertCircle = (props)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
         fileName: "[project]/components/Icons.tsx",
         lineNumber: 287,
         columnNumber: 3
-    }, ("TURBOPACK compile-time value", void 0));
+    }, ("TURBOPACK compile-time value", void 0)); //Made by Adarsh Gusain
 _c35 = AlertCircle;
 var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25, _c26, _c27, _c28, _c29, _c30, _c31, _c32, _c33, _c34, _c35;
 __turbopack_context__.k.register(_c, "Sun");
@@ -1802,7 +1802,7 @@ function ThemeToggle() {
         lineNumber: 34,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 _s(ThemeToggle, "76OfTKswtlYfcyBWk5XLQJOYEek=");
 _c = ThemeToggle;
 var _c;
@@ -1962,7 +1962,7 @@ function Navbar() {
         lineNumber: 21,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 _s(Navbar, "xbyQPtUVMO7MNj7WjJlpdWqRcTo=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]

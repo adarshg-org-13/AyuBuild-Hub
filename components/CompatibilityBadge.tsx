@@ -23,3 +23,6 @@ export function CompatibilityBadge({ status, className }: CompatibilityBadgeProp
     </div>
   );
 }
+
+
+//Made by Adarsh Gusain

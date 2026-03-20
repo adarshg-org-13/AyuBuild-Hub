@@ -21,7 +21,7 @@ export default function Home() {
       name: "Best AMD Budget Build",
       price: 600,
       cpu: "AMD Ryzen 5 5600",
-      gpu: "Intel Arc B550 12GB",
+      gpu: "Intel Arc B580 12GB",
       cpuBrand: "AMD" as const,
       gpuBrand: "Intel" as const,
       fps: { valorant: 280, cs2: 150, re7: 110 },
@@ -214,3 +214,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+//Made by Adarsh Gusain

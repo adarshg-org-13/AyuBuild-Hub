@@ -1624,7 +1624,7 @@ const AlertCircle = (props)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
         fileName: "[project]/components/Icons.tsx",
         lineNumber: 287,
         columnNumber: 3
-    }, ("TURBOPACK compile-time value", void 0));
+    }, ("TURBOPACK compile-time value", void 0)); //Made by Adarsh Gusain
 }),
 "[project]/components/Footer.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1812,7 +1812,7 @@ function Footer() {
                                     lineNumber: 36,
                                     columnNumber: 23
                                 }, this),
-                                " by Gamers for Gamers"
+                                ' by Gamers for Gamers ("Made By Adarsh Gusain")'
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.tsx",
@@ -1836,7 +1836,7 @@ function Footer() {
         lineNumber: 6,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 }),
 "[project]/src/app/layout.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1893,7 +1893,7 @@ function RootLayout({ children }) {
         lineNumber: 17,
         columnNumber: 5
     }, this);
-}
+} //Made by Adarsh Gusain
 }),
 "[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";

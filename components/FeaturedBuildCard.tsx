@@ -103,3 +103,6 @@ export function FeaturedBuildCard({ build, index }: { build: FeaturedBuildProps;
     </div>
   );
 }
+
+
+//Made by Adarsh Gusain

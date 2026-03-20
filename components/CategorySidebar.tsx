@@ -52,3 +52,6 @@ export function CategorySidebar({ selectedCategory, onSelectCategory, completedC
     </div>
   );
 }
+
+
+//Made by Adarsh Gusain

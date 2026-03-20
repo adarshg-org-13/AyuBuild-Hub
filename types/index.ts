@@ -41,3 +41,5 @@ export interface CompatibilityResult{
     status:CompatibilityStatus;
     messages:string[];
 }
+
+//Made by Adarsh Gusain

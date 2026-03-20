@@ -28,7 +28,7 @@ function CompareContent() {
   const build1 = getBuild(selectedBuildIds[0]);
   const build2 = getBuild(selectedBuildIds[1]);
 
-  const categories = ['CPU', 'Motherboard', 'RAM', 'GPU', 'Storage', 'PSU', 'Case', 'Cooling'] as const;
+  const categories = ['CPU', 'Motherboard', 'RAM', 'GPU', 'Storage', 'PSU', 'Case'] as const;
 
   return (
     <div className="max-w-6xl mx-auto">
@@ -159,3 +159,6 @@ export default function Compare() {
     </Suspense>
   );
 }
+
+
+//Made by Adarsh Gusain

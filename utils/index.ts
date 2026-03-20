@@ -63,3 +63,6 @@ export function checkCompatibility(parts: Partial<Record<PartCategory, Part>>): 
 
   return { status, messages };
 }
+
+
+//Made by Adarsh Gusain

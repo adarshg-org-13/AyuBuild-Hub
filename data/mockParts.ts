@@ -297,3 +297,5 @@ export const mockParts: Part[] = [
     specs: { type: 'Air Cooler', size: '140mm', fans: 2, rgb: false },
   },
 ];
+
+//Made by Adarsh Gusain
