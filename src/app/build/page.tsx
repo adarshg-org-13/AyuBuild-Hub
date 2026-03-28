@@ -11,13 +11,14 @@ import { Toast,ToastType } from "../../../components/Toast";
 import { BuilderCategoryRow } from "../../../components/BuilderCategoryRow";
 
 interface BuildState {
-  CPU: Part | null;
-  GPU: Part | null;
-  Motherboard: Part | null;
-  RAM: Part | null;
-  Storage: Part | null;
-  Case: Part | null;
-  PSU: Part | null;
+  CPU: Part | undefined;
+  GPU: Part | undefined;
+  Motherboard: Part | undefined;
+  RAM: Part | undefined;
+  Storage: Part | undefined;
+  Case: Part | undefined;
+  PSU: Part | undefined;
+  Cooling?: Part | undefined;
 }
 
 const categories: { id: PartCategory; icon: any; label: string }[] = [
@@ -32,13 +33,13 @@ const categories: { id: PartCategory; icon: any; label: string }[] = [
 
 function BuilderContent() {
   const [build, setBuild] = useState<BuildState>({
-    CPU: null,
-    GPU: null,
-    Motherboard: null,
-    RAM: null,
-    Storage: null,
-    Case: null,
-    PSU: null,
+    CPU: undefined,
+    GPU: undefined,
+    Motherboard: undefined,
+    RAM: undefined,
+    Storage: undefined,
+    Case: undefined,
+    PSU: undefined,
   });
 
   // activeCategory is now either the Category ID (open) or null (closed)
@@ -178,7 +179,7 @@ function BuilderContent() {
             <BuilderCategoryRow
               key={category.id}
               category={category}
-              part={build[category.id]}
+              part={build[category.id] || null}
               isActive={activeCategory === category.id}
               onToggle={() => handleToggleCategory(category.id)}
               onSelect={(part) => handleSelectPart(category.id, part)}
@@ -248,7 +249,7 @@ function BuilderContent() {
                   variant="ghost" 
                   className="w-full justify-center text-zinc-500 hover:text-red-500"
                   onClick={() => setBuild({
-                    CPU: null, GPU: null, Motherboard: null, RAM: null, Storage: null, Case: null, PSU: null
+                    CPU: undefined, GPU: undefined, Motherboard: undefined, RAM: undefined, Storage: undefined, Case: undefined, PSU: undefined
                   })}
                 >
                   <RotateCcw className="w-4 h-4 mr-2" /> Reset Build
