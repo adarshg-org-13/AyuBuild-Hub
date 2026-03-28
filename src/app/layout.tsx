@@ -4,7 +4,7 @@ import { Navbar } from "../../components/Navbar";
 import { Footer } from "../../components/Footer";
 
 export const metadata: Metadata = {
-  title: "AyuBuild Hub",
+  title: "RigZen",
   description: "Professional PC Part Picker & Compatibility Checker",
 };
 

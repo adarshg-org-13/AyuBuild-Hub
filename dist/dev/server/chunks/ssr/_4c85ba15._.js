@@ -1812,7 +1812,7 @@ function Footer() {
                                     lineNumber: 36,
                                     columnNumber: 23
                                 }, this),
-                                ' by Gamers for Gamers ("Made By Adarsh Gusain")'
+                                " by Gamers for Gamers"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.tsx",
@@ -1855,7 +1855,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx_
 ;
 ;
 const metadata = {
-    title: "AyuBuild Hub",
+    title: "RigZen",
     description: "Professional PC Part Picker & Compatibility Checker"
 };
 function RootLayout({ children }) {
