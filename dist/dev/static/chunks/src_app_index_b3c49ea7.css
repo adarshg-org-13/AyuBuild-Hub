@@ -2720,24 +2720,8 @@
     transition-timing-function: var(--ease-out);
   }
 
-  .\[key\:�\+4ng\] {
-    key: �4ng;
-  }
-
   .\[key\:\6 \+4ng\] {
     key:  4ng;
-  }
-
-  .\[key\:\10 \\4ng\] {
-    key:  \4 ng;
-  }
-
-  .\[key\:\17 \\4ng\] {
-    key:  \4 ng;
-  }
-
-  .\[key\:-b\14 \] {
-    key: -b ;
   }
 
   .\[key\:R\@\14 \] {
@@ -2756,16 +2740,8 @@
     key: � � ng;
   }
 
-  .\[key\:�\3 4ng\] {
-    key: � 4ng;
-  }
-
   .\[key\:�C4ng\] {
     key: �C4ng;
-  }
-
-  .\[key\:�P4ng\] {
-    key: �P4ng;
   }
 
   .\[key\:��\14 \] {
@@ -2810,10 +2786,6 @@
 
   .\[name\:�\1d �\] {
     name: � �;
-  }
-
-  .\[name\:�\1e �\] {
-    name: � �;
   }
 
   @media (hover: hover) {
@@ -3348,12 +3320,6 @@
   @media (min-width: 80rem) {
     .xl\:col-span-9 {
       grid-column: span 9 / span 9;
-    }
-  }
-
-  @media (min-width: 80rem) {
-    .xl\:col-span-10 {
-      grid-column: span 10 / span 10;
     }
   }
 

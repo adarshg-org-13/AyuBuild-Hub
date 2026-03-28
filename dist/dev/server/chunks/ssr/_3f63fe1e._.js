@@ -1166,13 +1166,13 @@ const categories = [
 ];
 function BuilderContent() {
     const [build, setBuild] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
-        CPU: null,
-        GPU: null,
-        Motherboard: null,
-        RAM: null,
-        Storage: null,
-        Case: null,
-        PSU: null
+        CPU: undefined,
+        GPU: undefined,
+        Motherboard: undefined,
+        RAM: undefined,
+        Storage: undefined,
+        Case: undefined,
+        PSU: undefined
     });
     // activeCategory is now either the Category ID (open) or null (closed)
     const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('CPU');
@@ -1318,7 +1318,7 @@ function BuilderContent() {
                         children: "PC Builder"
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 170,
+                        lineNumber: 171,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1326,13 +1326,13 @@ function BuilderContent() {
                         children: "Select your components to build your PC."
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 171,
+                        lineNumber: 172,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 169,
+                lineNumber: 170,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1342,7 +1342,7 @@ function BuilderContent() {
                         className: "xl:col-span-9 space-y-3",
                         children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$BuilderCategoryRow$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BuilderCategoryRow"], {
                                 category: category,
-                                part: build[category.id],
+                                part: build[category.id] || null,
                                 isActive: activeCategory === category.id,
                                 onToggle: ()=>handleToggleCategory(category.id),
                                 onSelect: (part)=>handleSelectPart(category.id, part),
@@ -1350,12 +1350,12 @@ function BuilderContent() {
                                 partsList: getPartsList(category.id)
                             }, category.id, false, {
                                 fileName: "[project]/src/app/build/page.tsx",
-                                lineNumber: 178,
+                                lineNumber: 179,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 176,
+                        lineNumber: 177,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1372,14 +1372,14 @@ function BuilderContent() {
                                                 className: "w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 196,
+                                                lineNumber: 197,
                                                 columnNumber: 17
                                             }, this),
                                             " Build Summary"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/build/page.tsx",
-                                        lineNumber: 195,
+                                        lineNumber: 196,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1392,20 +1392,20 @@ function BuilderContent() {
                                                         children: "Core Components"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 201,
+                                                        lineNumber: 202,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["formatCurrency"])(totalPrice)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 203,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 200,
+                                                lineNumber: 201,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1415,7 +1415,7 @@ function BuilderContent() {
                                                         children: "Estimated Wattage"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 205,
+                                                        lineNumber: 206,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1425,7 +1425,7 @@ function BuilderContent() {
                                                                 className: "w-4 h-4 text-yellow-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                                lineNumber: 206,
+                                                                lineNumber: 207,
                                                                 columnNumber: 61
                                                             }, this),
                                                             " ~",
@@ -1434,20 +1434,20 @@ function BuilderContent() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 206,
+                                                        lineNumber: 207,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 204,
+                                                lineNumber: 205,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "h-px bg-zinc-200 dark:bg-zinc-700 my-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 208,
+                                                lineNumber: 209,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1457,26 +1457,26 @@ function BuilderContent() {
                                                         children: "Total"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 210,
+                                                        lineNumber: 211,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["formatCurrency"])(totalPrice)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 212,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 209,
+                                                lineNumber: 210,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/build/page.tsx",
-                                        lineNumber: 199,
+                                        lineNumber: 200,
                                         columnNumber: 15
                                     }, this),
                                     compatibilityIssues.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1489,14 +1489,14 @@ function BuilderContent() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 218,
+                                                        lineNumber: 219,
                                                         columnNumber: 21
                                                     }, this),
                                                     " Compatibility Issues"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 217,
+                                                lineNumber: 218,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1505,18 +1505,18 @@ function BuilderContent() {
                                                         children: issue
                                                     }, idx, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 223,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 221,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/build/page.tsx",
-                                        lineNumber: 216,
+                                        lineNumber: 217,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "mb-6 p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-xl flex items-center gap-2 text-emerald-600 dark:text-emerald-400 text-sm font-medium",
@@ -1525,14 +1525,14 @@ function BuilderContent() {
                                                 className: "w-5 h-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 228,
+                                                lineNumber: 229,
                                                 columnNumber: 19
                                             }, this),
                                             " All parts are compatible"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/build/page.tsx",
-                                        lineNumber: 227,
+                                        lineNumber: 228,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1548,13 +1548,13 @@ function BuilderContent() {
                                                         className: "w-3 h-3 ml-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 239,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 233,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1566,69 +1566,69 @@ function BuilderContent() {
                                                         className: "w-4 h-4 mr-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 245,
+                                                        lineNumber: 246,
                                                         columnNumber: 19
                                                     }, this),
                                                     " Save Build"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 240,
+                                                lineNumber: 241,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                 variant: "ghost",
                                                 className: "w-full justify-center text-zinc-500 hover:text-red-500",
                                                 onClick: ()=>setBuild({
-                                                        CPU: null,
-                                                        GPU: null,
-                                                        Motherboard: null,
-                                                        RAM: null,
-                                                        Storage: null,
-                                                        Case: null,
-                                                        PSU: null
+                                                        CPU: undefined,
+                                                        GPU: undefined,
+                                                        Motherboard: undefined,
+                                                        RAM: undefined,
+                                                        Storage: undefined,
+                                                        Case: undefined,
+                                                        PSU: undefined
                                                     }),
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RotateCcw"], {
                                                         className: "w-4 h-4 mr-2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/build/page.tsx",
-                                                        lineNumber: 254,
+                                                        lineNumber: 255,
                                                         columnNumber: 19
                                                     }, this),
                                                     " Reset Build"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/build/page.tsx",
-                                                lineNumber: 247,
+                                                lineNumber: 248,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/build/page.tsx",
-                                        lineNumber: 232,
+                                        lineNumber: 233,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/build/page.tsx",
-                                lineNumber: 194,
+                                lineNumber: 195,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/build/page.tsx",
-                            lineNumber: 193,
+                            lineNumber: 194,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 192,
+                        lineNumber: 193,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 174,
+                lineNumber: 175,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1639,7 +1639,7 @@ function BuilderContent() {
                         children: "--------------------------------------------------------------------------------------"
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 261,
+                        lineNumber: 262,
                         columnNumber: 76
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1647,19 +1647,19 @@ function BuilderContent() {
                         children: " Disclaimer!: "
                     }, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 261,
+                        lineNumber: 262,
                         columnNumber: 193
                     }, this),
                     " Make sure to check the Wattage of the parts on your own to avoid clashes in the pc build",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                         fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 262,
+                        lineNumber: 263,
                         columnNumber: 41
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 261,
+                lineNumber: 262,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1669,12 +1669,12 @@ function BuilderContent() {
                     children: "--------------------------------------------------------------------------------------"
                 }, void 0, false, {
                     fileName: "[project]/src/app/build/page.tsx",
-                    lineNumber: 262,
+                    lineNumber: 263,
                     columnNumber: 74
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 262,
+                lineNumber: 263,
                 columnNumber: 50
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Toast$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Toast"], {
@@ -1684,13 +1684,13 @@ function BuilderContent() {
                 onClose: hideToast
             }, void 0, false, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 264,
+                lineNumber: 265,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/build/page.tsx",
-        lineNumber: 168,
+        lineNumber: 169,
         columnNumber: 5
     }, this);
 }
@@ -1701,17 +1701,17 @@ function BuilderPage() {
             children: "Loading builder..."
         }, void 0, false, {
             fileName: "[project]/src/app/build/page.tsx",
-            lineNumber: 276,
+            lineNumber: 277,
             columnNumber: 25
         }, void 0),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BuilderContent, {}, void 0, false, {
             fileName: "[project]/src/app/build/page.tsx",
-            lineNumber: 277,
+            lineNumber: 278,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/build/page.tsx",
-        lineNumber: 276,
+        lineNumber: 277,
         columnNumber: 5
     }, this);
 } //Made by Adarsh Gusain
