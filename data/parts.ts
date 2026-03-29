@@ -17,7 +17,7 @@ export const cpuList: Part[] = [
     category: 'CPU', 
     price: 99, 
     brand: 'Intel', 
-    image: '/i312f.jpg', 
+    image: '/i312f.webp', 
     amazonLink: 'https://www.amazon.com/i3-12100F-processor-featuring-support-required/dp/B09NPJX7PV/ref=sr_1_1?crid=3M75D529IX9S7&dib=eyJ2IjoiMSJ9.__QmOvsDhjlcXcJz_c3_bM3gWOLhT4uPYX-8Smj7N7hnP0hl6MjKpgYN2fMBW-4OORSFuvAi8dJdOwU1DSV05-fBtsbvShfJwXEfpt9tY--9zxL0ydPX35oHRmcpXrGZxcoDxaB0dHglbocsNCwusEe-lvFSn_CXrI1pO89nphaMrNnavmnEoZA0OGCjqWm96DCjLeK8gykQ9muYZE5uITCafHr3SZT9n8w9loi-X38.ImaUgKeXFnK5IQ-LZV3BrbubjDiYa2g3fxNSvRFqRCo&dib_tag=se&keywords=i3+12100f&qid=1773811234&sprefix=i3+12100%2Caps%2C349&sr=8-1',
     wattage: 58, 
     specs: { socket: 'LGA1700', cores: 4, threads: 8 } 
