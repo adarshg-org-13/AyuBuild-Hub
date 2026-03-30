@@ -38,8 +38,8 @@ export default function Home() {
       image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop",
     },
     {
-      name: "Best Value for Money Build for 1440p",
-      price: 750,
+      name: "Best Value for Money Build.",
+      price: 850,
       cpu: "AMD Ryzen 5 7600X",
       gpu: "Radeon RX 7600 XT 12GB",
       cpuBrand: "AMD" as const,
@@ -68,7 +68,7 @@ export default function Home() {
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop",
     },
     {
-      name:"Best Gaming Build",
+      name:"Absolute Beast Build",
       price: 2500,
       cpu: "AMD Ryzen 7 9800X3D",
       gpu: "GeForce RTX 5080 16GB",
@@ -96,7 +96,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="text-xl text-zinc-600 dark:text-zinc-300 max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed font-normal">
-                  Stop guessing pc parts. We check <span className="text-emerald-600 dark:text-emerald-400 font-medium">compatibility, power, and prices</span> so that you can focus on your build.
+                  Stop guessing pc parts. We check <span className="text-emerald-600 dark:text-emerald-400 font-medium">compatibility, power, and prices</span> so that you can focus on your build and start your pc journey.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-6">
                   <Button href="/build" size="lg" className="min-w-[200px] rounded-2xl shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/30 transition-all">
@@ -132,7 +132,7 @@ export default function Home() {
           <div className="hidden md:block absolute top-12 left-[16%] right-[16%] h-0.5 bg-gradient-to-r from-transparent via-zinc-300 dark:via-zinc-700 to-transparent z-0" />
 
           {[
-            { step: "01", title: "Pick Your Parts", desc: "Select the parts from the list." },
+            { step: "01", title: "Select Your Parts", desc: "Select the parts from the list." },
             { step: "02", title: "Check Compatibility", desc: "Auto checks for the compatible parts." },
             { step: "03", title: "Price Calculations", desc: "Only the best deals are provided." }
           ].map((item, idx) => (
@@ -158,17 +158,17 @@ export default function Home() {
             {
               icon: CheckCircle2,
               title: "Compatibility",
-              desc: "Auto checking for the compatible parts and sockets."
+              desc: "We auto check the parts for compatiblity and performance."
             },
             {
               icon: Zap,
               title: "Power",
-              desc: "Auto Wattage calculations of the parts and rough estimate of it."
+              desc: "We auto check the wattage consumption and decide the power plans for your build."
             },
             {
               icon: DollarSign,
               title: "Price",
-              desc: "All the deals are found out from trusted part providers."
+              desc: "All the deals are choosen from trusted websites and part providers."
             }
           ].map((feature, idx) => {
             const Icon = feature.icon;
@@ -197,7 +197,7 @@ export default function Home() {
               Recommended Builds
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-lg max-w-2xl">
-              Best configurations approved by various people and used by the people
+              All-time favourite builds trusted and used by users.
             </p>
           </div>
           <Button href="/saved" variant="ghost" className="group text-lg">

@@ -676,8 +676,8 @@ function Home() {
             image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "Best Value for Money Build for 1440p",
-            price: 750,
+            name: "Best Value for Money Build.",
+            price: 850,
             cpu: "AMD Ryzen 5 7600X",
             gpu: "Radeon RX 7600 XT 12GB",
             cpuBrand: "AMD",
@@ -718,7 +718,7 @@ function Home() {
             image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "Best Gaming Build",
+            name: "Absolute Beast Build",
             price: 2500,
             cpu: "AMD Ryzen 7 9800X3D",
             gpu: "GeForce RTX 5080 16GB",
@@ -782,7 +782,7 @@ function Home() {
                                                     lineNumber: 99,
                                                     columnNumber: 52
                                                 }, this),
-                                                " so that you can focus on your build."
+                                                " so that you can focus on your build and start your pc journey."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -915,7 +915,7 @@ function Home() {
                             [
                                 {
                                     step: "01",
-                                    title: "Pick Your Parts",
+                                    title: "Select Your Parts",
                                     desc: "Select the parts from the list."
                                 },
                                 {
@@ -984,17 +984,17 @@ function Home() {
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CheckCircle2"],
                             title: "Compatibility",
-                            desc: "Auto checking for the compatible parts and sockets."
+                            desc: "We auto check the parts for compatiblity and performance."
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Zap"],
                             title: "Power",
-                            desc: "Auto Wattage calculations of the parts and rough estimate of it."
+                            desc: "We auto check the wattage consumption and decide the power plans for your build."
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Icons$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DollarSign"],
                             title: "Price",
-                            desc: "All the deals are found out from trusted part providers."
+                            desc: "All the deals are choosen from trusted websites and part providers."
                         }
                     ].map((feature, idx)=>{
                         const Icon = feature.icon;
@@ -1069,7 +1069,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-zinc-600 dark:text-zinc-400 text-lg max-w-2xl",
-                                        children: "Best configurations approved by various people and used by the people"
+                                        children: "All-time favourite builds trusted and used by users."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
                                         lineNumber: 199,

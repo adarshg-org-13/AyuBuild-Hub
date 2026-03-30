@@ -80,7 +80,7 @@ const cpuList = [
         category: 'CPU',
         price: 99,
         brand: 'Intel',
-        image: '/i3 12f.jpg',
+        image: '/i312f.webp',
         amazonLink: 'https://www.amazon.com/i3-12100F-processor-featuring-support-required/dp/B09NPJX7PV/ref=sr_1_1?crid=3M75D529IX9S7&dib=eyJ2IjoiMSJ9.__QmOvsDhjlcXcJz_c3_bM3gWOLhT4uPYX-8Smj7N7hnP0hl6MjKpgYN2fMBW-4OORSFuvAi8dJdOwU1DSV05-fBtsbvShfJwXEfpt9tY--9zxL0ydPX35oHRmcpXrGZxcoDxaB0dHglbocsNCwusEe-lvFSn_CXrI1pO89nphaMrNnavmnEoZA0OGCjqWm96DCjLeK8gykQ9muYZE5uITCafHr3SZT9n8w9loi-X38.ImaUgKeXFnK5IQ-LZV3BrbubjDiYa2g3fxNSvRFqRCo&dib_tag=se&keywords=i3+12100f&qid=1773811234&sprefix=i3+12100%2Caps%2C349&sr=8-1',
         wattage: 58,
         specs: {
@@ -110,7 +110,7 @@ const cpuList = [
         category: 'CPU',
         price: 169,
         brand: 'Intel',
-        image: '/i5 12kf.jpg',
+        image: '/i5 12kf.webp',
         amazonLink: 'https://www.amazon.com/Intel-i5-12600KF-Desktop-Processor-Unlocked/dp/B09FXFJW2F/ref=sr_1_1?crid=1OMHPSHGABR2M&dib=eyJ2IjoiMSJ9.uA11ToAm1JjhRXv_iLVnV9ZKLHZWPeYKj81UX5TIn2bLgHgUipWXd5xGkF3T0YHKwX7FAKF2H5nHbrXNroVJo00oQVksK-IpHrhTtakXELfMufYns9ga7_ANVSU1Oy2JDexxIMreot3N556Eubi2rnwoOK2CgvOeAoPZww3eRGPWKadoHt8fOBIFBD2om2VbxIcWUdffJliDdH7XkSN7lgZynbsTZIREAJ79vJA2gOQ.RUgr6WSN_d6i1UlCTck8xNBFrL8AsJsIP-HLs0Kgt-I&dib_tag=se&keywords=i5%2B12600kf&qid=1773811755&sprefix=i5%2B12600k%2Caps%2C313&sr=8-1&th=1',
         wattage: 125,
         specs: {
@@ -140,7 +140,7 @@ const cpuList = [
         category: 'CPU',
         price: 468,
         brand: 'Intel',
-        image: '/i9 14K.jpg',
+        image: '/i9 14K.webp',
         amazonLink: 'https://www.amazon.com/i9-14900K-Desktop-Processor-Integrated-Graphics/dp/B0CGJDKLB8/ref=sr_1_1?crid=3FWYVN425NXGP&dib=eyJ2IjoiMSJ9.OQfGGdOmWi7_ZwojYpOcOFWq9c1hmV-89cajr2Us8enDf2-1F22VYu3T2O2beLBX4Dwy-JOJ8eTUIMGyAD9P52gORjd328jdby5E61Otop2ta3whQ91V8yjO6rj5H8QAvxUes9Q-Vg2bpn5gJPG2KAOoZ9kxfF4MltEyHWUt2Kn_pOxexz79wU1JPK468DBNWWX3QtmeRCHyVl-G6Ojjf5TT28wUfuHibrT9hAL1sIY.l_UOWdUQBPx-jspbUM2h14dUkpxsgCLtgm4qD7oYkEo&dib_tag=se&keywords=i9+14900k&qid=1773811872&sprefix=i9+14900%2Caps%2C314&sr=8-1',
         wattage: 253,
         specs: {
@@ -155,7 +155,7 @@ const cpuList = [
         category: 'CPU',
         price: 120,
         brand: 'Intel',
-        image: '/i5 12f.jpg',
+        image: '/i5 12f.webp',
         amazonLink: 'https://www.amazon.com/INTEL-i5-12400F-2-5GHz-6xxChipset-BX8071512400F/dp/B09NPJRDGD/ref=sr_1_1?crid=R7MJUP3ZTRO8&dib=eyJ2IjoiMSJ9.wmuX9ELJgjhBUQ9iJL_Ql5rhAl14dgmKIwIhOHzyliYb2UZA3HrAPqod1w4xPDX8iBlGrZhcQszsmNK7LJBk8GtUNkY433ZziU6u63ACZTq4RZ_6TPa2v2OOmsWSe60VAnu4tgAuhpoaY8ZCsdMRznZmVADYlTc-R8eq7LttSH2ZDS5HbqFzWSyxB7Z_UZnOw5qWs3ts5m5ahJlTfqkQfHay85HBZMFkd7GrOypk6kg.MeuZ0jixBI1_MhC97diOL8SbK30jhdX0VVeCeFpfvLg&dib_tag=se&keywords=i5%2B12400f&qid=1773811993&sprefix=i5%2B14400f%2Caps%2C352&sr=8-1&th=1',
         wattage: 65,
         specs: {
@@ -170,7 +170,7 @@ const cpuList = [
         category: 'CPU',
         price: 144,
         brand: 'Intel',
-        image: '/u5 225f.jpg',
+        image: '/core ultra 5 225.webp',
         amazonLink: 'https://www.amazon.com/Intel%C2%AE-CoreTM-Desktop-Processor-P-cores/dp/B0DTRMDXJ5/ref=sr_1_1?crid=ONA4EF0PV08H&dib=eyJ2IjoiMSJ9.GvQCVlnZo3pvn8Ibbk5ExcNoFTqahXJ3sA4MMfb71jp3pI0_oNXmPHi7-_PPv-UJL5oLjQt4nCZRpW7DpKSkFaVHAjDl6McQvIz5nohc-tRsGcXzxw3z9HuJnXsM4dzc9rr-ydNNzhqbJ1-zZES-Ybr4JQ7IJCASW6lNAeLbzOW-kev3iJoneFSmsA4_5NVz.68766GeyxQPL6wUKuh9viFUack69XIzEGviBHXZrAcA&dib_tag=se&keywords=core+ultra+5+225f&qid=1773812064&sprefix=core+ultra+5+225%2Caps%2C313&sr=8-1',
         wattage: 65,
         specs: {
@@ -185,7 +185,7 @@ const cpuList = [
         category: 'CPU',
         price: 150,
         brand: 'AMD',
-        image: '/r5 8400f.jpg',
+        image: '/r5 8400f.webp',
         amazonLink: 'https://www.microcenter.com/product/680439/amd-ryzen-5-8400f-phoenix-am5-420ghz-6-core-boxed-processor-wraith-stealth-cooler-included',
         wattage: 65,
         specs: {
@@ -200,7 +200,7 @@ const cpuList = [
         category: 'CPU',
         price: 90,
         brand: 'AMD',
-        image: '/r5 5500.jpg',
+        image: '/r5 5500.webp',
         amazonLink: 'https://www.amazon.com/AMD-5500-12-Thread-Unlocked-Processor/dp/B09VCJ171S/ref=sr_1_3?crid=2F2P8HUNI21X9&dib=eyJ2IjoiMSJ9.wmuX9ELJgjhBUQ9iJL_Ql5rhAl14dgmKIwIhOHzyliYb2UZA3HrAPqod1w4xPDX8iBlGrZhcQszsmNK7LJBk8GtUNkY433ZziU6u63ACZTq4RZ_6TPa2v2OOmsWSe60VAnu4tgAuhpoaY8ZCsdMRznZmVADYlTc-R8eq7LttSH2ZDS5HbqFzWSyxB7Z_UZnOw5qWs3ts5m5ahJlTfqkQfHay85HBZMFkd7GrOypk6kg.MeuZ0jixBI1_MhC97diOL8SbK30jhdX0VVeCeFpfvLg&dib_tag=se&keywords=i5+12400f&qid=1773811344&sprefix=i5+12400%2Caps%2C330&sr=8-3',
         wattage: 65,
         specs: {
@@ -245,7 +245,7 @@ const cpuList = [
         category: 'CPU',
         price: 269,
         brand: 'Intel',
-        image: '/core ultra 7 265K.jpg',
+        image: '/core ultra 7 265K.webp',
         amazonLink: 'https://www.amazon.com/Intel-Core-Ultra-Processor-265K/dp/B0DFK2MH2D/ref=sr_1_10?crid=275RKGMX9VU81&dib=eyJ2IjoiMSJ9.lNGh0mbKVGf5HKuHUD5M_GzCYbusfRaPfC0ZTStbyQetVFdjB-dXnAN6b1fy2wU0Yp09pQ0cGW35ToSaw8SQycq_7AGSkZKn-9Hmi-H5NvfO6E7Uy4RjWywVDKShzt43-F6XyLb69wpRo4HgYJzF5Wnbrn7YrIPZf-vwLl-z8ctvsmImnEEOP6cAg20A0ZzP2um0P7pCn17tCvsHQq4k2nueLmth2eX8SoodOgWfc0I.nPmXhBz3d7_9b7qZWu-J54I7fNj8d1yzgfoOGxqrbsg&dib_tag=se&keywords=processors&qid=1773993361&sprefix=processo%2Caps%2C319&sr=8-10&th=1',
         wattage: 175,
         specs: {
@@ -262,7 +262,7 @@ const gpuList = [
         category: 'GPU',
         price: 249,
         brand: 'NVIDIA',
-        image: '/rtx 3050 8gb.jpg',
+        image: '/rtx 3050 8gb.webp',
         amazonLink: 'https://www.amazon.com/MSI-RTX-3050-OC-Ventus/dp/B0CBL4YJT5/ref=sr_1_1?crid=J0CBJDL00SJ6&dib=eyJ2IjoiMSJ9.X38OAkPUjolZ6j7TXtdyMf0HPkf7jue99xLsJHR8zftiMo0tWXojAz1aHGdwEohK23yTqj5HFnb3CjfqyQV9QVVrYJFu0Njaae-ONpZBsCTDgWGMdlc0PTQHTknMEGe8rXBzJajF3cvy9r0E0PgtVZ0g_cdfB-8pOXlgenyniUmV0kv7APUwQ42KPrM2pTtG-bVwfsgjzc-c-UgLCjhSeROrY0XzVSorHeq1nIuswl0.gp8_SH8n2gCc4KHUTZUA_h39Wx8XbzIaUtCfoAJxulM&dib_tag=se&keywords=rtx3050+8gb&qid=1773816479&sprefix=rtx3050+8g%2Caps%2C325&sr=8-1',
         wattage: 130,
         specs: {
@@ -276,7 +276,7 @@ const gpuList = [
         category: 'GPU',
         price: 349,
         brand: 'NVIDIA',
-        image: '/rtx5060.jpg',
+        image: '/rtx5060.webp',
         amazonLink: 'https://www.amazon.com/GIGABYTE-GeForce-WINDFORCE-Graphics-GV-N5060WF2OC-8GD/dp/B0F8LDHQ7Y/ref=sr_1_1?crid=2QXBBFEQ69ZX7&dib=eyJ2IjoiMSJ9.SzVtIqLqKRbKt2a-BCxezQsCsU-ZaFLFWXYyb_M7PyvOX1FeOpgQbD6SOwlpJTTLmgOhEXhLMTw-MvZoxZOY_Y6HSO0bfeaT7hXRmz2zPFWafkf6zeMNt-6ZaqFtS0INZmDHjFAdVQzhNiS9YjKLklGdvNG0UQGOjEMf1C9aHJ89npHJ2oCNEtblGPVQZLqHqjSyRoO74Hymwxg6v9w64yCuejaK5aPzXeAoN8AcDMw.3UACvzh7Khg83Q0NrBk4cHvrjm1gU3ThktqM06DHGH8&dib_tag=se&keywords=rtx%2B5060&qid=1773815829&sprefix=rtx%2B506%2Caps%2C382&sr=8-1&th=1',
         wattage: 150,
         specs: {
@@ -290,7 +290,7 @@ const gpuList = [
         category: 'GPU',
         price: 449,
         brand: 'AMD',
-        image: '/9060Xt.jpg',
+        image: '/9060Xt.webp',
         amazonLink: 'https://www.amazon.com/Sapphire-11350-03-20G-RadeonTM-Gaming-Graphics/dp/B0F9LN5VZ6/ref=sr_1_4?crid=MWIMVKB2CGER&dib=eyJ2IjoiMSJ9.c81y9QHPLiXBnt1qYef-B9b7sJcHcVQYMmj8DL4i4mO01VynH_I7T_CxLuxDVOEqhX8-j1EjlvHsmdXNa_ULUEqbYSYZUpcFOyL_BEXmHLBqyJ3P3lyeAORV5KkcmqcMzAnGRUtNFRmefkZTdfchr1eNJ_8IN4cFvohT8du-Z1MgwmyKSiIU3FeA1kPbVNygFufTLTCw7emd6IGat35C5ff5zp2-4pAO-Ux-CPNzPHQ.Zu0tQ6r63pS3dbDob3H8GYfTQB1RiUe6EvTdYhZLb0I&dib_tag=se&keywords=rx+7700xt&qid=1773816049&sprefix=rx+7700x%2Caps%2C316&sr=8-4',
         wattage: 200,
         specs: {
@@ -304,7 +304,7 @@ const gpuList = [
         category: 'GPU',
         price: 1500,
         brand: 'NVIDIA',
-        image: '/rtx5080.jpg',
+        image: '/rtx5080.webp',
         amazonLink: 'https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N5080GAMING-OC-16GD/dp/B0DS2R6948/ref=sr_1_3?crid=PCTQYU3DJGLU&dib=eyJ2IjoiMSJ9.bgbVzXN4GKnBqkmywdez6jd0nC5bwmHzM_e575onieMQYNYJGkpbcV6diy1PZ65gsmViiWmE_pe8BSaPRZBRd3Eupr2F3zjgN-iYWU2CQ7b-2H5F2o-vHCvdN6_tiWbo0q8R3acIfx4s8qWU4LeSNpuFfB-X_L4XSfkeoxWDZpdElexZDnbe423wQfmdyatEjbIWln7wY1W7ryJdSjakp-1X101Nx9ta-hbK9MQoI-0.9BGOCFwN_H7Bvpfg_lmhsP5-thD9qZQWcZ4VoFHQnlQ&dib_tag=se&keywords=rtx%2B4090&qid=1773816198&sprefix=rtx%2B409%2Caps%2C315&sr=8-3&th=1',
         wattage: 400,
         specs: {
@@ -318,7 +318,7 @@ const gpuList = [
         category: 'GPU',
         price: 321,
         brand: 'AMD',
-        image: '/rx7600.jpg',
+        image: '/rx7600.webp',
         amazonLink: 'https://www.amazon.com/XFX-Speedster-SWFT210-Graphics-RX-76PSWFTFA/dp/B0DR25XD68/ref=sr_1_1?crid=3T12QSWPHPRYE&dib=eyJ2IjoiMSJ9.8876buw3BknEU9Ul8HlbmxZaor1cWqdcXUP0-cmmAt594O-EvkJOmXWiBGSVKAAWOkWU0-JUHjvdnJHga1mLxNyjyb8oUbnjBM27cz8VD0NNaxWo5ILmIB3vi0MpdK7wgbPD0ZS-vOoKLo4yEB0qG88IWeSVdCRVogFvBW_tXYAQ4N2izjEC4TDeBPqL3QbYp6os4m5kIfehrZ8730AvRzbEZXhAu_SDWoHaYYzHKZI.RyTYDHB-P7kD0N9BJ4F3C7Ao9KaUq8w_75H-muN0ujg&dib_tag=se&keywords=rx%2B7600&qid=1773816337&sprefix=rx%2B760%2Caps%2C331&sr=8-1&th=1',
         wattage: 165,
         specs: {
@@ -332,7 +332,7 @@ const gpuList = [
         category: 'GPU',
         price: 299,
         brand: 'Intel',
-        image: '/b580 intel.jpg',
+        image: '/b580 intel.webp',
         amazonLink: 'https://www.amazon.com/ASRock-Intel-B580-Challenger-Graphics/dp/B0DNV4NWF7/ref=sr_1_1?crid=2F4B5785K9UC3&dib=eyJ2IjoiMSJ9.p6nSpY9JZZHq3xUCoVbBmSClm4H3yUWRkIJvvqM1JSKRZwaNKaZ-wkIlApeVu5i1yT0o5sStewtdIFkqobxzAoT26ErcmWk1APN7x54qQO8yn7U3I6SlbaefZCVdVcGvAQE3ojI9TbWMq08ijK5rxhbWP57fe-KiE_2TWWLucZqkcxqtRPsPlbXWv2YW0eUQIcbSblnFd-ity6ZsrAG7EwwCKdaMYx6C491zgcKE4Gg.QfLb3Bce_3PFLr9AsawtBFIQpOcHGtAmocUOc8UIQPM&dib_tag=se&keywords=intel%2Barc%2Bb550&qid=1773992704&sprefix=intel%2Barc%2Bb55%2Caps%2C463&sr=8-1&th=1',
         wattage: 200,
         specs: {
@@ -346,7 +346,7 @@ const gpuList = [
         category: 'GPU',
         price: 679,
         brand: 'NVIDIA',
-        image: '/rtx 5070.jpg',
+        image: '/rtx 5070.webp',
         amazonLink: 'https://www.amazon.com/MSI-Graphics-192-bit-Extreme-Performance/dp/B0DYFXGDJF/ref=sr_1_1?crid=182II0I83FSKT&dib=eyJ2IjoiMSJ9.d2dkHhGRIeu6fPDs8q0ot9yINUj_SJeFeoqwDAkIo01IiNxABIIxvzFsR0m93nDEqoAJnyeuJUfj27YK7ZPOd_nVB6ze4VwlCPuvxJRerUFwx9y6TVbDOLvaMHX9XYS4UOU_e57ghhqHMPkVcBRo_sxB1OEuSdGarr2Ya5e8azo2GaKln2mXISSLAAymYle9GHcrAmV1kpdeWvZxq3fjGdtDP3L6zD274LtoWUVSmHo.orzZVWDmlhBkMJQ_K_x48VdJ-24AouhFwyykLO28T_c&dib_tag=se&keywords=gpus&qid=1773994551&sprefix=gp%2Caps%2C355&sr=8-1',
         wattage: 250,
         specs: {
@@ -360,7 +360,7 @@ const gpuList = [
         category: 'GPU',
         price: 549,
         brand: 'NVIDIA',
-        image: '/rtx 5060 ti.jpg',
+        image: '/rtx 5060 ti.webp',
         amazonLink: 'https://www.amazon.com/GIGABYTE-Graphics-WINDFORCE-GV-N506TGAMING-OC-16GD/dp/B0F5BD1X83/ref=sr_1_10?crid=182II0I83FSKT&dib=eyJ2IjoiMSJ9.d2dkHhGRIeu6fPDs8q0ot9yINUj_SJeFeoqwDAkIo01IiNxABIIxvzFsR0m93nDEqoAJnyeuJUfj27YK7ZPOd_nVB6ze4VwlCPuvxJRerUFwx9y6TVbDOLvaMHX9XYS4UOU_e57ghhqHMPkVcBRo_sxB1OEuSdGarr2Ya5e8azo2GaKln2mXISSLAAymYle9GHcrAmV1kpdeWvZxq3fjGdtDP3L6zD274LtoWUVSmHo.orzZVWDmlhBkMJQ_K_x48VdJ-24AouhFwyykLO28T_c&dib_tag=se&keywords=gpus&qid=1773994551&sprefix=gp%2Caps%2C355&sr=8-10&th=1',
         wattage: 180,
         specs: {
@@ -374,7 +374,7 @@ const gpuList = [
         category: 'GPU',
         price: 799,
         brand: 'AMD',
-        image: '/9070XT.jpg',
+        image: '/9070XT.webp',
         amazonLink: 'https://www.amazon.com/ASUS-RadeonTM-Graphics-2-5-Slot-axial-tech/dp/B0DRRMZDH6/ref=sr_1_14?crid=182II0I83FSKT&dib=eyJ2IjoiMSJ9.d2dkHhGRIeu6fPDs8q0ot9yINUj_SJeFeoqwDAkIo01IiNxABIIxvzFsR0m93nDEqoAJnyeuJUfj27YK7ZPOd_nVB6ze4VwlCPuvxJRerUFwx9y6TVbDOLvaMHX9XYS4UOU_e57ghhqHMPkVcBRo_sxB1OEuSdGarr2Ya5e8azo2GaKln2mXISSLAAymYle9GHcrAmV1kpdeWvZxq3fjGdtDP3L6zD274LtoWUVSmHo.orzZVWDmlhBkMJQ_K_x48VdJ-24AouhFwyykLO28T_c&dib_tag=se&keywords=gpus&qid=1773994551&sprefix=gp%2Caps%2C355&sr=8-14&th=1',
         wattage: 310,
         specs: {
@@ -390,7 +390,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 69,
         brand: 'Gigabyte',
-        image: '/b550m.jpg',
+        image: '/b550m.webp',
         amazonLink: 'https://www.amazon.com/GIGABYTE-B550M-Micro-ATX-Realtek-Motherboard/dp/B0BTTZFQTP/ref=sr_1_3?crid=OOWELM5RQCJ6&dib=eyJ2IjoiMSJ9.FQ-iG91W3Cbt9k1P1MP1XViGV61yBMyj-ON4nq688fj1LP8T_lmYHXrJOL5M-lRuMfAQl24d15tTqgtN5yvt0nZUHqS-ofZvW4xWV3KaCp2Dv0xpEuzclI-Tlrg0ZOPu4Odge8zOv3orf1zo2AhshLOJv3gr4FuVfzct8WEGbQrYQGP6KZvafQ8oZaJRblxRs8TmxbT-XbpOXyDUDglEo2yRlF3NghBDT5zZ0A7VcBU.KRu22r_icOxMPghhNKIT2e-zj11np1d-YEFuT_lA3vw&dib_tag=se&keywords=b450m%2Bmotherboard&qid=1773812770&sprefix=b450m%2Bmotherboard%2B%2Caps%2C313&sr=8-3&th=1',
         wattage: 40,
         specs: {
@@ -405,7 +405,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 89,
         brand: 'ASUS',
-        image: '/b760m ddr4.jpg',
+        image: '/b760m ddr4.webp',
         amazonLink: 'https://www.amazon.com/ASUS-B760M-K-D4-Motherboard-Ethernet/dp/B0BR8SGYXP/ref=sr_1_1?crid=W3PFKMNCAE1B&dib=eyJ2IjoiMSJ9.J7k9jGoYX4EooOiPdhE5jTZHA3I6bWauDQHOQPcUu5J2CyrRPUTV09FuvhU9p0KPgi0ln8q5ZH5Gftqum2AAGCeCnTGg7-YCl-lcodcpCfkz4KOMa0A_4nvmuyHopsgleuUbqAJwmRvuX9cUc-BI0sC8wkYD15N07uG49P22qQG6za8gxYFvxy709LUg_6fhpAE-x230a0_U_nhI1UwQEjo_NTvoKz02zVuvLx5B6bI.0M7gNp9_UiBUR3NbZ9-bKO0uRi4BZoN-rxJujU35otM&dib_tag=se&keywords=b760%2Bmotherboard%2Bddr4&qid=1773814347&sprefix=b760%2Bmotherboard%2Bddr%2Caps%2C304&sr=8-1&th=1',
         wattage: 50,
         specs: {
@@ -420,7 +420,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 139,
         brand: 'Gigabyte',
-        image: '/b760 ddr5 wifi.jpg',
+        image: '/b760 ddr5 wifi.webp',
         amazonLink: 'https://www.amazon.com/MSI-B760-Motherboard-Supports-Processors/dp/B0C15THTK7/ref=sr_1_2?crid=3GPW7EY5MCPBW&dib=eyJ2IjoiMSJ9.hJv68jN1p3z_wjqQzxF-IJEgh1BeJfAorvKuHBcF7VKFRsPVZfBZQbGmHiJc-YzJ5RlwwNZuWj75OElaxf2vh5SfIFxy6gNloaNsVsmQxr_M4JISgasbQUqqSgr9TlpdwvRVInPMbHI9qjMj2d4pdLMRqlrDSAAmBpdc_-m3UlgpqTtgfkr9uumuDsUIdmtyORWwFvsRQDs3huKRBdVtnDWSTzMSL9LgBxGsQ73o92Y.EMF6ISei_sGKcBoba8vIoAaCpmv3otN8BeydHclxyq4&dib_tag=se&keywords=b760%2Bmotherboard%2Bddr5&qid=1773814447&sprefix=b760%2Bmotherboard%2Bddr%2Caps%2C325&sr=8-2&th=1',
         wattage: 60,
         specs: {
@@ -435,7 +435,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 99,
         brand: 'MSI',
-        image: '/b550 pro wifi.jpg',
+        image: '/b550 pro wifi.webp',
         amazonLink: 'https://www.amazon.com/MSI-B550M-PRO-VDH-ProSeries-Motherboard/dp/B089D1YG11/ref=sr_1_10?crid=OOWELM5RQCJ6&dib=eyJ2IjoiMSJ9.FQ-iG91W3Cbt9k1P1MP1XViGV61yBMyj-ON4nq688fj1LP8T_lmYHXrJOL5M-lRuMfAQl24d15tTqgtN5yvt0nZUHqS-ofZvW4xWV3KaCp2Dv0xpEuzclI-Tlrg0ZOPu4Odge8zOv3orf1zo2AhshLOJv3gr4FuVfzct8WEGbQrYQGP6KZvafQ8oZaJRblxRs8TmxbT-XbpOXyDUDglEo2yRlF3NghBDT5zZ0A7VcBU.KRu22r_icOxMPghhNKIT2e-zj11np1d-YEFuT_lA3vw&dib_tag=se&keywords=b450m%2Bmotherboard&qid=1773813102&sprefix=b450m%2Bmotherboard%2B%2Caps%2C313&sr=8-10&th=1',
         wattage: 50,
         specs: {
@@ -450,7 +450,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 199,
         brand: 'ASUS',
-        image: '/z790.jpg',
+        image: '/z790.webp',
         amazonLink: 'https://www.amazon.com/ASUS-TUF-Intel%C2%AE12th-Motherboard-Thunderbolt/dp/B0BQD58D96/ref=sr_1_1?crid=2WGL86FH1Y4GT&dib=eyJ2IjoiMSJ9.kFexHcGF2xCWcl4lBLZMjCAuKk5bSe5ugW_DBlfVZbuESsgm7LnuSURuW0v4CERAiPeLTWo0YKoXGth5Dgj_d-NQqZxPB46zola2jjqgVZ_sIFqQCQ7-sekd2YDf65G005G3Arv-Rqk2P_uKaRO3zALdZAQLGNR_WrwXx9196QrnqEXQ1YkM9_kZJK1i9mutRLmAZnQhI9Q7WK2fLQqDZG7gS5lOvw67w1oX-1j0bPw.P7M1qVD6H84EspQgPlCgRajQin4UW4nn0U4K_wBVkw0&dib_tag=se&keywords=z790%2Bmotherboard%2Bddr5&qid=1773814640&sprefix=z790%2Caps%2C351&sr=8-1&th=1',
         wattage: 70,
         specs: {
@@ -465,7 +465,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 144,
         brand: 'ASUS',
-        image: '/b650.jpg',
+        image: '/b650.webp',
         amazonLink: 'https://www.amazon.com/ASUS-TUF-B650-PLUS-Motherboard-Ethernet/dp/B0BHN7GGBQ/ref=sr_1_1?crid=2IHND5EX5PUS1&dib=eyJ2IjoiMSJ9.fBFmztgzsKsNszw2EEmiRrhmqm5t0pl1iz0bhRB-fyb_V25N9hQmYBhjYVvFZQwcvYN686id7mlDxhEqsirmj7xbudELcBRIhNm8_jfIeIwiWKr9iqvW8nmfDR76uFm9v1ZMgL6ET5H7VUakAtllv0SyMq7QrVd247ngBADwNKx2YnRIGDy3GC_FwWRuBpbIsGctfn8yH9ghZQOQ5ACTo8FjYa_eIH4ZmhzXFo_393g.NIre2csAJf7GHpO3VKMjn9rxZS4fp0c7nzdshzC9xlQ&dib_tag=se&keywords=b650%2Bmotherboard&qid=1773815233&sprefix=b650%2Caps%2C394&sr=8-1&th=1',
         wattage: 70,
         specs: {
@@ -480,7 +480,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 150,
         brand: 'ASUS',
-        image: '/b850.jpg',
+        image: '/b850.webp',
         amazonLink: 'https://www.amazon.com/ASUS-TUF-GAMING-WIFI-motherboard/dp/B0F6HB62B4/ref=sr_1_3?crid=2JZ6V3MU6XYRG&dib=eyJ2IjoiMSJ9.bEVaOyPiRQOT-b-taD6nyBjZclJE3kso2KDDv9URI-KypvMF9wTltsx6s_0SxTE5O1KtJNwCQcLH0rGdiPDZjh5zOoCD897xlSDOzR76tOVzqk91v8-eEC9qqQHRjxerB7vvIdOERtARCiGxAqQ0KRCMjrBT7DqgLSpBkxWawAm1lUowmQ5VVFwwcDVWajueJMr--x0V-X2gdlx3YIzksX0wh3JTLhzlwLi7KyRW0KY.jjQGEacXkQM8R_7J123NeY3lUc1F6_4gkxj1dew9KxQ&dib_tag=se&keywords=b850%2Bmotherboard&qid=1773815379&sprefix=b850%2Caps%2C322&sr=8-3&th=1',
         wattage: 70,
         specs: {
@@ -495,7 +495,7 @@ const motherboardList = [
         category: 'Motherboard',
         price: 150,
         brand: 'Gigabyte',
-        image: '/b860.jpg',
+        image: '/b860.webp',
         amazonLink: 'https://www.amazon.com/GIGABYTE-B860M-WIFI6E-Motherboard-EZ-Latch/dp/B0DQLK9S2V/ref=sr_1_6?crid=JOVIZMPV6GC3&dib=eyJ2IjoiMSJ9.jEsVZ6PxUFSiv_XGAtV5KlqTEd6B8fQ_gdnI8vbfc0IGFUjO24IV8gZSSU0OUjRcHg4I3pjJA4skuW3H2zoq6lujR8uv-q7swI02KIl5bzSihCap7xvqwoyoQW1i-HQ6p8tO4zpp74zxZlCrNI6QtvTXzAnyPQRaocRiBxlWvE61Id-3YEU5QqxBF0GW1D7ttgJiFgNCFzczE2OwV_MYFdF2_18AUqdHFKdTt--XQBw.2zt82as8EvkddLIfNrHYVV-GEOMGcea1VX34NIv9ChU&dib_tag=se&keywords=lga+1851+motherboard&qid=1773815530&sprefix=lga+1851%2Caps%2C318&sr=8-6',
         wattage: 70,
         specs: {
@@ -512,7 +512,7 @@ const ramList = [
         category: 'RAM',
         price: 369,
         brand: 'Crucial',
-        image: '/micron 32gb ddr5.jpg',
+        image: '/micron 32gb ddr5.webp',
         amazonLink: 'https://www.amazon.com/Crucial-6400MHz-Overclocking-Desktop-Compatible/dp/B0FQMLKVLS/ref=sr_1_1?crid=10FPDCZR9MO96&dib=eyJ2IjoiMSJ9.90w441BiB-J0H7bxP-yn63ovOXyK71htuQcC8jCGyzqI_3Rw_rg_Usd2xMaHUeDZ4KRuYZYyqylSDvkK9D99S2TzcazS4zo-48c8yFCWOT5b-PKXd-obXFiqV-rL5zy3T8dWvrUkNsPujB-g5kymRl__44kEQfU3OvDCZBPY_vRuzzxpSKL39YD3E6e2k14IEbSKX6aURBCOsMZK42uQhJkjEh79WSl7rVlZXl51g2k.K7vAAoHwJrQ-IgRDct-l9sRZnC_qBI6Fl1nkTU7Js6E&dib_tag=se&keywords=32gb%2Bddr5%2Bram%2Bkit&qid=1773816686&sprefix=32gb%2Bddr5%2Bram%2Bki%2Caps%2C356&sr=8-1&th=1',
         wattage: 12,
         specs: {
@@ -527,7 +527,7 @@ const ramList = [
         category: 'RAM',
         price: 735,
         brand: 'Crucial',
-        image: '/micron 64gb ddr5.jpg',
+        image: '/micron 64gb ddr5.webp',
         amazonLink: 'https://www.amazon.com/Crucial-6000MHz-Overclocking-Desktop-Compatible/dp/B0DSQTD4TN/ref=sr_1_4?crid=FZM1U84EDQDL&dib=eyJ2IjoiMSJ9.R_IO-BMWpYexuWRqUtUFmPyLt9cm6KkxtE56gJ8GFCXYAhPJbJCJx2aigntY9jYAkj2-JS6WzsR8coaSOlmWF7Q5fi8bkBlT1MOwfvXq-db9_iWzCXnbntVzpppe0Bw6XpblAI9i92qB4ERFnnWEY5cyNsVfdbb0KEcUV_nsrBA28uKjFbwYEQZsqAwwiJ1OAeKFdVCB3-TCWU6NYa5KT6Djkpf7F92g56X9E21AfRc.fz5F2233aTsrOagod0KqqsuPrmAy00o3qoArlZ6r1f0&dib_tag=se&keywords=64gb%2Bddr5%2Bram%2Bkit&qid=1773816831&sprefix=6gb%2Bddr5%2Bram%2Bkit%2Caps%2C298&sr=8-4&th=1',
         wattage: 12,
         specs: {
@@ -557,7 +557,7 @@ const ramList = [
         category: 'RAM',
         price: 219,
         brand: 'Corsair',
-        image: '/32gb ddr4.jpg',
+        image: '/32gb ddr4.webp',
         amazonLink: 'https://www.amazon.com/Corsair-VENGEANCE-3200MHz-Compatible-Computer/dp/B07RW6Z692/ref=sr_1_3?crid=1U186BCN75TMZ&dib=eyJ2IjoiMSJ9.DZVVfPcrLpqjyGkgZ1NlB4Sgf8FhneYwMjIo6_BGxWNliNeCaW3-tVp2_FoWj4CNt_fHCgVUzFA2GX4HGYycE81SMAIileyEVZSTF25Kj7CvrekghRbX-_6hzwtMG50nc1KImTRq0d8jj2ZtZ724Wab1oiw7Nq16vcMNeALQQTgzsmMzdGHxIuVrznrbYcamWQ_HycBc-URn5QbtYOydcoFjeNxbxuDsPptdnDlW1FI.srhMes8jjjoRjYUBdOVwi6s-QI1ML7p6SW5JQ9w8xwE&dib_tag=se&keywords=16gb+ddr4+ram+kit&qid=1773817059&sprefix=16gb+ddr5+ram+kit%2Caps%2C407&sr=8-3&xpid=sH9qUaWkcep-L',
         wattage: 12,
         specs: {
@@ -572,7 +572,7 @@ const ramList = [
         category: 'RAM',
         price: 149,
         brand: 'Patriot Memory',
-        image: '/16gb kit.jpg',
+        image: '/16gb kit.webp',
         amazonLink: 'https://www.amazon.com/Patriot-Viper-Elite-DDR4-3600MHz/dp/B0957W6F38/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_3/146-9865451-5813434?pd_rd_w=v2mDJ&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=910PHTMB1CXD4AR80HJY&pd_rd_wg=8U23G&pd_rd_r=912f2e99-4ea9-41ed-9c79-98dec35bc1bf&pd_rd_i=B0957W6F38&th=1',
         wattage: 12,
         specs: {
@@ -589,7 +589,7 @@ const storageList = [
         category: 'Storage',
         price: 89,
         brand: 'WD',
-        image: '/wd 500gb.jpg',
+        image: '/wd 500gb.webp',
         amazonLink: 'https://www.amazon.com/Western-Digital-500GB-SN5000-Internal/dp/B0D7MKQKXZ/ref=sr_1_10?crid=1234YGLK76SX2&dib=eyJ2IjoiMSJ9.f3UGDpk5WUkjBhSrPezcMhNBmUKvZaf686BKToL49VLCRmPe8w4GWdv6bmzG8paGpe6SsLsjT0dI1FhmUFNlHcyuv0wxiEnpIjBvfozPjG866CytFoiHKDEkxOYfLnXwyKA3_CQn5pPC-qlqVONy7fcurnQLZ_XcMI1A4IjOEgj1ygNyXBKl1Zu48oA9x4Nqm3q5VxuLZasw44YtD_jjxCr64eEPMoR1f7pqy0ODvOM.uaju0SwIT1HNkLIcbHy1wbEkCkMV09swAa4WabfWAaE&dib_tag=se&keywords=500gb%2Bnvme%2Bgen4&qid=1773817214&sprefix=500gb%2Bnvme%2Bgen%2Caps%2C318&sr=8-10&th=1',
         wattage: 5,
         specs: {
@@ -603,7 +603,7 @@ const storageList = [
         category: 'Storage',
         price: 164,
         brand: 'Samsung',
-        image: '/smasung 990.jpg',
+        image: '/samsung 990 pro.webp',
         amazonLink: 'https://www.amazon.com/SAMSUNG-Technology-Intelligent-Turbowrite-MZ-V9S1T0B/dp/B0DHLFWBQ1/ref=sr_1_3?crid=3BBTUXA1O72HJ&dib=eyJ2IjoiMSJ9.H39GvN73WU3e9olWq8mPvfMDDHaaIOVuEF4HBp4suoa8gZAs6Le7tK--NB_F-5mqZrLX2x2Bs7a3H3AukeKwccQYKMhALu_Po-Zn4Rc0gbK6maUWdCiLa612oWluPZI95wfp07-7GAznDq_Znl7p_eVs7zDHk9XVUTRi4mSkwjvkZDBbUnkAAmAsY6aKp1Ebw8yOkkXyuGsc0swm61IxAfDBu6KPmXp9MW6CeZ4UOCQ.GdNi78QupQzFVIrf99viSmZ3gIc9URuirG4shxN7e9U&dib_tag=se&keywords=1tb%2Bnvme%2Bgen4&qid=1773817681&sprefix=1t%2Bnvme%2Bgen4%2Caps%2C338&sr=8-3&th=1',
         wattage: 7,
         specs: {
@@ -617,7 +617,7 @@ const storageList = [
         category: 'Storage',
         price: 256.67,
         brand: 'Crucial',
-        image: '/micron 2tb.jpg',
+        image: '/micron 2tb.webp',
         amazonLink: 'https://www.amazon.com/Crucial-Internal-Compatible-Desktop-Software/dp/B0DZ5XQNLM/ref=sr_1_3?crid=1SX2DREY2X532&dib=eyJ2IjoiMSJ9.bff6xxmwNlfZmcPB_U9XyueBaJ-3RrBeYxoLBU4rFkUNEsTfS7qpnjh9eT4eKnGKkKVs_acWkIICT6B1icvDD7sCIErEZtCTw60C3giL4TJBJVI8tmWzRipgT_N253hnrgrp3rwnohJhNjQG6LkEVHGG-ce9aQoUnMxE3d5SzbkpxaK1svMn8nGB1wZm2C-MYxQlzQbNcX26DDbjMTF-RctcoTjy_-VwQrQPd30nkFo._k-zWssm3Kxp4-elUxHo_nbhFP4Vem6C9s3X8TMxZzs&dib_tag=se&keywords=2tb%2Bnvme%2Bgen4&qid=1773817832&sprefix=tb%2Bnvme%2Bgen4%2Caps%2C319&sr=8-3&th=1',
         wattage: 8,
         specs: {
@@ -633,7 +633,7 @@ const caseList = [
         category: 'Case',
         price: 39,
         brand: 'Cooler Master',
-        image: '/cooler master.jpg',
+        image: '/cooler master.webp',
         amazonLink: 'https://www.amazon.com/Cooler-Master-Transparent-Adjustable-Ventilated/dp/B0785GRMPG/ref=sr_1_5?crid=1WCTJ79FZ8VL6&dib=eyJ2IjoiMSJ9.RnzCj3c2a_HnJjJD7WMAoZ6Ho7Iu6_-RwvDCphKDqpvUY5fQmTpRJfuAhbZ7V75qd8DGZN3wkQHUYP65MmuTLwhhqoamThtLyaHynLtXpGJPVTEtYCi2sBmBwNm16Cu4yOO2yNR0q0kX1bPKUQKxht7x3V_qmn9wyJZTSoZj57AKOKXODsRRAx89dMpnQuGMep9Ga4wpmuKGrMY9ozQMeE5VkScUoDC_qgKObJGQhVs.83kkeOMAABU2GVaWbCFhM2hvsxKaRoQPI5mfih1JT80&dib_tag=se&keywords=pc%2Bcase&qid=1773818413&sprefix=pc%2Bca%2Caps%2C396&sr=8-5&th=1',
         wattage: 20,
         specs: {
@@ -647,7 +647,7 @@ const caseList = [
         category: 'Case',
         price: 119,
         brand: 'NZXT',
-        image: '/nzxt flow.jpg',
+        image: '/nzxt flow.webp',
         amazonLink: 'https://www.amazon.com/NZXT-Flow-Dual-Chamber-Mid-Tower-Back-Connect/dp/B0DQPPKNSS/ref=sr_1_13?crid=301HQABYPP084&dib=eyJ2IjoiMSJ9.RnzCj3c2a_HnJjJD7WMAoZ6Ho7Iu6_-RwvDCphKDqpvUY5fQmTpRJfuAhbZ7V75qd8DGZN3wkQHUYP65MmuTLwhhqoamThtLyaHynLtXpGJPVTEtYCi2sBmBwNm16Cu4yOO2yNR0q0kX1bPKUQKxht7x3V_qmn9wyJZTSoZj57AKOKXODsRRAx89dMpnQuGMep9Ga4wpmuKGrMY9ozQMeE5VkScUoDC_qgKObJGQhVs.83kkeOMAABU2GVaWbCFhM2hvsxKaRoQPI5mfih1JT80&dib_tag=se&keywords=pc%2Bcase&qid=1773818618&sprefix=pc%2Bcase%2Caps%2C353&sr=8-13&th=1',
         wattage: 20,
         specs: {
@@ -661,7 +661,7 @@ const caseList = [
         category: 'Case',
         price: 119,
         brand: 'Lian Li',
-        image: '/lian li.jpg',
+        image: '/lian li.webp',
         amazonLink: 'https://www.amazon.com/Lian-Li-Mid-Tower-Pre-Installed-Installation/dp/B0DWF95QP7/ref=sr_1_14?crid=301HQABYPP084&dib=eyJ2IjoiMSJ9.RnzCj3c2a_HnJjJD7WMAoZ6Ho7Iu6_-RwvDCphKDqpvUY5fQmTpRJfuAhbZ7V75qd8DGZN3wkQHUYP65MmuTLwhhqoamThtLyaHynLtXpGJPVTEtYCi2sBmBwNm16Cu4yOO2yNR0q0kX1bPKUQKxhr8ra1awX5Uz9pYwoAJ8mZNVZ1wpeE_bVSoBdUF7X9Biep9Ga4wpmuKGrMY9ozQMeE5VkScUoDC_qgKObJGQhVs.SWkz26E7F2cOiR2V_YR-2WF6aS2w1QNVuR7iMnWVeXE&dib_tag=se&keywords=pc%2Bcase&qid=1773818881&sprefix=pc%2Bcase%2Caps%2C353&sr=8-14&th=1',
         wattage: 20,
         specs: {
@@ -675,7 +675,7 @@ const caseList = [
         category: 'Case',
         price: 74,
         brand: 'Lian Li',
-        image: '/lian li 2.jpg',
+        image: '/lian li 2.webp',
         amazonLink: 'https://www.amazon.com/Lian-Li-Mid-Tower-Pre-Installed-Optimized/dp/B0F2T66QC9/ref=sr_1_3?crid=3H5GWYL7JNMT1&dib=eyJ2IjoiMSJ9.VpuFQG06fboA5qNbe3xVkPQfErMOixr5BQB1EBFfycxxXZ6rjuo7_3bal-D8eqRp1V80QOv7exPNL10F7FTuAinyEumLD0jKvu4J-6dswa96ADR5DnceR8WQEK27TauDF6jw-rJI6AA5irRk2n6L-8K8abwLeweeRok1hkOHWA1j0JwxxMhixOX8AM4jCOTcc2R_sWl1s9UnQSsZI7seop_qUiseFpnC2cbnY1475FU.J7dHFp42btRAMptD8SlBsR7sQJtqJm4Pu6WezMgelSA&dib_tag=se&keywords=pc%2Bcase&qid=1773994420&sprefix=pc%2Bc%2Caps%2C368&sr=8-3&th=1',
         wattage: 20,
         specs: {
@@ -705,7 +705,7 @@ const psuList = [
         category: 'PSU',
         price: 95,
         brand: 'MSI',
-        image: '/msi.jpg',
+        image: '/msi.webp',
         amazonLink: 'https://www.amazon.com/MSI-MAG-A750GL-Gaming-Supply/dp/B0CC3QBGDL/ref=sr_1_3?crid=28KCVCJIXN02X&dib=eyJ2IjoiMSJ9.B6yBcbIVpPzPR_iRqIny6HeGseWUW0Q-jSYbwVbaymwYTYfitiXqIqvbkWGrWLWo66xLpLpYy0eGwsGCfSWwXBcou39E4mB7bWC688MRqmaiDcpN4Ln71TDyRJz6uiAPYoGPvfjEFfyN4_1bfljGs95aXHVRuVd_W3wKf7KuU6gYswexIQU6dOnmth-lqj1IUHuoNM3xWvV5U0azjwJ3TA2DZAwZVdz50ppfWYd_38M.MGdMskEqSsd0Jb15Zz57Aga63HNHdv9es-7pLLIrfsw&dib_tag=se&keywords=psu%2B750W&qid=1773819119&sprefix=psu%2B750w%2Caps%2C339&sr=8-3&th=1',
         wattage: 0,
         specs: {
@@ -719,7 +719,7 @@ const psuList = [
         category: 'PSU',
         price: 134,
         brand: 'MSI',
-        image: '/msi mag.jpg',
+        image: '/msi mag.webp',
         amazonLink: 'https://www.amazon.com/A1000GL-Modular-Compact-Dual-Color-Warranty/dp/B0CT3XNCZ9/ref=sr_1_4?crid=3MS9YGWOCNCX1&dib=eyJ2IjoiMSJ9.HzxWgyRjrkqJrsWCmVY6HU4v63g5FFbwMjzRNYtrZmH10Tk_nekL4D5cs92912slpnW2VY7X6eP8UXDRQzsLzCB5pkltBB7oX4PjTfT2l9c8fTN0dvD9JAB7xJpEHIlOHL456hZ2cncwOqZWdssdabrCpnG9GkYGMWq1t7pYI9ycZl6uD2FXK40KS7C6XYkk759xPE2UE-QhfgOTDpDrxmeIhte6UMx_J8eUbndEFfo.yrTxlKTJ134O5ULgyC0Q4RrAvew-_GZEFp9LqP9sLlg&dib_tag=se&keywords=psu%2B1000w%2Bgold&qid=1773819219&sprefix=psu%2B1000w%2Caps%2C335&sr=8-4&th=1',
         wattage: 0,
         specs: {
@@ -733,7 +733,7 @@ const psuList = [
         category: 'PSU',
         price: 39,
         brand: 'MSI',
-        image: '/500w thermaltake.jpg',
+        image: '/500w thermaltake.webp',
         amazonLink: 'https://www.amazon.com/Thermaltake-Certified-Continuous-cooling-PS-SPD-0500NPCWUS-W/dp/B014W3EM2W/ref=sr_1_11?crid=8KSC2EKT75AU&dib=eyJ2IjoiMSJ9.PwOCtdXND2hJ04vA42JkSZ5frga1YDuALCgY6e2vpO_qDZAAIVY4F-lfoxWcQtk25aD2N_PP4WhPWzV7mZw5oU5q_biro78nlUlRyl-H861FqTbj0t2YQHCBUIFDZkzzqYLBoJjnNCEpAEoqQgYx0Zw_xns5TCiZOGXJHM9LccNNh_GSa6HuyjcTP-9RyZ0qI69suimmNEgLA3G74nmQSa1FGTGASa5m7I603FMvs90.VEaoZv36tUCUHpFzgLFs7uVCyCHdjcL7vmRab1r9MhU&dib_tag=se&keywords=psu&qid=1773994158&sprefix=psu%2Caps%2C322&sr=8-11&th=1',
         wattage: 0,
         specs: {
@@ -1291,7 +1291,7 @@ function BuilderContent() {
         const { status } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["checkCompatibility"])(build);
         const newBuild = {
             id: crypto.randomUUID(),
-            name: `My Custom Build ${new Date().toLocaleDateString()}`,
+            name: `Build Date: ${new Date().toLocaleDateString()}`,
             parts: build,
             totalPrice,
             totalWattage,
@@ -1667,52 +1667,6 @@ function BuilderContent() {
                 lineNumber: 175,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-1xl font-bold text-zinc-900 dark:text-white mb-2",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "block",
-                        children: "--------------------------------------------------------------------------------------"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 262,
-                        columnNumber: 76
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "block",
-                        children: " Disclaimer!: "
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 262,
-                        columnNumber: 193
-                    }, this),
-                    " Make sure to check the Wattage of the parts on your own to avoid clashes in the pc build",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/src/app/build/page.tsx",
-                        lineNumber: 263,
-                        columnNumber: 41
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 262,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "block",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-1xl font-bold text-zinc-900 dark:text-white mb-2",
-                    children: "--------------------------------------------------------------------------------------"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/build/page.tsx",
-                    lineNumber: 263,
-                    columnNumber: 74
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 263,
-                columnNumber: 50
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Toast$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Toast"], {
                 message: toast.message,
                 type: toast.type,
@@ -1720,7 +1674,7 @@ function BuilderContent() {
                 onClose: hideToast
             }, void 0, false, {
                 fileName: "[project]/src/app/build/page.tsx",
-                lineNumber: 265,
+                lineNumber: 262,
                 columnNumber: 7
             }, this)
         ]
@@ -1743,17 +1697,17 @@ function BuilderPage() {
             children: "Loading builder..."
         }, void 0, false, {
             fileName: "[project]/src/app/build/page.tsx",
-            lineNumber: 277,
+            lineNumber: 274,
             columnNumber: 25
         }, void 0),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(BuilderContent, {}, void 0, false, {
             fileName: "[project]/src/app/build/page.tsx",
-            lineNumber: 278,
+            lineNumber: 275,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/build/page.tsx",
-        lineNumber: 277,
+        lineNumber: 274,
         columnNumber: 5
     }, this);
 } //Made by Adarsh Gusain

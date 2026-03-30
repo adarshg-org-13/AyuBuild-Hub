@@ -118,7 +118,7 @@ function BuilderContent() {
     
     const newBuild: Build = {
       id: crypto.randomUUID(),
-      name: `My Custom Build ${new Date().toLocaleDateString()}`,
+      name: `Build Date: ${new Date().toLocaleDateString()}`,
       parts: build,
       totalPrice,
       totalWattage,
@@ -259,9 +259,6 @@ function BuilderContent() {
           </div>
         </div>
       </div>
-      <p className="text-1xl font-bold text-zinc-900 dark:text-white mb-2"><span className="block">--------------------------------------------------------------------------------------</span><span className='block'> Disclaimer!: </span> Make sure to check the Wattage of the parts on your own
-        to avoid clashes in the pc build<br/></p><span className="block"><p className="text-1xl font-bold text-zinc-900 dark:text-white mb-2">--------------------------------------------------------------------------------------</p></span>
-      
       <Toast 
         message={toast.message}
         type={toast.type}

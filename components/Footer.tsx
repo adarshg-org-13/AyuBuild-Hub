@@ -7,14 +7,18 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-lg font-bold text-zinc-900 dark:text-white mb-4 font-sans">RigZen</h3>
-            <p className="text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-relaxed">
-              The best place to build and configure your dream pc with all proper parts and live prices.
+            <h3 className="text-lg font-bold text-zinc-900 dark:text-white mb-1 font-sans">RigZen</h3>
+            <p className="text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed">
+              RigZen is the best place to build and configure your dream pc with all proper parts and live pricings.
+            </p>
+            <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
+              <u>Quick Discalimer!</u>: Make sure to check your pc compatibility on your own basis, also this website does not gurantee any sorts
+              of pc parts compaitbility on <u>100%</u> basis the user is expected to check the parts and their compatibility on their own.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
+            <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm tracking-wider">Resources</h4>
             <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
               <li><Link href="/build" className="hover:text-emerald-500 transition-colors">PC Builder</Link></li>
               <li><Link href="/saved" className="hover:text-emerald-500 transition-colors">Saved Builds</Link></li>
@@ -23,7 +27,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Check out the Code</h4>
+            <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm tracking-wider">Check out the Code</h4>
             <div className="flex gap-4">
               <a href="https://github.com/adarshg-org-13/AyuBuild-Hub" className="text-zinc-400 hover:text-emerald-500 transition-colors"><Github className="w-5 h-5" /></a>
             </div>

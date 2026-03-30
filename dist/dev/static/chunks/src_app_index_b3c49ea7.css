@@ -2402,6 +2402,10 @@
     color: var(--color-yellow-500);
   }
 
+  .text-zinc-50 {
+    color: var(--color-zinc-50);
+  }
+
   .text-zinc-100 {
     color: var(--color-zinc-100);
   }
@@ -2436,6 +2440,10 @@
 
   .text-zinc-900 {
     color: var(--color-zinc-900);
+  }
+
+  .text-zinc-950 {
+    color: var(--color-zinc-950);
   }
 
   .capitalize {
@@ -2722,6 +2730,10 @@
 
   .\[key\:\6 \+4ng\] {
     key:  4ng;
+  }
+
+  .\[key\:\.\+4ng\] {
+    key: . 4ng;
   }
 
   .\[key\:R\@\14 \] {
