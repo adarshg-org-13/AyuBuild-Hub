@@ -35,7 +35,7 @@ export default function Home() {
       cpuBrand: "Intel" as const,
       gpuBrand: "NVIDIA" as const,
       fps:{valorant:500,cs2:220,re7:200},
-      image:"https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
+      image:"https://images.unsplash.com/photo-1660855551740-4474188debdb?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name:"The Performance Build",
@@ -45,7 +45,7 @@ export default function Home() {
       cpuBrand: "AMD" as const,
       gpuBrand: "AMD" as const,
       fps:{valorant:350,cs2:130,re7:100},
-      image:"https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+      image:"https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name: "Best 1080p Build",
@@ -55,7 +55,7 @@ export default function Home() {
       cpuBrand: "Intel" as const,
       gpuBrand: "NVIDIA" as const,
       fps: { valorant: 350, cs2: 180, re7: 130 },
-      image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1626218174358-7769486c4b79?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name:"The Low End Build",
@@ -95,7 +95,7 @@ export default function Home() {
       cpuBrand: "AMD" as const,
       gpuBrand: "AMD" as const,
       fps: { valorant: 350, cs2: 200, re7: 140 },
-      image: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1640036948080-99d48ca959b3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name: "1440p AMD Crusher",
@@ -105,7 +105,7 @@ export default function Home() {
       cpuBrand: "AMD" as const,
       gpuBrand: "AMD" as const,
       fps: { valorant: 400, cs2: 250, re7: 175 },
-      image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1651012998667-2c779fee76f8?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name: "The Streamer's Choice",
@@ -115,7 +115,7 @@ export default function Home() {
       cpuBrand: "Intel" as const,
       gpuBrand: "NVIDIA" as const,
       fps: { valorant: 400, cs2: 230, re7: 175 },
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1630201129622-a8e8ef3f7245?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name:"Absolute Beast Build",
@@ -125,7 +125,7 @@ export default function Home() {
       cpuBrand: "AMD" as const,
       gpuBrand: "NVIDIA" as const,
       fps: { valorant: 600, cs2: 400, re7: 240 },
-      image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1738245494097-9b1e3971c3eb?q=80&w=437&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   ];
 
