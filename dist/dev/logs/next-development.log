@@ -1,1111 +1,86 @@
-[00:00:03.593] Server  LOG     ✓ Ready in 2.8s
-[00:00:07.747] Server  LOG     ○ Compiling / ...
-[00:00:24.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:25.727] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         style={{--vsc-domain:"\"localhost\""}}
-                        >
-                  ...
-
-[00:00:29.623] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:41.162] Server  LOG     ✓ Compiled in 937ms
-[00:03:33.244] Server  LOG     ✓ Compiled in 911ms
-[00:03:55.287] Server  LOG     ✓ Compiled in 766ms
-[00:04:17.858] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:17.858] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:18.722] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p class
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:18.722] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p class
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:19.728] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className=''
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:19.728] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className=''
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:21.721] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:21.721] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:21.721] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:21.721] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:23.725] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc '
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:23.726] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc '
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:23.726] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:23.726] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:24.734] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dar'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:24.734] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dar'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:25.732] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:25.732] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:26.725] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:tex'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:26.725] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:tex'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:27.760] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:27.760] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:29.724] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:29.724] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:30.738] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:30.738] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:31.727] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:31.727] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:32.724] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:32.724] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:33.730] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-s'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:33.730] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-s'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:35.733] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:35.733] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:36.721] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:36.721] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:37.742] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:37.742] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:38.724] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leadionmg'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:38.724] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leadionmg'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:39.724] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leadio'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:39.724] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leadio'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:40.722] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:40.722] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:41.734] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-rela'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:41.734] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-rela'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:42.738] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-relaz'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:42.738] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-relaz'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:43.752] Browser ERROR   ./components/Footer.tsx:15:11
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'
-> 15 |           </div>
-     |           ^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:04:43.752] Browser ERROR   ./components/Footer.tsx:15:12
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-600 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'
-> 15 |           </div>
-     |            ^^^^^
-  16 |           
-  17 |           <div>
-  18 |             <h4 className="font-semibold text-zinc-900 dark:text-white mb-4 text-sm uppercase tracking-wider">Resources</h4>
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:05:56.548] Server  LOG     ✓ Compiled in 918ms
-[00:07:30.733] Browser ERROR   ./components/Footer.tsx:15:34
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <spQuick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                  ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:31.728] Browser ERROR   ./components/Footer.tsx:15:42
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span classQuick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                          ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:35.736] Browser ERROR   ./components/Footer.tsx:15:47
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = ""Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                               ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:37.727] Browser ERROR   ./components/Footer.tsx:15:53
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underl"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                     ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:38.743] Browser ERROR   ./components/Footer.tsx:15:56
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underline"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                        ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:42.728] Browser ERROR   ./components/Footer.tsx:15:57
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underline>"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                         ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:48.754] Browser ERROR   ./components/Footer.tsx:15:59
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underline></"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                           ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:49.729] Browser ERROR   ./components/Footer.tsx:15:63
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underline></span"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                               ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:50.731] Browser ERROR   ./components/Footer.tsx:15:64
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underline></span>"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                                ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:52.738] Browser ERROR   ./components/Footer.tsx:15:61
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <span class = "underline></sp"Quick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                                             ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:07:56.135] Server  LOG     ✓ Compiled in 1454ms
-[00:08:07.725] Browser ERROR   ./components/Footer.tsx:15:33
-Parsing ecmascript source code failed
-  13 |             </p>
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-> 15 |               <uQuick Discalimer! : Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-     |                                 ^
-  16 |               of pc parts compaitbility on 100% the user is requested to check the parts on their own.
-  17 |             </p>
-  18 |           </div>
-
-Expected '</', got '!'
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:08:15.137] Server  LOG     ✓ Compiled in 800ms
-[00:08:39.726] Browser ERROR   ./components/Footer.tsx:16:49
-Parsing ecmascript source code failed
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-  15 |               <u>Quick Discalimer!</u>: Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-> 16 |               of pc parts compaitbility on <U100% the user is requested to check the parts on their own.
-     |                                                 ^
-  17 |             </p>
-  18 |           </div>
-  19 |           
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:08:40.730] Browser ERROR   ./components/Footer.tsx:16:49
-Parsing ecmascript source code failed
-  14 |             <p className='text-zinc-950 dark:text-zinc-400 text-sm max-w-xs leading-relaxed'>
-  15 |               <u>Quick Discalimer!</u>: Make sure to check your compatibility on your own basis also this website dosent gurantee any sorts
-> 16 |               of pc parts compaitbility on <u100% the user is requested to check the parts on their own.
-     |                                                 ^
-  17 |             </p>
-  18 |           </div>
-  19 |           
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/Footer.tsx
-    ./src/app/layout.tsx
-[00:11:04.778] Server  LOG     ✓ Compiled in 793ms
-[00:11:06.520] Server  LOG     ✓ Compiled in 1475ms
-[00:12:31.831] Server  LOG     ✓ Compiled in 3.5s
-[00:12:39.259] Server  LOG     ✓ Compiled in 1626ms
-[00:12:40.100] Server  LOG     ✓ Compiled in 807ms
-[00:12:43.950] Server  LOG     ✓ Compiled in 1051ms
-[00:12:45.569] Server  LOG     ✓ Compiled in 892ms
-[00:13:12.734] Server  LOG     ✓ Compiled in 1889ms
-[00:13:14.647] Server  LOG     ✓ Compiled in 1836ms
-[00:13:16.255] Server  LOG     ✓ Compiled in 1424ms
-[00:13:17.545] Server  LOG     ✓ Compiled in 773ms
-[00:13:19.122] Server  LOG     ✓ Compiled in 1047ms
-[00:13:20.106] Server  LOG     ✓ Compiled in 924ms
-[00:13:27.338] Server  LOG     ✓ Compiled in 2s
-[00:13:37.047] Server  LOG     ✓ Compiled in 943ms
-[00:13:44.464] Server  LOG     ✓ Compiled in 798ms
-[00:13:45.718] Server  LOG     ✓ Compiled in 1088ms
-[00:13:55.493] Server  LOG     ✓ Compiled in 943ms
-[00:13:56.822] Server  LOG     ✓ Compiled in 1302ms
-[00:13:58.049] Server  LOG     ✓ Compiled in 1134ms
-[00:14:00.079] Server  LOG     ✓ Compiled in 1158ms
-[00:14:06.096] Server  LOG     ✓ Compiled in 729ms
-[00:14:07.034] Server  LOG     ✓ Compiled in 707ms
-[00:14:12.858] Server  LOG     ✓ Compiled in 879ms
-[00:14:15.669] Server  LOG     ✓ Compiled in 2.2s
-[00:14:17.112] Server  LOG     ✓ Compiled in 1169ms
-[00:14:18.271] Server  LOG     ✓ Compiled in 1138ms
-[00:14:19.457] Server  LOG     ✓ Compiled in 1083ms
-[00:14:20.687] Server  LOG     ✓ Compiled in 1112ms
-[00:14:21.924] Server  LOG     ✓ Compiled in 1133ms
-[00:14:36.935] Server  LOG     ✓ Compiled in 2.1s
-[00:14:38.089] Server  LOG     ✓ Compiled in 1039ms
-[00:15:13.695] Server  LOG     ✓ Compiled in 802ms
-[00:15:16.906] Server  LOG     ✓ Compiled in 2s
-[00:15:18.308] Server  LOG     ✓ Compiled in 1396ms
-[00:15:19.443] Server  LOG     ✓ Compiled in 867ms
-[00:15:20.381] Server  LOG     ✓ Compiled in 788ms
-[00:15:22.051] Server  LOG     ✓ Compiled in 1120ms
-[00:15:23.087] Server  LOG     ✓ Compiled in 709ms
-[00:15:27.632] Server  LOG     ✓ Compiled in 747ms
-[00:15:29.446] Server  LOG     ✓ Compiled in 827ms
-[00:15:31.437] Server  LOG     ✓ Compiled in 768ms
-[00:15:39.337] Server  LOG     ✓ Compiled in 2.3s
-[00:15:39.736] Browser ERROR   ./src/app/page.tsx:166:21
-Parsing ecmascript source code failed
-  164 |               icon: Zap,
-  165 |               title: "Power",
-> 166 |               desc: ."
-      |                     ^
-  167 |             },
-  168 |             {
-  169 |               icon: DollarSign,
-
-Expected '</', got '.'
+[00:00:05.959] Server  LOG     ✓ Ready in 5.1s
+[00:00:09.025] Server  LOG     ○ Compiling / ...
+[00:00:39.852] Server  ERROR   ⨯ ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"The $750 Budget Build",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+
+[00:00:39.905] Server  ERROR   ⨯ ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"The $750 Budget Build",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+
+[00:00:42.134] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"The $750 Budget Build",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+
+[00:00:42.481] Browser ERROR   ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"The $750 Budget Build",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+[00:00:42.876] Browser ERROR   ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       image: "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop",
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"The $750 Budget Build",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+[00:01:04.826] Server  LOG     ✓ Compiled in 14.6s
+[00:01:06.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.930] Server  LOG     ✓ Compiled in 1486ms
+[00:01:33.587] Server  LOG     ✓ Compiled in 1884ms
+[00:01:35.222] Server  LOG     ✓ Compiled in 1161ms
+[00:01:37.560] Server  LOG     ✓ Compiled in 1808ms
+[00:01:39.135] Server  LOG     ✓ Compiled in 1280ms
+[00:01:40.588] Server  LOG     ✓ Compiled in 1278ms
+[00:01:50.331] Server  LOG     ✓ Compiled in 1137ms
+[00:01:51.774] Browser ERROR   ./src/app/page.tsx:53:5
+Parsing ecmascript source code failed
+  51 |       
+  52 |     }
+> 53 |     {
+     |     ^
+  54 |       name: "Best Value for Money Build.",
+  55 |       price: 850,
+  56 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
 
 Import traces:
   Client Component Browser:
@@ -1115,18 +90,17 @@ Import traces:
   Client Component SSR:
     ./src/app/page.tsx [Client Component SSR]
     ./src/app/page.tsx [Server Component]
-[00:15:40.437] Server  LOG     ✓ Compiled in 783ms
-[00:15:40.725] Browser ERROR   ./src/app/page.tsx:166:24
+[00:01:52.908] Browser ERROR   ./src/app/page.tsx:53:5
 Parsing ecmascript source code failed
-  164 |               icon: Zap,
-  165 |               title: "Power",
-> 166 |               desc: ""."
-      |                        ^
-  167 |             },
-  168 |             {
-  169 |               icon: DollarSign,
+  51 |       name:""
+  52 |     }
+> 53 |     {
+     |     ^
+  54 |       name: "Best Value for Money Build.",
+  55 |       price: 850,
+  56 |       cpu: "AMD Ryzen 5 7600X",
 
-Unterminated string constant
+Expected ',', got '{'
 
 Import traces:
   Client Component Browser:
@@ -1136,102 +110,687 @@ Import traces:
   Client Component SSR:
     ./src/app/page.tsx [Client Component SSR]
     ./src/app/page.tsx [Server Component]
-[00:15:42.477] Server  LOG     ✓ Compiled in 792ms
-[00:15:43.975] Server  LOG     ✓ Compiled in 762ms
-[00:15:45.604] Server  LOG     ✓ Compiled in 1400ms
-[00:15:46.764] Server  LOG     ✓ Compiled in 1101ms
-[00:15:49.438] Server  LOG     ✓ Compiled in 856ms
-[00:15:50.958] Server  LOG     ✓ Compiled in 1399ms
-[00:16:00.157] Server  LOG     ✓ Compiled in 928ms
-[00:16:03.866] Server  LOG     ✓ Compiled in 1385ms
-[00:16:08.009] Server  LOG     ✓ Compiled in 687ms
-[00:16:17.682] Server  LOG     ✓ Compiled in 1432ms
-[00:16:19.025] Server  LOG     ✓ Compiled in 1313ms
-[00:16:22.555] Server  LOG     ✓ Compiled in 3.5s
-[00:16:23.984] Server  LOG     ✓ Compiled in 1340ms
-[00:16:25.291] Server  LOG     ✓ Compiled in 1296ms
-[00:16:26.426] Server  LOG     ✓ Compiled in 1044ms
-[00:16:27.743] Server  LOG     ✓ Compiled in 1207ms
-[00:16:28.764] Server  LOG     ✓ Compiled in 1032ms
-[00:16:31.579] Server  LOG     ✓ Compiled in 1429ms
-[00:16:32.695] Server  LOG     ✓ Compiled in 997ms
-[00:16:33.926] Server  LOG     ✓ Compiled in 1258ms
-[00:16:35.507] Server  LOG     ✓ Compiled in 1372ms
-[00:16:45.827] Server  LOG     ✓ Compiled in 1375ms
-[00:16:46.630] Server  LOG     ✓ Compiled in 795ms
-[00:16:51.239] Server  LOG     ✓ Compiled in 1545ms
-[00:16:53.056] Server  LOG     ✓ Compiled in 1307ms
-[00:16:54.319] Server  LOG     ✓ Compiled in 1139ms
-[00:16:55.463] Server  LOG     ✓ Compiled in 1066ms
-[00:16:57.040] Server  LOG     ✓ Compiled in 1050ms
-[00:16:58.496] Server  LOG     ✓ Compiled in 1132ms
-[00:17:00.434] Server  LOG     ✓ Compiled in 1053ms
-[00:17:01.934] Server  LOG     ✓ Compiled in 1104ms
-[00:17:03.439] Server  LOG     ✓ Compiled in 1083ms
-[00:17:05.125] Server  LOG     ✓ Compiled in 1404ms
-[00:17:06.907] Server  LOG     ✓ Compiled in 1341ms
-[00:17:08.851] Server  LOG     ✓ Compiled in 1564ms
-[00:17:10.389] Server  LOG     ✓ Compiled in 1372ms
-[00:17:12.049] Server  LOG     ✓ Compiled in 1455ms
-[00:17:20.166] Server  LOG     ✓ Compiled in 1345ms
-[00:17:21.932] Server  LOG     ✓ Compiled in 1472ms
-[00:17:23.813] Server  LOG     ✓ Compiled in 1076ms
-[00:17:25.471] Server  LOG     ✓ Compiled in 1081ms
-[00:17:26.844] Server  LOG     ✓ Compiled in 1233ms
-[00:17:28.295] Server  LOG     ✓ Compiled in 1374ms
-[00:17:30.207] Server  LOG     ✓ Compiled in 1405ms
-[00:17:32.687] Server  LOG     ✓ Compiled in 2.4s
-[00:17:42.569] Server  LOG     ✓ Compiled in 1493ms
-[00:17:56.914] Server  LOG     ✓ Compiled in 2.2s
-[00:17:58.494] Server  LOG     ✓ Compiled in 1505ms
-[00:17:59.900] Server  LOG     ✓ Compiled in 1353ms
-[00:18:01.703] Server  LOG     ✓ Compiled in 703ms
-[00:18:04.376] Server  LOG     ✓ Compiled in 2.6s
-[00:18:06.335] Server  LOG     ✓ Compiled in 1632ms
-[00:18:07.814] Server  LOG     ✓ Compiled in 1489ms
-[00:18:09.904] Server  LOG     ✓ Compiled in 1328ms
-[00:18:11.532] Server  LOG     ✓ Compiled in 1568ms
-[00:18:14.523] Server  LOG     ✓ Compiled in 1040ms
-[00:18:16.223] Server  LOG     ✓ Compiled in 1580ms
-[00:18:17.348] Server  LOG     ✓ Compiled in 1018ms
-[00:18:43.301] Server  LOG     ✓ Compiled in 1048ms
-[00:18:44.565] Server  LOG     ✓ Compiled in 931ms
-[00:18:46.129] Server  LOG     ✓ Compiled in 1522ms
-[00:18:47.741] Server  LOG     ✓ Compiled in 1389ms
-[00:18:49.240] Server  LOG     ✓ Compiled in 1105ms
-[00:18:50.820] Server  LOG     ✓ Compiled in 1555ms
-[00:18:52.134] Server  LOG     ✓ Compiled in 1105ms
-[00:18:53.626] Server  LOG     ✓ Compiled in 914ms
-[00:19:05.665] Server  LOG     ✓ Compiled in 796ms
-[00:19:10.335] Server  LOG     ✓ Compiled in 2.6s
-[00:19:12.138] Server  LOG     ✓ Compiled in 1530ms
-[00:19:15.289] Server  LOG     ✓ Compiled in 1512ms
-[00:19:16.848] Server  LOG     ✓ Compiled in 1461ms
-[00:19:18.970] Server  LOG     ✓ Compiled in 1783ms
-[00:19:20.055] Server  LOG     ✓ Compiled in 905ms
-[00:19:29.371] Server  LOG     ✓ Compiled in 1261ms
-[00:19:31.586] Server  LOG     ✓ Compiled in 970ms
-[00:19:35.658] Server  LOG     ✓ Compiled in 1214ms
-[00:20:18.019] Server  LOG     ✓ Compiled in 992ms
-[00:20:23.705] Server  LOG     ✓ Compiled in 780ms
-[00:20:58.025] Server  LOG     ✓ Compiled in 733ms
-[00:20:59.812] Server  LOG     ✓ Compiled in 1692ms
-[00:21:11.706] Server  LOG     ✓ Compiled in 1777ms
-[00:21:12.675] Server  LOG     ✓ Compiled in 854ms
-[00:21:13.815] Server  LOG     ✓ Compiled in 1105ms
-[00:21:15.498] Server  LOG     ✓ Compiled in 1552ms
-[00:21:51.998] Server  LOG     ✓ Compiled in 892ms
-[00:21:52.724] Browser ERROR   ./src/app/page.tsx:42:14
+[00:01:55.999] Browser ERROR   ./src/app/page.tsx:53:5
 Parsing ecmascript source code failed
+  51 |       name:"Best Video"
+  52 |     }
+> 53 |     {
+     |     ^
+  54 |       name: "Best Value for Money Build.",
+  55 |       price: 850,
+  56 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:58.912] Browser ERROR   ./src/app/page.tsx:53:5
+Parsing ecmascript source code failed
+  51 |       name:"Best Video Editing Build"
+  52 |     }
+> 53 |     {
+     |     ^
+  54 |       name: "Best Value for Money Build.",
+  55 |       price: 850,
+  56 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:01.302] Browser ERROR   ./src/app/page.tsx:54:5
+Parsing ecmascript source code failed
+  52 |       
+  53 |     }
+> 54 |     {
+     |     ^
+  55 |       name: "Best Value for Money Build.",
+  56 |       price: 850,
+  57 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:03.029] Browser ERROR   ./src/app/page.tsx:54:5
+Parsing ecmascript source code failed
+  52 |       
+  53 |     }
+> 54 |     {
+     |     ^
+  55 |       name: "Best Value for Money Build.",
+  56 |       price: 850,
+  57 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:04.953] Browser ERROR   ./src/app/page.tsx:54:5
+Parsing ecmascript source code failed
+  52 |       price:900
+  53 |     }
+> 54 |     {
+     |     ^
+  55 |       name: "Best Value for Money Build.",
+  56 |       price: 850,
+  57 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:06.925] Browser ERROR   ./src/app/page.tsx:55:5
+Parsing ecmascript source code failed
+  53 |       cp
+  54 |     }
+> 55 |     {
+     |     ^
+  56 |       name: "Best Value for Money Build.",
+  57 |       price: 850,
+  58 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:08.868] Browser ERROR   ./src/app/page.tsx:55:5
+Parsing ecmascript source code failed
+  53 |       cpu:""
+  54 |     }
+> 55 |     {
+     |     ^
+  56 |       name: "Best Value for Money Build.",
+  57 |       price: 850,
+  58 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:09.912] Browser ERROR   ./src/app/page.tsx:55:5
+Parsing ecmascript source code failed
+  53 |       cpu:"I5 "
+  54 |     }
+> 55 |     {
+     |     ^
+  56 |       name: "Best Value for Money Build.",
+  57 |       price: 850,
+  58 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:12.905] Browser ERROR   ./src/app/page.tsx:55:5
+Parsing ecmascript source code failed
+  53 |       cpu:"I5 14600K"
+  54 |     }
+> 55 |     {
+     |     ^
+  56 |       name: "Best Value for Money Build.",
+  57 |       price: 850,
+  58 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:16.908] Browser ERROR   ./src/app/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |       gpu:""
+  55 |     }
+> 56 |     {
+     |     ^
+  57 |       name: "Best Value for Money Build.",
+  58 |       price: 850,
+  59 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:17.925] Browser ERROR   ./src/app/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |       gpu:"R"
+  55 |     }
+> 56 |     {
+     |     ^
+  57 |       name: "Best Value for Money Build.",
+  58 |       price: 850,
+  59 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:20.909] Browser ERROR   ./src/app/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |       gpu:"RTX 5060"
+  55 |     }
+> 56 |     {
+     |     ^
+  57 |       name: "Best Value for Money Build.",
+  58 |       price: 850,
+  59 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:22.958] Browser ERROR   ./src/app/page.tsx:57:5
+Parsing ecmascript source code failed
+  55 |       
+  56 |     }
+> 57 |     {
+     |     ^
+  58 |       name: "Best Value for Money Build.",
+  59 |       price: 850,
+  60 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:25.906] Browser ERROR   ./src/app/page.tsx:57:5
+Parsing ecmascript source code failed
+  55 |       cpuBrand: ""
+  56 |     }
+> 57 |     {
+     |     ^
+  58 |       name: "Best Value for Money Build.",
+  59 |       price: 850,
+  60 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:34.910] Browser ERROR   ./src/app/page.tsx:58:5
+Parsing ecmascript source code failed
+  56 |       
+  57 |     }
+> 58 |     {
+     |     ^
+  59 |       name: "Best Value for Money Build.",
+  60 |       price: 850,
+  61 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:36.086] Browser ERROR   ./src/app/page.tsx:58:5
+Parsing ecmascript source code failed
+  56 |       gp
+  57 |     }
+> 58 |     {
+     |     ^
+  59 |       name: "Best Value for Money Build.",
+  60 |       price: 850,
+  61 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:41.021] Browser ERROR   ./src/app/page.tsx:58:5
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA"
+  57 |     }
+> 58 |     {
+     |     ^
+  59 |       name: "Best Value for Money Build.",
+  60 |       price: 850,
+  61 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:41.911] Browser ERROR   ./src/app/page.tsx:58:5
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const
+  57 |     }
+> 58 |     {
+     |     ^
+  59 |       name: "Best Value for Money Build.",
+  60 |       price: 850,
+  61 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:43.903] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:47.354] Server  LOG     ✓ Compiled in 1594ms
+[00:02:47.915] Browser ERROR   ./src/app/page.tsx:58:5
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const,
+  57 |       fps:
+> 58 |     }
+     |     ^
+  59 |     {
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:48.793] Server  LOG     ✓ Compiled in 1037ms
+[00:02:49.903] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       fps:{}
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:54.876] Server  LOG     ✓ Compiled in 2.1s
+[00:02:55.925] Browser ERROR   ./src/app/page.tsx:57:21
+Parsing ecmascript source code failed
+  55 |       cpuBrand: "Intel" as const,
+  56 |       gpuBrand: "NVIDIA" as const,
+> 57 |       fps:{valorant:}
+     |                     ^
+  58 |     }
+  59 |     {
+  60 |       name: "Best Value for Money Build.",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:56.959] Server  LOG     ✓ Compiled in 1265ms
+[00:02:57.947] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       fps:{valorant:400,}
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:58.995] Server  LOG     ✓ Compiled in 1645ms
+[00:02:59.909] Browser ERROR   ./src/app/page.tsx:57:29
+Parsing ecmascript source code failed
+  55 |       cpuBrand: "Intel" as const,
+  56 |       gpuBrand: "NVIDIA" as const,
+> 57 |       fps:{valorant:400,cs2:}
+     |                             ^
+  58 |     }
+  59 |     {
+  60 |       name: "Best Value for Money Build.",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:01.301] Server  LOG     ✓ Compiled in 1885ms
+[00:03:02.927] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       fps:{valorant:400,cs2:220,re}
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:07.022] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       fps:{valorant:400,cs2:220,re7:220}
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:08.004] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       fps:{valorant:400,cs2:220,re7:200}
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:09.909] Browser ERROR   ./src/app/page.tsx:59:5
+Parsing ecmascript source code failed
+  57 |       fps:{valorant:500,cs2:220,re7:200}
+  58 |     }
+> 59 |     {
+     |     ^
+  60 |       name: "Best Value for Money Build.",
+  61 |       price: 850,
+  62 |       cpu: "AMD Ryzen 5 7600X",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:11.309] Server  LOG     ✓ Compiled in 1503ms
+[00:03:11.999] Browser ERROR   ./src/app/page.tsx:58:7
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const,
+  57 |       fps:{valorant:500,cs2:220,re7:200}
+> 58 |       image
+     |       ^^^^^
+  59 |     }
+  60 |     {
+  61 |       name: "Best Value for Money Build.",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:13.907] Browser ERROR   ./src/app/page.tsx:58:7
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const,
+  57 |       fps:{valorant:500,cs2:220,re7:200}
+> 58 |       image:""
+     |       ^^^^^
+  59 |     }
+  60 |     {
+  61 |       name: "Best Value for Money Build.",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:14.910] Browser ERROR   ./src/app/page.tsx:58:7
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const,
+  57 |       fps:{valorant:500,cs2:220,re7:200}
+> 58 |       image:"",
+     |       ^^^^^
+  59 |     }
+  60 |     {
+  61 |       name: "Best Value for Money Build.",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:16.903] Browser ERROR   ./src/app/page.tsx:58:7
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const,
+  57 |       fps:{valorant:500,cs2:220,re7:200}
+> 58 |       image:"",
+     |       ^^^^^
+  59 |     },
+  60 |     {
+  61 |       name: "Best Value for Money Build.",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:35.911] Browser ERROR   ./src/app/page.tsx:58:7
+Parsing ecmascript source code failed
+  56 |       gpuBrand: "NVIDIA" as const,
+  57 |       fps:{valorant:500,cs2:220,re7:200}
+> 58 |       image:"https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
+     |       ^^^^^
+  59 |     },
+  60 |     {
+  61 |       name: "Best Value for Money Build.",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:52.125] Server  LOG     ✓ Compiled in 1209ms
+[00:03:54.298] Server  LOG     ✓ Compiled in 1915ms
+[00:03:58.561] Server  LOG     ✓ Compiled in 1672ms
+[00:03:58.905] Browser ERROR   ./src/app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 |       gpuBrand: "NVIDIA" as const,
+  37 |       fps:{valorant:500,cs2:220,re7:200}
+> 38 |       image:"https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
+     |       ^^^^^
+  39 |     },
   40 |     {
-  41 |       name: "Best Value for Money Build.",
-> 42 |       price: ,
-     |              ^
-  43 |       cpu: "AMD Ryzen 5 7600X",
-  44 |       gpu: "Radeon RX 7600 XT 12GB",
-  45 |       cpuBrand: "AMD" as const,
+  41 |       name: "Best 1080p Build",
 
-Expression expected
+Expected ',', got 'ident'
 
 Import traces:
   Client Component Browser:
@@ -1241,15 +800,682 @@ Import traces:
   Client Component SSR:
     ./src/app/page.tsx [Client Component SSR]
     ./src/app/page.tsx [Server Component]
-[00:21:53.733] Browser ERROR   ./src/app/page.tsx:42:18
+[00:03:58.905] Browser ERROR   ./src/app/page.tsx:38:7
 Parsing ecmascript source code failed
+  36 |       gpuBrand: "NVIDIA" as const,
+  37 |       fps:{valorant:500,cs2:220,re7:200}
+> 38 |       image:"https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
+     |       ^^^^^
+  39 |     },
   40 |     {
-  41 |       name: "Best Value for Money Build.",
-> 42 |       price: 850-,
-     |                  ^
-  43 |       cpu: "AMD Ryzen 5 7600X",
-  44 |       gpu: "Radeon RX 7600 XT 12GB",
+  41 |       name: "Best 1080p Build",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:06.915] Browser ERROR   ./src/app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 |       gpuBrand: "NVIDIA" as const,
+  37 |       fps:{valorant:500,cs2:220,re7:200}
+> 38 |       image:"https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=800&auto=format&fit=crop",
+     |       ^^^^^
+  39 |     },
+  40 |     {
+  41 |       name: "Best 1080p Build",
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:28.672] Server  LOG     ✓ Compiled in 1382ms
+[00:04:31.492] Server  LOG     ✓ Compiled in 1406ms
+[00:04:34.926] Server  LOG     ✓ Compiled in 1968ms
+[00:04:51.608] Server  LOG     ✓ Compiled in 1356ms
+[00:04:52.023] Browser ERROR   ./src/app/page.tsx:43:5
+Parsing ecmascript source code failed
+  41 |       
+  42 |     }
+> 43 |     {
+     |     ^
+  44 |       name: "Best 1080p Build",
+  45 |       price: 750,
+  46 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:53.916] Browser ERROR   ./src/app/page.tsx:43:5
+Parsing ecmascript source code failed
+  41 |       name:""
+  42 |     }
+> 43 |     {
+     |     ^
+  44 |       name: "Best 1080p Build",
+  45 |       price: 750,
+  46 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:57.909] Browser ERROR   ./src/app/page.tsx:43:5
+Parsing ecmascript source code failed
+  41 |       name:"The"
+  42 |     }
+> 43 |     {
+     |     ^
+  44 |       name: "Best 1080p Build",
+  45 |       price: 750,
+  46 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:57.909] Browser ERROR   ./src/app/page.tsx:43:5
+Parsing ecmascript source code failed
+  41 |       name:"The "
+  42 |     }
+> 43 |     {
+     |     ^
+  44 |       name: "Best 1080p Build",
+  45 |       price: 750,
+  46 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:59.908] Browser ERROR   ./src/app/page.tsx:43:5
+Parsing ecmascript source code failed
+  41 |       name:"The Performance "
+  42 |     }
+> 43 |     {
+     |     ^
+  44 |       name: "Best 1080p Build",
+  45 |       price: 750,
+  46 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:01.907] Browser ERROR   ./src/app/page.tsx:43:5
+Parsing ecmascript source code failed
+  41 |       name:"The Performance Build"
+  42 |     }
+> 43 |     {
+     |     ^
+  44 |       name: "Best 1080p Build",
+  45 |       price: 750,
+  46 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:05.220] Browser ERROR   ./src/app/page.tsx:44:5
+Parsing ecmascript source code failed
+  42 |       price
+  43 |     }
+> 44 |     {
+     |     ^
+  45 |       name: "Best 1080p Build",
+  46 |       price: 750,
+  47 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:07.178] Browser ERROR   ./src/app/page.tsx:44:5
+Parsing ecmascript source code failed
+  42 |       price:500,
+  43 |     }
+> 44 |     {
+     |     ^
+  45 |       name: "Best 1080p Build",
+  46 |       price: 750,
+  47 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:08.911] Browser ERROR   ./src/app/page.tsx:45:5
+Parsing ecmascript source code failed
+  43 |       cpu:""
+  44 |     }
+> 45 |     {
+     |     ^
+  46 |       name: "Best 1080p Build",
+  47 |       price: 750,
+  48 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:12.146] Browser ERROR   ./src/app/page.tsx:45:5
+Parsing ecmascript source code failed
+  43 |       cpu:"Am"
+  44 |     }
+> 45 |     {
+     |     ^
+  46 |       name: "Best 1080p Build",
+  47 |       price: 750,
+  48 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:12.924] Browser ERROR   ./src/app/page.tsx:45:5
+Parsing ecmascript source code failed
+  43 |       cpu:"AMD Ry"
+  44 |     }
+> 45 |     {
+     |     ^
+  46 |       name: "Best 1080p Build",
+  47 |       price: 750,
+  48 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:15.076] Browser ERROR   ./src/app/page.tsx:45:5
+Parsing ecmascript source code failed
+  43 |       cpu:"AMD Ryzen 5 "
+  44 |     }
+> 45 |     {
+     |     ^
+  46 |       name: "Best 1080p Build",
+  47 |       price: 750,
+  48 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:15.959] Browser ERROR   ./src/app/page.tsx:45:5
+Parsing ecmascript source code failed
+  43 |       cpu:"AMD Ryzen 5 3600"
+  44 |     }
+> 45 |     {
+     |     ^
+  46 |       name: "Best 1080p Build",
+  47 |       price: 750,
+  48 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:17.910] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:19.906] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:""
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:21.904] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"R"
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:23.906] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMd"
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:25.906] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMD Radeon "
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:27.903] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMD Radeon RX"
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:29.901] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMD Radeon RX6700Xt"
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:33.110] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMD Radeon RX6700XT"
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:34.903] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMD Radeon RX6700XT 8Gb"
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:37.916] Browser ERROR   ./src/app/page.tsx:46:5
+Parsing ecmascript source code failed
+  44 |       gpu:"AMD Radeon RX6700XT 8gb",
+  45 |     }
+> 46 |     {
+     |     ^
+  47 |       name: "Best 1080p Build",
+  48 |       price: 750,
+  49 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:40.078] Browser ERROR   ./src/app/page.tsx:47:5
+Parsing ecmascript source code failed
+  45 |       cpu
+  46 |     }
+> 47 |     {
+     |     ^
+  48 |       name: "Best 1080p Build",
+  49 |       price: 750,
+  50 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:44.014] Browser ERROR   ./src/app/page.tsx:47:5
+Parsing ecmascript source code failed
+  45 |       cpuBrand: ""
+  46 |     }
+> 47 |     {
+     |     ^
+  48 |       name: "Best 1080p Build",
+  49 |       price: 750,
+  50 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:44.901] Browser ERROR   ./src/app/page.tsx:47:5
+Parsing ecmascript source code failed
   45 |       cpuBrand: "AMD" as const,
+  46 |     }
+> 47 |     {
+     |     ^
+  48 |       name: "Best 1080p Build",
+  49 |       price: 750,
+  50 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:44.901] Browser ERROR   ./src/app/page.tsx:48:5
+Parsing ecmascript source code failed
+  46 |       
+  47 |     }
+> 48 |     {
+     |     ^
+  49 |       name: "Best 1080p Build",
+  50 |       price: 750,
+  51 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:47.901] Browser ERROR   ./src/app/page.tsx:48:5
+Parsing ecmascript source code failed
+  46 |       gpuBrand: ""
+  47 |     }
+> 48 |     {
+     |     ^
+  49 |       name: "Best 1080p Build",
+  50 |       price: 750,
+  51 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:50.259] Server  LOG     ✓ Compiled in 1824ms
+[00:05:52.396] Browser ERROR   ./src/app/page.tsx:47:5
+Parsing ecmascript source code failed
+  45 |       cpuBrand: "AMD" as const,
+  46 |       gpuBrand: "AMD"as
+> 47 |     }
+     |     ^
+  48 |     {
+  49 |       name: "Best 1080p Build",
+  50 |       price: 750,
+
+Unexpected token `}`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:52.646] Server  LOG     ✓ Compiled in 2.3s
+[00:05:52.911] Browser ERROR   ./src/app/page.tsx:48:5
+Parsing ecmascript source code failed
+  46 |       gpuBrand: "AMD" as const
+  47 |     }
+> 48 |     {
+     |     ^
+  49 |       name: "Best 1080p Build",
+  50 |       price: 750,
+  51 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:55.081] Browser ERROR   ./src/app/page.tsx:49:5
+Parsing ecmascript source code failed
+  47 |       
+  48 |     }
+> 49 |     {
+     |     ^
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
+  52 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:05:55.839] Server  LOG     ✓ Compiled in 1556ms
+[00:05:56.922] Browser ERROR   ./src/app/page.tsx:48:5
+Parsing ecmascript source code failed
+  46 |       gpuBrand: "AMD" as const,
+  47 |       fps:
+> 48 |     }
+     |     ^
+  49 |     {
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
 
 Expression expected
 
@@ -1261,16 +1487,2190 @@ Import traces:
   Client Component SSR:
     ./src/app/page.tsx [Client Component SSR]
     ./src/app/page.tsx [Server Component]
-[00:21:54.273] Server  LOG     ✓ Compiled in 764ms
-[00:22:54.137] Server  LOG     ✓ Compiled in 1110ms
-[00:23:02.572] Server  LOG     ✓ Compiled in 855ms
-[00:23:37.973] Server  LOG     ✓ Compiled in 1011ms
-[00:23:39.188] Server  LOG     ✓ Compiled in 1103ms
-[00:23:40.285] Server  LOG     ✓ Compiled in 1025ms
-[00:23:41.671] Server  LOG     ✓ Compiled in 1011ms
-[00:23:42.949] Server  LOG     ✓ Compiled in 1144ms
-[00:23:44.389] Server  LOG     ✓ Compiled in 845ms
-[00:23:53.191] Server  LOG     ✓ Compiled in 722ms
-[00:23:55.351] Server  LOG     ✓ Compiled in 1574ms
-[00:23:56.828] Server  LOG     ✓ Compiled in 1227ms
-[00:24:01.186] Server  LOG     ✓ Compiled in 2.1s
+[00:05:58.902] Browser ERROR   ./src/app/page.tsx:47:21
+Parsing ecmascript source code failed
+  45 |       cpuBrand: "AMD" as const,
+  46 |       gpuBrand: "AMD" as const,
+> 47 |       fps:{valorant:}
+     |                     ^
+  48 |     }
+  49 |     {
+  50 |       name: "Best 1080p Build",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:03.325] Server  LOG     ✓ Compiled in 1624ms
+[00:06:05.211] Browser ERROR   ./src/app/page.tsx:49:5
+Parsing ecmascript source code failed
+  47 |       fps:{valorant:350,cs}
+  48 |     }
+> 49 |     {
+     |     ^
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
+  52 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:10.333] Browser ERROR   ./src/app/page.tsx:49:5
+Parsing ecmascript source code failed
+  47 |       fps:{valorant:350,cs2:12}
+  48 |     }
+> 49 |     {
+     |     ^
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
+  52 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:10.333] Browser ERROR   ./src/app/page.tsx:49:5
+Parsing ecmascript source code failed
+  47 |       fps:{valorant:350,cs2:130}
+  48 |     }
+> 49 |     {
+     |     ^
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
+  52 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:10.986] Browser ERROR   ./src/app/page.tsx:49:5
+Parsing ecmascript source code failed
+  47 |       fps:{valorant:350,cs2:130,re7}
+  48 |     }
+> 49 |     {
+     |     ^
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
+  52 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:11.729] Server  LOG     ✓ Compiled in 1191ms
+[00:06:11.906] Browser ERROR   ./src/app/page.tsx:47:37
+Parsing ecmascript source code failed
+  45 |       cpuBrand: "AMD" as const,
+  46 |       gpuBrand: "AMD" as const,
+> 47 |       fps:{valorant:350,cs2:130,re7:}
+     |                                     ^
+  48 |     }
+  49 |     {
+  50 |       name: "Best 1080p Build",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:14.566] Server  LOG     ✓ Compiled in 1416ms
+[00:06:14.904] Browser ERROR   ./src/app/page.tsx:49:5
+Parsing ecmascript source code failed
+  47 |       fps:{valorant:350,cs2:130,re7:100}
+  48 |     }
+> 49 |     {
+     |     ^
+  50 |       name: "Best 1080p Build",
+  51 |       price: 750,
+  52 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:17.931] Browser ERROR   ./src/app/page.tsx:50:5
+Parsing ecmascript source code failed
+  48 |       image
+  49 |     }
+> 50 |     {
+     |     ^
+  51 |       name: "Best 1080p Build",
+  52 |       price: 750,
+  53 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:18.899] Browser ERROR   ./src/app/page.tsx:50:5
+Parsing ecmascript source code failed
+  48 |       image:"",
+  49 |     }
+> 50 |     {
+     |     ^
+  51 |       name: "Best 1080p Build",
+  52 |       price: 750,
+  53 |       cpu: "Intel Core i5-14400F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:22.129] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:06:22.129] Browser ERROR   Image is missing required "src" property: <img>
+[00:06:31.378] Server  LOG     ✓ Compiled in 1913ms
+[00:06:31.908] Browser ERROR   ./src/app/page.tsx:44:22
+Parsing ecmascript source code failed
+  42 |       price:500,
+  43 |       cpu:"AMD Ryzen 5 3600",
+> 44 |       gpu: RX6700XT 8gb",
+     |                      ^
+  45 |       cpuBrand: "AMD" as const,
+  46 |       gpuBrand: "AMD" as const,
+  47 |       fps:{valorant:350,cs2:130,re7:100},
+
+Identifier cannot follow number
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:06:40.979] Server  LOG     ✓ Compiled in 3s
+[00:06:47.476] Server  LOG     ✓ Compiled in 1297ms
+[00:06:50.938] Server  LOG     ✓ Compiled in 2.3s
+[00:07:10.393] Server  LOG     ✓ Compiled in 1293ms
+[00:07:41.877] Server  LOG     ✓ Compiled in 1336ms
+[00:07:42.910] Browser ERROR   ./src/app/page.tsx:63:5
+Parsing ecmascript source code failed
+  61 |       
+  62 |     }
+> 63 |     {
+     |     ^
+  64 |       name:"Best Build for E-Sports",
+  65 |       price: 750,
+  66 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:07:46.903] Browser ERROR   ./src/app/page.tsx:63:5
+Parsing ecmascript source code failed
+  61 |       name:""
+  62 |     }
+> 63 |     {
+     |     ^
+  64 |       name:"Best Build for E-Sports",
+  65 |       price: 750,
+  66 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:07:50.905] Browser ERROR   ./src/app/page.tsx:63:5
+Parsing ecmascript source code failed
+  61 |       name:"The Low End Build"
+  62 |     }
+> 63 |     {
+     |     ^
+  64 |       name:"Best Build for E-Sports",
+  65 |       price: 750,
+  66 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:07:53.128] Server  LOG     ✓ Compiled in 1891ms
+[00:07:53.911] Browser ERROR   ./src/app/page.tsx:63:5
+Parsing ecmascript source code failed
+  61 |       name:"The Low End Build",
+  62 |       price:
+> 63 |     }
+     |     ^
+  64 |     {
+  65 |       name:"Best Build for E-Sports",
+  66 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:07:54.954] Server  LOG     ✓ Compiled in 1275ms
+[00:07:56.344] Browser ERROR   ./src/app/page.tsx:64:5
+Parsing ecmascript source code failed
+  62 |       price:300,
+  63 |     }
+> 64 |     {
+     |     ^
+  65 |       name:"Best Build for E-Sports",
+  66 |       price: 750,
+  67 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:07:56.614] Server  LOG     ✓ Compiled in 1536ms
+[00:07:56.924] Browser ERROR   ./src/app/page.tsx:64:5
+Parsing ecmascript source code failed
+  62 |       price:300,
+  63 |       cpu:
+> 64 |     }
+     |     ^
+  65 |     {
+  66 |       name:"Best Build for E-Sports",
+  67 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:07:57.881] Server  LOG     ✓ Compiled in 981ms
+[00:07:58.910] Browser ERROR   ./src/app/page.tsx:65:5
+Parsing ecmascript source code failed
+  63 |       cpu:""
+  64 |     }
+> 65 |     {
+     |     ^
+  66 |       name:"Best Build for E-Sports",
+  67 |       price: 750,
+  68 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:03.990] Browser ERROR   ./src/app/page.tsx:65:5
+Parsing ecmascript source code failed
+  63 |       cpu:"Intel"
+  64 |     }
+> 65 |     {
+     |     ^
+  66 |       name:"Best Build for E-Sports",
+  67 |       price: 750,
+  68 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:05.912] Browser ERROR   ./src/app/page.tsx:65:5
+Parsing ecmascript source code failed
+  63 |       cpu:"Intel i"
+  64 |     }
+> 65 |     {
+     |     ^
+  66 |       name:"Best Build for E-Sports",
+  67 |       price: 750,
+  68 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:14.903] Browser ERROR   ./src/app/page.tsx:65:5
+Parsing ecmascript source code failed
+  63 |       cpu:"Intel i5 "
+  64 |     }
+> 65 |     {
+     |     ^
+  66 |       name:"Best Build for E-Sports",
+  67 |       price: 750,
+  68 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:16.900] Browser ERROR   ./src/app/page.tsx:65:5
+Parsing ecmascript source code failed
+  63 |       cpu:"Intel i5 8500"
+  64 |     }
+> 65 |     {
+     |     ^
+  66 |       name:"Best Build for E-Sports",
+  67 |       price: 750,
+  68 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:19.944] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:23.042] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       gpu:"Nvidia "
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:27.923] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       gpu:"Nvidia GTX "
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:29.915] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       gpu:"Nvidia GTX 1650"
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:32.910] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       gpu:"Nvidia GTX 1650"
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:33.921] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       gpu:"Nvidia GTX 1060"
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:37.904] Browser ERROR   ./src/app/page.tsx:66:5
+Parsing ecmascript source code failed
+  64 |       gpu:"Nvidia GTX 1060 6gb"
+  65 |     }
+> 66 |     {
+     |     ^
+  67 |       name:"Best Build for E-Sports",
+  68 |       price: 750,
+  69 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:39.911] Browser ERROR   ./src/app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |       
+  66 |     }
+> 67 |     {
+     |     ^
+  68 |       name:"Best Build for E-Sports",
+  69 |       price: 750,
+  70 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:45.681] Browser ERROR   ./src/app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |       cpuBrand
+  66 |     }
+> 67 |     {
+     |     ^
+  68 |       name:"Best Build for E-Sports",
+  69 |       price: 750,
+  70 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:46.908] Browser ERROR   ./src/app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |       cpuBrand:""
+  66 |     }
+> 67 |     {
+     |     ^
+  68 |       name:"Best Build for E-Sports",
+  69 |       price: 750,
+  70 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:47.916] Browser ERROR   ./src/app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |       cpuBrand:"Intel"
+  66 |     }
+> 67 |     {
+     |     ^
+  68 |       name:"Best Build for E-Sports",
+  69 |       price: 750,
+  70 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:49.900] Browser ERROR   ./src/app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |       cpuBrand:"Intel" as const
+  66 |     }
+> 67 |     {
+     |     ^
+  68 |       name:"Best Build for E-Sports",
+  69 |       price: 750,
+  70 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:52.911] Browser ERROR   ./src/app/page.tsx:68:5
+Parsing ecmascript source code failed
+  66 |       cpuB
+  67 |     }
+> 68 |     {
+     |     ^
+  69 |       name:"Best Build for E-Sports",
+  70 |       price: 750,
+  71 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:54.904] Browser ERROR   ./src/app/page.tsx:68:5
+Parsing ecmascript source code failed
+  66 |       gp
+  67 |     }
+> 68 |     {
+     |     ^
+  69 |       name:"Best Build for E-Sports",
+  70 |       price: 750,
+  71 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:55.616] Server  LOG     ✓ Compiled in 1530ms
+[00:08:56.904] Browser ERROR   ./src/app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |       cpuBrand:"Intel" as const,
+  66 |       gpuBrand:
+> 67 |     }
+     |     ^
+  68 |     {
+  69 |       name:"Best Build for E-Sports",
+  70 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:57.327] Server  LOG     ✓ Compiled in 1637ms
+[00:08:57.962] Browser ERROR   ./src/app/page.tsx:68:5
+Parsing ecmascript source code failed
+  66 |       gpuBrand:"NVIDIA"
+  67 |     }
+> 68 |     {
+     |     ^
+  69 |       name:"Best Build for E-Sports",
+  70 |       price: 750,
+  71 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:08:59.906] Browser ERROR   ./src/app/page.tsx:68:5
+Parsing ecmascript source code failed
+  66 |       gpuBrand:"NVIDIA" as const,
+  67 |     }
+> 68 |     {
+     |     ^
+  69 |       name:"Best Build for E-Sports",
+  70 |       price: 750,
+  71 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:05.000] Server  LOG     ✓ Compiled in 1571ms
+[00:09:06.068] Browser ERROR   ./src/app/page.tsx:68:5
+Parsing ecmascript source code failed
+  66 |       gpuBrand:"NVIDIA" as const,
+  67 |       fps:
+> 68 |     }
+     |     ^
+  69 |     {
+  70 |       name:"Best Build for E-Sports",
+  71 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:08.197] Server  LOG     ✓ Compiled in 2.2s
+[00:09:08.912] Browser ERROR   ./src/app/page.tsx:69:5
+Parsing ecmascript source code failed
+  67 |       fps:{valorant}
+  68 |     }
+> 69 |     {
+     |     ^
+  70 |       name:"Best Build for E-Sports",
+  71 |       price: 750,
+  72 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:10.915] Browser ERROR   ./src/app/page.tsx:69:5
+Parsing ecmascript source code failed
+  67 |       fps:{valorant:200}
+  68 |     }
+> 69 |     {
+     |     ^
+  70 |       name:"Best Build for E-Sports",
+  71 |       price: 750,
+  72 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:13.540] Server  LOG     ✓ Compiled in 2.2s
+[00:09:14.923] Browser ERROR   ./src/app/page.tsx:67:29
+Parsing ecmascript source code failed
+  65 |       cpuBrand:"Intel" as const,
+  66 |       gpuBrand:"NVIDIA" as const,
+> 67 |       fps:{valorant:200,cs2:}
+     |                             ^
+  68 |     }
+  69 |     {
+  70 |       name:"Best Build for E-Sports",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:23.250] Server  LOG     ✓ Compiled in 3.5s
+[00:09:25.982] Browser ERROR   ./src/app/page.tsx:67:37
+Parsing ecmascript source code failed
+  65 |       cpuBrand:"Intel" as const,
+  66 |       gpuBrand:"NVIDIA" as const,
+> 67 |       fps:{valorant:200,cs2:100,re7:}
+     |                                     ^
+  68 |     }
+  69 |     {
+  70 |       name:"Best Build for E-Sports",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:25.982] Browser ERROR   ./src/app/page.tsx:70:5
+Parsing ecmascript source code failed
+  68 |       imag
+  69 |     }
+> 70 |     {
+     |     ^
+  71 |       name:"Best Build for E-Sports",
+  72 |       price: 750,
+  73 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:09:28.907] Browser ERROR   ./src/app/page.tsx:70:5
+Parsing ecmascript source code failed
+  68 |       image:""
+  69 |     }
+> 70 |     {
+     |     ^
+  71 |       name:"Best Build for E-Sports",
+  72 |       price: 750,
+  73 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:12:52.029] Server  LOG     ✓ Compiled in 962ms
+[00:12:53.519] Server  LOG     ✓ Compiled in 1092ms
+[00:12:54.044] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:12:55.775] Server  LOG     ✓ Compiled in 862ms
+[00:12:55.907] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:12:55.907] Browser ERROR   ./src/app/page.tsx:72:5
+Parsing ecmascript source code failed
+  70 |     {
+  71 |       name:
+> 72 |     }
+     |     ^
+  73 |     {
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:14:38.305] Server  LOG     ✓ Compiled in 1070ms
+[00:14:38.911] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:""
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:15:01.747] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best Vu"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:15:01.747] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best V"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:17:32.356] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best Vido Edi"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:17:32.356] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:17:32.356] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:""
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:09.918] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best "
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:11.919] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best Pc for "
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:13.913] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best Pc for Trading"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:17.912] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"B"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:20.910] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Trading Pc"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:24.028] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"T"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:24.916] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:26.914] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best PC"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:27.922] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best PC for Trad"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:28.913] Browser ERROR   ./src/app/page.tsx:73:5
+Parsing ecmascript source code failed
+  71 |       name:"Best PC for Traders"
+  72 |     }
+> 73 |     {
+     |     ^
+  74 |       name:"Best Build for E-Sports",
+  75 |       price: 750,
+  76 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:31.907] Browser ERROR   ./src/app/page.tsx:74:5
+Parsing ecmascript source code failed
+  72 |       p
+  73 |     }
+> 74 |     {
+     |     ^
+  75 |       name:"Best Build for E-Sports",
+  76 |       price: 750,
+  77 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:33.916] Browser ERROR   ./src/app/page.tsx:74:5
+Parsing ecmascript source code failed
+  72 |       price:600
+  73 |     }
+> 74 |     {
+     |     ^
+  75 |       name:"Best Build for E-Sports",
+  76 |       price: 750,
+  77 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:38.963] Browser ERROR   ./src/app/page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |       cpu:""
+  74 |     }
+> 75 |     {
+     |     ^
+  76 |       name:"Best Build for E-Sports",
+  77 |       price: 750,
+  78 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:39.908] Browser ERROR   ./src/app/page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |       cpu:"Intel i"
+  74 |     }
+> 75 |     {
+     |     ^
+  76 |       name:"Best Build for E-Sports",
+  77 |       price: 750,
+  78 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:41.915] Browser ERROR   ./src/app/page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |       cpu:"Intel i5 "
+  74 |     }
+> 75 |     {
+     |     ^
+  76 |       name:"Best Build for E-Sports",
+  77 |       price: 750,
+  78 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:43.914] Browser ERROR   ./src/app/page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |       cpu:"Intel i5 1360"
+  74 |     }
+> 75 |     {
+     |     ^
+  76 |       name:"Best Build for E-Sports",
+  77 |       price: 750,
+  78 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:45.902] Browser ERROR   ./src/app/page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |       cpu:"Intel i5 13600K"
+  74 |     }
+> 75 |     {
+     |     ^
+  76 |       name:"Best Build for E-Sports",
+  77 |       price: 750,
+  78 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:48.000] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       
+  75 |     }
+> 76 |     {
+     |     ^
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+  79 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:48.394] Server  LOG     ✓ Compiled in 1216ms
+[00:19:48.936] Browser ERROR   ./src/app/page.tsx:75:5
+Parsing ecmascript source code failed
+  73 |       cpu:"Intel i5 13600K",
+  74 |       gpu:
+> 75 |     }
+     |     ^
+  76 |     {
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:19:49.751] Server  LOG     ✓ Compiled in 1332ms
+[00:19:49.901] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       gpu:""
+  75 |     }
+> 76 |     {
+     |     ^
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+  79 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:01.904] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       gpu:"Gtx"
+  75 |     }
+> 76 |     {
+     |     ^
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+  79 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:02.958] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       gpu:"GT"
+  75 |     }
+> 76 |     {
+     |     ^
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+  79 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:05.171] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       gpu:"GTX 1050"
+  75 |     }
+> 76 |     {
+     |     ^
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+  79 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:05.914] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       gpu:"GTX 1050ti"
+  75 |     }
+> 76 |     {
+     |     ^
+  77 |       name:"Best Build for E-Sports",
+  78 |       price: 750,
+  79 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:07.919] Browser ERROR   ./src/app/page.tsx:77:5
+Parsing ecmascript source code failed
+  75 |       c
+  76 |     }
+> 77 |     {
+     |     ^
+  78 |       name:"Best Build for E-Sports",
+  79 |       price: 750,
+  80 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:10.469] Server  LOG     ✓ Compiled in 1490ms
+[00:20:10.905] Browser ERROR   ./src/app/page.tsx:77:5
+Parsing ecmascript source code failed
+  75 |       cpuB
+  76 |     }
+> 77 |     {
+     |     ^
+  78 |       name:"Best Build for E-Sports",
+  79 |       price: 750,
+  80 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:10.905] Browser ERROR   ./src/app/page.tsx:76:5
+Parsing ecmascript source code failed
+  74 |       gpu:"GTX 1050ti",
+  75 |       cpuBrand:
+> 76 |     }
+     |     ^
+  77 |     {
+  78 |       name:"Best Build for E-Sports",
+  79 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:12.852] Server  LOG     ✓ Compiled in 2.2s
+[00:20:13.904] Browser ERROR   ./src/app/page.tsx:77:5
+Parsing ecmascript source code failed
+  75 |       cpuBrand:"Intel"
+  76 |     }
+> 77 |     {
+     |     ^
+  78 |       name:"Best Build for E-Sports",
+  79 |       price: 750,
+  80 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:14.902] Browser ERROR   ./src/app/page.tsx:77:5
+Parsing ecmascript source code failed
+  75 |       cpuBrand:"Intel" as const
+  76 |     }
+> 77 |     {
+     |     ^
+  78 |       name:"Best Build for E-Sports",
+  79 |       price: 750,
+  80 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:15.900] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:17.946] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gp
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:18.902] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gpuBrand
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:20.908] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gpuBrand:"NVIDI"
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:22.180] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gpuBrand:"NVIDIA"
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:22.900] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gpuBrand:"NVIDIA" as const
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:24.921] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gpuBrand:"NVIDIA" as const,
+  77 |     }
+> 78 |     {
+     |     ^
+  79 |       name:"Best Build for E-Sports",
+  80 |       price: 750,
+  81 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:44.901] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:44.969] Server  LOG     ✓ Compiled in 826ms
+[00:20:45.908] Browser ERROR   ./src/app/page.tsx:78:5
+Parsing ecmascript source code failed
+  76 |       gpuBrand:"NVIDIA" as const,
+  77 |       fps:
+> 78 |     }
+     |     ^
+  79 |     {
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:46.183] Server  LOG     ✓ Compiled in 963ms
+[00:20:46.914] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{v}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:47.913] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:48.618] Server  LOG     ✓ Compiled in 800ms
+[00:20:48.913] Browser ERROR   ./src/app/page.tsx:77:21
+Parsing ecmascript source code failed
+  75 |       cpuBrand:"Intel" as const,
+  76 |       gpuBrand:"NVIDIA" as const,
+> 77 |       fps:{valorant:}
+     |                     ^
+  78 |     }
+  79 |     {
+  80 |       name:"Best Build for E-Sports",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:51.871] Server  LOG     ✓ Compiled in 1244ms
+[00:20:52.905] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:53.911] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:54.400] Server  LOG     ✓ Compiled in 897ms
+[00:20:54.902] Browser ERROR   ./src/app/page.tsx:77:29
+Parsing ecmascript source code failed
+  75 |       cpuBrand:"Intel" as const,
+  76 |       gpuBrand:"NVIDIA" as const,
+> 77 |       fps:{valorant:150,cs2:}
+     |                             ^
+  78 |     }
+  79 |     {
+  80 |       name:"Best Build for E-Sports",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:56.137] Server  LOG     ✓ Compiled in 896ms
+[00:20:56.904] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2:90}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:57.993] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2:90,re}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:58.913] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2:90,re7}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:00.904] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2:90,re7}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:01.122] Server  LOG     ✓ Compiled in 988ms
+[00:21:01.905] Browser ERROR   ./src/app/page.tsx:77:36
+Parsing ecmascript source code failed
+  75 |       cpuBrand:"Intel" as const,
+  76 |       gpuBrand:"NVIDIA" as const,
+> 77 |       fps:{valorant:150,cs2:90,re7:}
+     |                                    ^
+  78 |     }
+  79 |     {
+  80 |       name:"Best Build for E-Sports",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:02.255] Server  LOG     ✓ Compiled in 1067ms
+[00:21:02.922] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2:90,re7:80}
+  78 |     }
+> 79 |     {
+     |     ^
+  80 |       name:"Best Build for E-Sports",
+  81 |       price: 750,
+  82 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:03.930] Browser ERROR   ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"Best Build for E-Sports",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:04.889] Server  LOG     ✓ Compiled in 1308ms
+[00:21:05.914] Browser ERROR   ./src/app/page.tsx:79:5
+Parsing ecmascript source code failed
+  77 |       fps:{valorant:150,cs2:90,re7:80},
+  78 |       image:
+> 79 |     }
+     |     ^
+  80 |     {
+  81 |       name:"Best Build for E-Sports",
+  82 |       price: 750,
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:06.391] Server  LOG     ✓ Compiled in 1266ms
+[00:21:06.902] Browser ERROR   ./src/app/page.tsx:80:5
+Parsing ecmascript source code failed
+  78 |       image:"",
+  79 |     }
+> 80 |     {
+     |     ^
+  81 |       name:"Best Build for E-Sports",
+  82 |       price: 750,
+  83 |       cpu:"AMD Ryzen 5 7500F",
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:21:08.803] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:21:08.803] Browser ERROR   Image is missing required "src" property: <img>
+[00:22:04.177] Server  LOG     ✓ Compiled in 895ms
+[00:23:06.246] Server  LOG     ✓ Compiled in 777ms
+[00:23:14.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:47.705] Server  LOG     ✓ Compiled in 841ms
+[00:24:23.636] Server  LOG     ✓ Compiled in 898ms
+[00:24:25.333] Server  LOG     ✓ Compiled in 1436ms

@@ -2796,10 +2796,6 @@
     name: � �;
   }
 
-  .\[name\:�\1d �\] {
-    name: � �;
-  }
-
   @media (hover: hover) {
     .group-hover\:translate-x-1:is(:where(.group):hover *) {
       --tw-translate-x: calc(var(--spacing) * 1);
