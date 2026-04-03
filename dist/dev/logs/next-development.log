@@ -1,51 +1,15 @@
-[00:00:02.148] Server  LOG     ✓ Ready in 1667ms
-[00:00:58.826] Server  LOG     ○ Compiling / ...
-[00:01:11.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:12.177] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html
-                          lang="en"
--                         style={{--vsc-domain:"\"localhost\""}}
-                        >
-                  ...
-
-[00:02:22.472] Server  LOG     ✓ Compiled in 11s
-[00:02:22.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:57.836] Server  LOG     ✓ Compiled in 1050ms
-[00:04:42.279] Server  LOG     ✓ Compiled in 1017ms
-[00:05:25.011] Server  LOG     ✓ Compiled in 886ms
-[00:06:23.836] Server  LOG     ✓ Compiled in 871ms
-[00:08:01.551] Server  LOG     ✓ Compiled in 986ms
-[00:09:25.347] Server  LOG     ✓ Compiled in 2.5s
-[00:09:26.798] Server  LOG     ✓ Compiled in 1419ms
-[00:09:27.194] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:09:27.194] Browser ERROR   Image is missing required "src" property: <img>
-[00:09:53.271] Server  LOG     ✓ Compiled in 990ms
+[00:00:03.340] Server  LOG     ✓ Ready in 2.6s
+[00:00:12.986] Server  LOG     ○ Compiling / ...
+[00:00:16.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:04.476] Server  LOG     ✓ Compiled in 28.6s
+[00:01:23.163] Server  LOG     ✓ Compiled in 16.4s
+[00:01:38.042] Server  LOG     ✓ Compiled in 1015ms
+[00:01:42.611] Server  LOG     ✓ Compiled in 1522ms
+[00:01:44.196] Server  LOG     ✓ Compiled in 1459ms
+[00:01:47.961] Server  LOG     ✓ Compiled in 3.4s
+[00:01:59.569] Server  LOG     ✓ Compiled in 2.1s
+[00:02:01.614] Server  LOG     ✓ Compiled in 1924ms
+[00:02:03.395] Server  LOG     ✓ Compiled in 1571ms
+[00:02:22.830] Server  LOG     ✓ Compiled in 1277ms
+[00:02:26.038] Server  LOG     ✓ Compiled in 1886ms
+[00:02:31.647] Server  LOG     ✓ Compiled in 1258ms

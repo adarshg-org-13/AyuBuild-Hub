@@ -634,7 +634,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$HeroSlideshow$
 function Home() {
     const featuredBuilds = [
         {
-            name: "The Best Intel Budget Build",
+            name: "Best Budget Intel Build",
             price: 550,
             cpu: "Intel Core i5-12400F",
             gpu: "Radeon RX 6600 8GB",
@@ -746,7 +746,7 @@ function Home() {
             image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop"
         },
         {
-            name: "Best Value for Money Build.",
+            name: "Best Value for Money Build",
             price: 850,
             cpu: "AMD Ryzen 5 7600X",
             gpu: "Radeon RX 7600 XT 12GB",
@@ -788,7 +788,7 @@ function Home() {
             image: "https://images.unsplash.com/photo-1630201129622-a8e8ef3f7245?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-            name: "Absolute Beast Build",
+            name: "High-End Dominator",
             price: 2500,
             cpu: "AMD Ryzen 7 9800X3D",
             gpu: "GeForce RTX 5080 16GB",
