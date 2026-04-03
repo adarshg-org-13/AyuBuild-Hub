@@ -32,8 +32,4 @@ Some overview of the website:--
 ![img_5](https://github.com/adarshg-org-13/AyuBuild-Hub/blob/fa5af7d90d2bb4d60b694aded5f8abe9283be65c/public/rm5.png)
 ![img_6](https://github.com/adarshg-org-13/AyuBuild-Hub/blob/fa5af7d90d2bb4d60b694aded5f8abe9283be65c/public/rm6.png)
 
-<<<<<<< HEAD
-Visit the Website : - https://ayu-build-hub.vercel.app/
-=======
-Visit the Website : - https://ayu-build-hub.vercel.app/
->>>>>>> 4c67cc3943d77478087400ef356521ebafd5d9c7
+
